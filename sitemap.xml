@@ -2,9 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://zezhen.github.io/2013/10/15/unit-test-best-practices/</loc>
+    <loc>http://zezhen.github.io/posts/grub-rescue/</loc>
     
-    <lastmod>2016-03-04T05:42:15.000Z</lastmod>
+    <lastmod>2016-03-04T07:57:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zezhen.github.io/posts/unit-test-best-practices/</loc>
+    
+    <lastmod>2016-03-04T07:57:28.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zezhen.github.io/posts/mapreduce-brief-explanation/</loc>
+    
+    <lastmod>2016-03-04T07:50:35.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zezhen.github.io/posts/ubuntu-backup-x-restore/</loc>
+    
+    <lastmod>2016-03-04T07:42:58.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zezhen.github.io/posts/manage-oneself/</loc>
+    
+    <lastmod>2016-03-04T07:09:44.000Z</lastmod>
     
   </url>
   
@@ -19,13 +47,6 @@
     <loc>http://zezhen.github.io/tags/index.html</loc>
     
     <lastmod>2016-03-04T02:56:46.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zezhen.github.io/tags/test/index.html</loc>
-    
-    <lastmod>2016-03-04T02:33:58.000Z</lastmod>
     
   </url>
   

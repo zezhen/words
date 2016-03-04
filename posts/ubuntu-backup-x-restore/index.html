@@ -1,0 +1,548 @@
+
+ <!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+    <title>ubuntu的备份和还原 | this is zezhen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="zezhen">
+    
+
+    
+    <meta name="description" content="如ubuntu安装到移动硬盘 &amp;amp; grub rescue问题解决中介绍的, 将ubuntu成功安装到移动硬盘上, 并能够到处用, 但总觉得系统运行速度上不太满意, 想想以后如果服务都在移动硬盘上跑, 感觉不靠谱啊. 总之, 心里就是不舒服, 考虑着是否能够方便的迁移整个系统呢, 于是就想到了ghost.
+在网上搜了一通, 结果说没有ubuntu ghost一说, 只能通过各种操作才能实现系">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ubuntu的备份和还原">
+<meta property="og:url" content="http://zezhen.github.io/posts/ubuntu-backup-x-restore/index.html">
+<meta property="og:site_name" content="this is zezhen">
+<meta property="og:description" content="如ubuntu安装到移动硬盘 &amp;amp; grub rescue问题解决中介绍的, 将ubuntu成功安装到移动硬盘上, 并能够到处用, 但总觉得系统运行速度上不太满意, 想想以后如果服务都在移动硬盘上跑, 感觉不靠谱啊. 总之, 心里就是不舒服, 考虑着是否能够方便的迁移整个系统呢, 于是就想到了ghost.
+在网上搜了一通, 结果说没有ubuntu ghost一说, 只能通过各种操作才能实现系">
+<meta property="og:updated_time" content="2016-03-04T07:42:58.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ubuntu的备份和还原">
+<meta name="twitter:description" content="如ubuntu安装到移动硬盘 &amp;amp; grub rescue问题解决中介绍的, 将ubuntu成功安装到移动硬盘上, 并能够到处用, 但总觉得系统运行速度上不太满意, 想想以后如果服务都在移动硬盘上跑, 感觉不靠谱啊. 总之, 心里就是不舒服, 考虑着是否能够方便的迁移整个系统呢, 于是就想到了ghost.
+在网上搜了一通, 结果说没有ubuntu ghost一说, 只能通过各种操作才能实现系">
+
+    
+    <link rel="alternative" href="/atom.xml" title="this is zezhen" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/jacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/img/jacman.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+  <body>
+    <header>
+      
+<div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/logo.png" alt="this is zezhen" title="this is zezhen"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="this is zezhen">this is zezhen</a></h1>
+				<h2 class="blog-motto">starting here</h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="Menu">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">Home</a></li>
+					
+						<li><a href="/archives">Archives</a></li>
+					
+						<li><a href="/about">About</a></li>
+					
+					<li>
+ 					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="Search" />
+						<input type="hidden" name="q" value="site:zezhen.github.io">
+					</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/posts/ubuntu-backup-x-restore/" title="ubuntu的备份和还原" itemprop="url">ubuntu的备份和还原</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="zezhen" target="_blank" itemprop="author">zezhen</a>
+		
+  <p class="article-time">
+    <time datetime="2013-04-07T03:33:52.000Z" itemprop="datePublished"> Published 2013-04-06</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">Contents</strong>
+		
+			
+		
+		</div>
+		
+		<p>如<a href="/posts/grub-rescue/">ubuntu安装到移动硬盘 &amp; grub rescue问题解决</a>中介绍的, 将ubuntu成功安装到移动硬盘上, 并能够到处用, 但总觉得系统运行速度上不太满意, 想想以后如果服务都在移动硬盘上跑, 感觉不靠谱啊. 总之, 心里就是不舒服, 考虑着是否能够方便的迁移整个系统呢, 于是就想到了ghost.</p>
+<p>在网上搜了一通, 结果说没有ubuntu ghost一说, 只能通过各种操作才能实现系统备份恢复. linux还不熟, 心里虚, 找啊找, 终于发现了UCloner这东西.</p>
+<p>UCloner (原名ubuntu-cloner)可实现Ubuntu系统的备份, 恢复, 克隆; 还提供图形界面, 不过目前只支持10.10, 10.04, 9.10等; 项目主页：<a href="http://code.google.com/p/ucloner/" target="_blank" rel="external">http://code.google.com/p/ucloner/</a></p>
+<p>UCloner的功能</p>
+<p>#1. 备份</p>
+<p>将当前系统备份为squashfs映像文件, 备份是会自动排出常规挂载目录/mnt和/media等, 可以手动增删备份的目录. 备份前需要安装squashfs-tools.</p>
+<p>#2. 恢复</p>
+<p>从映像文件恢复系统, 此操作必须在另一个系统中进行, 如上面提到的live cd, 不过得注意两个系统的版本.</p>
+<p>恢复时, 图形界面提供三个可选分区: /, /home和swap, /分区及其系统文件必须指定, 另外两个可选择(swap最好设一个);</p>
+<p>grub安装位置提供三个选择：”留空”, “目标根分区”或”目标根分区所在硬盘”.<br>如果留空，则不安装 grub。<br>如果选”目标根分区”(如 /dev/sda5)，将把 grub 安装到该分区的引导扇区。<br>如果选”目标根分区所在硬盘”(如 /dev/sda ), 将把 grub 安装到该硬盘 MBR.</p>
+<p>最后新主机名如果为空, 则保持原主机名.</p>
+<p>#3. 克隆</p>
+<p>相当于备份+恢复, 直接把当前系统复制到其他分区中, 可选择不同硬盘, 不用生成映像文件.</p>
+<p>———昏割线————</p>
+<p>p.s. linux可以打包备份和还原, 可在运行的系统上进行, 也不失为一个好方法. 只是恢复时当前系统的版本需要和备份版本相同, 不然容易出错, 毕竟不同版本的系统还是有所差别的, 备份文件只是覆盖, 原来存在的多余文件不会删除.</p>
+<p>备份:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo tar -cvpzf /media/ubuntu_backup.tgz --exclude=/proc --exclude=/sys --exclude=/tmp --exclude=/mnt --exclude=/media --exclude=/boot/grub --exclude=/etc/fstab --exclude=/etc/mtab --exclude=/etc/blkid.tab --exclude=/etc/udev/rules.d/70-persistent-net.rules --exclude=/lost+found --exclude=/home/lost+found --exclude=/home/*/.gvfs /</span><br></pre></td></tr></table></figure></p>
+<p>sudo为了获得root权限; tar为打包命令; 最后的/为根目录, 即要打包的文件; –exclude为排除的目录;</p>
+<p>还原:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo tar -xvpzf /media/ubuntu_backup.tgz -C /</span><br></pre></td></tr></table></figure></p>
+<p>将备份文件恢复到根目录下.</p>
+  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/stuff/">stuff</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/linux/">linux</a>
+  </div>
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://zezhen.github.io/posts/ubuntu-backup-x-restore/" data-title="ubuntu的备份和还原 | this is zezhen" data-tsina="null" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+
+   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/posts/mapreduce-brief-explanation/" title="MapReduce Brief Explanation">
+  <strong>上一篇：</strong><br/>
+  <span>
+  MapReduce Brief Explanation</span>
+</a>
+</div>
+
+
+<div class="next">
+<a href="/posts/grub-rescue/"  title="ubuntu安装到移动硬盘&amp;grub rescue问题解决">
+ <strong>下一篇：</strong><br/> 
+ <span>ubuntu安装到移动硬盘&amp;grub rescue问题解决
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+<section id="comments" class="comment">
+	<div class="ds-thread" data-thread-key="posts/ubuntu-backup-x-restore/" data-title="ubuntu的备份和还原" data-url="http://zezhen.github.io/posts/ubuntu-backup-x-restore/"></div>
+</section>
+
+
+<section id="comments" class="comment">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+
+</div>  
+      <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">Contents</strong>
+ 
+ 
+ 
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
+<aside class="clearfix">
+
+  
+<div class="github-card">
+<p class="asidetitle">Github Card</p>
+<div class="github-card" data-github="zezhen" data-width="220" data-height="119" data-theme="medium">
+<script type="text/javascript" src="//cdn.jsdelivr.net/github-cards/latest/widget.js" ></script>
+</div>
+  </div>
+
+
+
+  
+<div class="categorieslist">
+	<p class="asidetitle">Categories</p>
+		<ul>
+		
+		  
+			<li><a href="/categories/bigdata/" title="bigdata">bigdata<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/coding/" title="coding">coding<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/life/" title="life">life<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/stuff/" title="stuff">stuff<sup>2</sup></a></li>
+		  
+		
+		</ul>
+</div>
+
+
+  
+  <div class="tagcloudlist">
+    <p class="asidetitle">Tag Cloud</p>
+    <div class="tagcloudlist clearfix">
+       <a href="/tags/hadoop/" style="font-size: 10px;">hadoop</a> <a href="/tags/linux/" style="font-size: 20px;">linux</a> <a href="/tags/read/" style="font-size: 10px;">read</a> <a href="/tags/test/" style="font-size: 10px;">test</a>
+    </div>
+  </div>
+
+
+  <div class="linkslist">
+  <p class="asidetitle">Links</p>
+    <ul>
+        
+          <li>
+            
+            	<a href="http://coolshell.cn/" target="_blank" title="CoolShell">CoolShell</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://wuchong.me/jacman/" target="_blank" title="Jacman Theme">Jacman Theme</a>
+            
+          </li>
+        
+    </ul>
+</div>
+
+  
+
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS</a>
+</div>
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<section class="info">
+		<p> Hi there, welcome to my blog. <br/>
+			Let&#39;s make the world better together.</p>
+	</section>
+	 
+	<div class="social-font" class="clearfix">
+		
+		
+		<a href="https://github.com/zezhen" target="_blank" class="icon-github" title="github"></a>
+		
+		
+		
+		
+		
+		<a href="https://www.linkedin.com/in/justin-lin-ab95255b" target="_blank" class="icon-linkedin" title="linkedin"></a>
+		
+		
+		
+		
+		
+	</div>
+			
+		
+
+		<p class="copyright">
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2016 
+		
+		<a href="/about" target="_blank" title="zezhen">zezhen</a>
+		
+		
+		</p>
+</div>
+</footer>
+    <script src="/js/jquery-2.0.3.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/jquery.qrcode-0.12.0.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
+        
+    }
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  c.click(function(){
+    ta.css('display', 'block').addClass('fadeIn');
+  });
+  o.click(function(){
+    ta.css('display', 'none');
+  });
+  $(window).scroll(function(){
+    ta.css("top",Math.max(140,320-$(this).scrollTop()));
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var html = [
+  '<div class="hoverqrcode clearfix"></div>',
+  '<a class="overlay" id="qrcode"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+
+  $('.hoverqrcode').hide();
+
+  var myWidth = 0;
+  function updatehoverqrcode(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+    var qrsize = myWidth > 1024 ? 200:100;
+    var options = {render: 'image', size: qrsize, fill: '#2ca6cb', text: url, radius: 0.5, quiet: 1};
+    var p = $('.article-share-qrcode').position();
+    $('.hoverqrcode').empty().css('width', qrsize).css('height', qrsize)
+                          .css('left', p.left-qrsize/2+20).css('top', p.top-qrsize-10)
+                          .qrcode(options);
+  };
+  $(window).resize(function(){
+    $('.hoverqrcode').hide();
+  });
+  $('.article-share-qrcode').click(function(){
+    updatehoverqrcode();
+    $('.hoverqrcode').toggle();
+  });
+  $('.article-share-qrcode').hover(function(){}, function(){
+      $('.hoverqrcode').hide();
+  });
+});   
+</script>
+
+
+
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"zezhen"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
+
+
+<script type="text/javascript">
+
+var disqus_shortname = 'zezhen';
+
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?e6d1f421bbc9962127a50488f9ed37d1";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+	<div id="totop">
+	<a title="Back to Top"><img src="/img/scrollup.png"/></a>
+	</div>
+	<script src="/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+
+<!-- Tiny_search Begin -->
+
+<!-- Tiny_search End -->
+
+  </body>
+</html>
