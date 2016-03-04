@@ -198,10 +198,6 @@
 </nav>
 
 	
-<section id="comments" class="comment">
-	<div class="ds-thread" data-thread-key="posts/mapreduce-brief-explanation/" data-title="MapReduce Brief Explanation" data-url="http://zezhen.github.io/posts/mapreduce-brief-explanation/"></div>
-</section>
-
 
 <section id="comments" class="comment">
   <div id="disqus_thread">
@@ -211,13 +207,6 @@
 
 </div>  
       <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
-
-  <div id="toc" class="toc-aside">
-  <strong class="toc-title">Contents</strong>
- 
- 
- 
-  </div>
 
 <div id="asidepart">
 <div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
@@ -243,7 +232,7 @@
 		  
 		
 		  
-			<li><a href="/categories/coding/" title="coding">coding<sup>1</sup></a></li>
+			<li><a href="/categories/coding/" title="coding">coding<sup>2</sup></a></li>
 		  
 		
 		  
@@ -262,7 +251,7 @@
   <div class="tagcloudlist">
     <p class="asidetitle">Tag Cloud</p>
     <div class="tagcloudlist clearfix">
-       <a href="/tags/hadoop/" style="font-size: 10px;">hadoop</a> <a href="/tags/linux/" style="font-size: 20px;">linux</a> <a href="/tags/read/" style="font-size: 10px;">read</a> <a href="/tags/test/" style="font-size: 10px;">test</a>
+       <a href="/tags/hadoop/" style="font-size: 10px;">hadoop</a> <a href="/tags/java/" style="font-size: 10px;">java</a> <a href="/tags/linux/" style="font-size: 20px;">linux</a> <a href="/tags/read/" style="font-size: 10px;">read</a> <a href="/tags/test/" style="font-size: 10px;">test</a>
     </div>
   </div>
 
@@ -280,6 +269,12 @@
           <li>
             
             	<a href="http://wuchong.me/jacman/" target="_blank" title="Jacman Theme">Jacman Theme</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="https://zezhen.wordpress.com/" target="_blank" title="Justin">Justin</a>
             
           </li>
         
@@ -373,6 +368,11 @@ $(document).ready(function(){
     o.css("top",Math.max(80,260-$(this).scrollTop()));
   });
   
+        getSize();
+        if (myWidth >= 1024) {
+          c.click();
+        }
+  
   $(window).resize(function(){
     getSize(); 
     if (myWidth >= 1024) {
@@ -381,8 +381,6 @@ $(document).ready(function(){
       m.removeClass('moveMain');
       a.css('display', 'block').removeClass('fadeOut');
       o.css('display', 'none');
-      
-      $('#toc.toc-aside').css('display', 'none');
         
     }
   });
@@ -467,18 +465,6 @@ $(document).ready(function(){
 
 
 
-<script type="text/javascript">
-  var duoshuoQuery = {short_name:"zezhen"};
-  (function() {
-    var ds = document.createElement('script');
-    ds.type = 'text/javascript';ds.async = true;
-    ds.src = '//static.duoshuo.com/embed.js';
-    ds.charset = 'UTF-8';
-    (document.getElementsByTagName('head')[0] 
-    || document.getElementsByTagName('body')[0]).appendChild(ds);
-  })();
-</script> 
-
 
 <script type="text/javascript">
 
@@ -531,16 +517,6 @@ $(document).ready(function(){
 <!-- Analytics Begin -->
 
 
-
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "//hm.baidu.com/hm.js?e6d1f421bbc9962127a50488f9ed37d1";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
 
 
 

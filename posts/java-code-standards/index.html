@@ -1,0 +1,655 @@
+
+ <!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+    <title>Java Code Standards | this is zezhen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="zezhen">
+    
+
+    
+    <meta name="description" content="Why code standards are importantCoding standards for Java are important because they lead to greater consistency within code of all developers. Consistency leads to code that is easier to understand,">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Java Code Standards">
+<meta property="og:url" content="http://zezhen.github.io/posts/java-code-standards/index.html">
+<meta property="og:site_name" content="this is zezhen">
+<meta property="og:description" content="Why code standards are importantCoding standards for Java are important because they lead to greater consistency within code of all developers. Consistency leads to code that is easier to understand,">
+<meta property="og:updated_time" content="2016-03-04T19:24:04.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Java Code Standards">
+<meta name="twitter:description" content="Why code standards are importantCoding standards for Java are important because they lead to greater consistency within code of all developers. Consistency leads to code that is easier to understand,">
+
+    
+    <link rel="alternative" href="/atom.xml" title="this is zezhen" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/jacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/img/jacman.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+  <body>
+    <header>
+      
+<div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/logo.png" alt="this is zezhen" title="this is zezhen"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="this is zezhen">this is zezhen</a></h1>
+				<h2 class="blog-motto">starting here</h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="Menu">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">Home</a></li>
+					
+						<li><a href="/archives">Archives</a></li>
+					
+						<li><a href="/about">About</a></li>
+					
+					<li>
+ 					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="Search" />
+						<input type="hidden" name="q" value="site:zezhen.github.io">
+					</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/posts/java-code-standards/" title="Java Code Standards" itemprop="url">Java Code Standards</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="zezhen" target="_blank" itemprop="author">zezhen</a>
+		
+  <p class="article-time">
+    <time datetime="2013-11-23T18:37:41.000Z" itemprop="datePublished"> Published 2013-11-23</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">Contents</strong>
+		
+			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Why-code-standards-are-important"><span class="toc-number">1.</span> <span class="toc-text">Why code standards are important</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Principles"><span class="toc-number">2.</span> <span class="toc-text">Principles</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Code-Layout"><span class="toc-number">3.</span> <span class="toc-text">Code Layout</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Comments"><span class="toc-number">4.</span> <span class="toc-text">Comments</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Block-Comments"><span class="toc-number">4.0.1.</span> <span class="toc-text">Block Comments</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Inline-Comments-command"><span class="toc-number">4.0.2.</span> <span class="toc-text">Inline Comments (command+/)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#JavaDoc-Comments"><span class="toc-number">4.0.3.</span> <span class="toc-text">JavaDoc Comments</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Naming-Convention"><span class="toc-number">5.</span> <span class="toc-text">Naming Convention</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Value-Accessor"><span class="toc-number">6.</span> <span class="toc-text">Value Accessor</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Clean-Code"><span class="toc-number">7.</span> <span class="toc-text">Clean Code</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Code-Design"><span class="toc-number">8.</span> <span class="toc-text">Code Design</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Exceptions"><span class="toc-number">9.</span> <span class="toc-text">Exceptions</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Other-Practises"><span class="toc-number">10.</span> <span class="toc-text">Other Practises</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Files-Methods-Line-length"><span class="toc-number">10.0.1.</span> <span class="toc-text">Files/Methods/Line length</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Declaration"><span class="toc-number">10.0.2.</span> <span class="toc-text">Declaration</span></a></li></ol></li></ol></li></ol>
+		
+		</div>
+		
+		<h1 id="Why-code-standards-are-important"><a href="#Why-code-standards-are-important" class="headerlink" title="Why code standards are important"></a>Why code standards are important</h1><p>Coding standards for Java are important because they lead to greater consistency within code of all developers. Consistency leads to code that is easier to understand, which in turn results in a code, which is easier to develop and maintain.</p>
+<h1 id="Principles"><a href="#Principles" class="headerlink" title="Principles"></a>Principles</h1><ol>
+<li>General<ul>
+<li>Adhere to the style of original.</li>
+<li>Adhere to the Principle of Least Astonishment.</li>
+<li>Do it right the first time. Don’t create development debt.</li>
+<li>Document any deviations.</li>
+</ul>
+</li>
+<li>DRY Principle<ul>
+<li>DRY: Don’t Repeat Yourself. </li>
+<li>DIE: Duplication is Evil.</li>
+</ul>
+</li>
+<li>OO Design Principles</li>
+</ol>
+<h1 id="Code-Layout"><a href="#Code-Layout" class="headerlink" title="Code Layout"></a>Code Layout</h1><ol>
+<li><p>eclipse format xml</p>
+<p> A lot of code layout rule, such as the indent space number, where to place the brace, maximum line length, can be formatted by eclipse automatically. Here is the <a href="https://github.com/zezhen/usefulstuff/blob/master/java/stuffs/eclipse-format.xml" target="_blank" rel="external">eclipse-format.xml</a>, you can import it in eclipse via “Preference -&gt; Java -&gt; Code Style -&gt; Formatter”, and format the code by “Command+Shift+F” or set the “Java -&gt; Editor&gt; Save Actions”. </p>
+</li>
+<li><p>Avoid Deep Nesting</p>
+<p> Too many levels of nesting can make code harder to read and follow.</p>
+</li>
+<li><p>Blank Lines and Code Grouping</p>
+<p> Use blank between logical sections inside a method to improve readability. It can also help to refactor code.</p>
+</li>
+<li><p>Use “Command+Shift+O” to format the import statements in eclipse.</p>
+</li>
+</ol>
+<h1 id="Comments"><a href="#Comments" class="headerlink" title="Comments"></a>Comments</h1><blockquote>
+<p>the best code is self-documenting!</p>
+</blockquote>
+<ul>
+<li>When writing your comments, write for your audience: the next contributor who will need to understand your code. Be generous — the next one may be you!</li>
+<li>Code should be commented to indicate what the code does (the intent, purpose or usage), rather than how it works internally,</li>
+<li>Keep comments and code in sync.</li>
+<li>Purpose of the comment is to explain code that doesn’t explain itself.</li>
+</ul>
+<h3 id="Block-Comments"><a href="#Block-Comments" class="headerlink" title="Block Comments"></a>Block Comments</h3><ul>
+<li>Use standard to hide code without removing it if it may be needed. (eclipse shortcut: command+shift+/)</li>
+</ul>
+<h3 id="Inline-Comments-command"><a href="#Inline-Comments-command" class="headerlink" title="Inline Comments (command+/)"></a>Inline Comments (command+/)</h3><ul>
+<li>Do not put inline comment on the same line as a statement (trailing).</li>
+<li>If line deserves comment, it most often should be treated as logical block with comment and so have to have blank lines around. </li>
+</ul>
+<h3 id="JavaDoc-Comments"><a href="#JavaDoc-Comments" class="headerlink" title="JavaDoc Comments"></a>JavaDoc Comments</h3><p>(type /** before method or class and type ‘enter’)</p>
+<ul>
+<li>Describe programming interface before your write the code. This can be your “design phase”.</li>
+<li>Write summary descriptions that stand alone. First sentence must summarize behaviour.</li>
+</ul>
+<h1 id="Naming-Convention"><a href="#Naming-Convention" class="headerlink" title="Naming Convention"></a>Naming Convention</h1><p>Use full English descriptors that accurately describe the variable/field/class/interface, avoid acronyms and abbreviations and use the <strong>CamelCase</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Rules</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Interfaces</td>
+<td>nouns, prefix letter “I” to the interface name, or end with “able”</td>
+<td>IHbaseDAO Serializable</td>
+</tr>
+<tr>
+<td>Classes</td>
+<td>nouns, prefix  “Abstract” to abstract class</td>
+<td>CorporateCustomer AbstractShape</td>
+</tr>
+<tr>
+<td>Methods</td>
+<td>verbs, first letter lowercase</td>
+<td>run(), openAccout()</td>
+</tr>
+<tr>
+<td>Constants</td>
+<td>all uppercase with words separated by underscore(“_”), typically implemented as static final fields of classes</td>
+<td><code>int MAX_ITERATIONS = 25;  int getMaxIterations(){return 25;}</code></td>
+</tr>
+<tr>
+<td>Variables</td>
+<td>Fields that are collections, such as arrays or vectors, should be given names that are plural to indicate that they represent multiple values. If the name of the field begins with an acronym then the acronym should be completely in lower case</td>
+<td>items, htmlParser</td>
+</tr>
+<tr>
+<td>Components</td>
+<td>Use full English descriptor postfixed by the widget type.</td>
+<td>okButton (customerList or customers? what’s about the set and map ?)</td>
+</tr>
+</tbody>
+</table>
+<h1 id="Value-Accessor"><a href="#Value-Accessor" class="headerlink" title="Value Accessor"></a>Value Accessor</h1><blockquote>
+<p>Don’t make any instance or class variable public without good reason</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Rules</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Class Field</td>
+<td>use Getters/Setters to access it(they can be generated by eclipse automatically); “is” operation for boolean field</td>
+<td>int getValue(); void setValue(int value);boolean isAlive();</td>
+</tr>
+<tr>
+<td>Collections</td>
+<td>take list as an example, getList, then add/remove, or getIterator, add, remove? List<string> getList();? or Iterator<string> getIterator(); void add(String value); String get(int index);</string></string></td>
+</tr>
+<tr>
+<td>Static Field</td>
+<td>avoid using an object to access a class static variable or method</td>
+<td>a = new Integer(0); a.MAX_VALUE // Avoid; Integer.MAX_VALUE //prefer</td>
+</tr>
+</tbody>
+</table>
+<h1 id="Clean-Code"><a href="#Clean-Code" class="headerlink" title="Clean Code"></a>Clean Code</h1><ul>
+<li>Keep code where it belongs.</li>
+<li>Keep methods short. Consider anything over 20 lines a suspect.</li>
+<li>Have methods with only a few arguments - preferably no more than two</li>
+<li>Eliminate duplication in your code; use abstraction.</li>
+<li>Give public methods short names, but use long descriptive names for private methods. The code is the documentation.<br>*You need comprehensive tests, otherwise you do not dare to make changes in case something breaks. Test code should be of the same quality as production code; if your tests are slow and buggy, you will not use them or trust them.</li>
+<li>Don’t initialize variables to 0 or null where it’s not required (redundant), e.g. instance variables or call super() constructor where it is called automatically. Don’t clutter up your code.</li>
+<li>Keep the public API simple. If the method doesn’t need to be public, don’t make it so.</li>
+</ul>
+<h1 id="Code-Design"><a href="#Code-Design" class="headerlink" title="Code Design"></a>Code Design</h1><ul>
+<li>Use nested constructors to eliminate redundant code.</li>
+<li>Do not use System.exit().</li>
+<li>Try to keep methods limited to 20-30 lines. More then this is usually a symptom of poorly abstracted code.</li>
+<li>Avoid string concatenation (except when concatenation two or three strings), use StringBuilder (StringBuffer is syncronized and so is less efficient).</li>
+<li>Declare a local variable as close as possible to its first use.</li>
+</ul>
+<h1 id="Exceptions"><a href="#Exceptions" class="headerlink" title="Exceptions"></a>Exceptions</h1><ul>
+<li>Always know why you are catching an exception.</li>
+<li>Do not silently absorb a runtime or error exception.</li>
+<li>Catch only exceptions for which you have explicit handling. Don’t handle exceptions unless the procedure can fix the problem or unless the procedure is responsible for reporting errors.</li>
+<li>Only if your code really has a problem to continue e.g., when a parameter is invalid, feel free to throw an exception!</li>
+<li>Do not throw an exception, if you only suppose the caller of your code could have a problem with a special result. Try to return a special result value instead e.g., null, and let the caller decide with a regular if-else-statement. </li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">try</span> &#123;</span><br><span class="line">    <span class="comment">// something may throw exception</span></span><br><span class="line">&#125; <span class="keyword">catch</span>(IOException e) &#123;</span><br><span class="line">    <span class="comment">// log the exception message</span></span><br><span class="line">    <span class="comment">// continue or re-throw</span></span><br><span class="line">&#125; <span class="keyword">catch</span>(Exception e) &#123;  </span><br><span class="line">    <span class="comment">// must place at last position</span></span><br><span class="line">&#125; <span class="keyword">finally</span> &#123;</span><br><span class="line">    <span class="comment">// do some clean job, like</span></span><br><span class="line">    <span class="comment">// if(connection != null)</span></span><br><span class="line">    <span class="comment">//      connection.close();</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">try</span> &#123;</span><br><span class="line">    Integer.parseInt(str);</span><br><span class="line">&#125; <span class="keyword">catch</span>(NumberFormatException e) &#123;</span><br><span class="line">    <span class="comment">// not a integer</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="Other-Practises"><a href="#Other-Practises" class="headerlink" title="Other Practises"></a>Other Practises</h1><h3 id="Files-Methods-Line-length"><a href="#Files-Methods-Line-length" class="headerlink" title="Files/Methods/Line length"></a>Files/Methods/Line length</h3><ol>
+<li>Avoid lines longer than 80 characters?</li>
+<li>Files longer than 2000 lines are cumbersome and should be avoided. </li>
+<li>One method  should be 20-30, &lt;50 lines</li>
+</ol>
+<h3 id="Declaration"><a href="#Declaration" class="headerlink" title="Declaration"></a>Declaration</h3><ol>
+<li>Avoid assigning several variables to the same value in a single statement.<br> int a = b = 1; // Avoid</li>
+<li>One declaration per line is recommended since it encourages commenting.<br>int level; // indentation level<br>int size;  // size of table</li>
+</ol>
+  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/coding/">coding</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/java/">java</a>
+  </div>
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://zezhen.github.io/posts/java-code-standards/" data-title="Java Code Standards | this is zezhen" data-tsina="null" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+
+   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/posts/manage-oneself/" title="Manage Oneself">
+  <strong>上一篇：</strong><br/>
+  <span>
+  Manage Oneself</span>
+</a>
+</div>
+
+
+<div class="next">
+<a href="/posts/unit-test-best-practices/"  title="Unit Test Best Practices">
+ <strong>下一篇：</strong><br/> 
+ <span>Unit Test Best Practices
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+
+<section id="comments" class="comment">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+
+</div>  
+      <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
+<aside class="clearfix">
+
+  
+<div class="github-card">
+<p class="asidetitle">Github Card</p>
+<div class="github-card" data-github="zezhen" data-width="220" data-height="119" data-theme="medium">
+<script type="text/javascript" src="//cdn.jsdelivr.net/github-cards/latest/widget.js" ></script>
+</div>
+  </div>
+
+
+
+  
+<div class="categorieslist">
+	<p class="asidetitle">Categories</p>
+		<ul>
+		
+		  
+			<li><a href="/categories/bigdata/" title="bigdata">bigdata<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/coding/" title="coding">coding<sup>2</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/life/" title="life">life<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/stuff/" title="stuff">stuff<sup>2</sup></a></li>
+		  
+		
+		</ul>
+</div>
+
+
+  
+  <div class="tagcloudlist">
+    <p class="asidetitle">Tag Cloud</p>
+    <div class="tagcloudlist clearfix">
+       <a href="/tags/hadoop/" style="font-size: 10px;">hadoop</a> <a href="/tags/java/" style="font-size: 10px;">java</a> <a href="/tags/linux/" style="font-size: 20px;">linux</a> <a href="/tags/read/" style="font-size: 10px;">read</a> <a href="/tags/test/" style="font-size: 10px;">test</a>
+    </div>
+  </div>
+
+
+  <div class="linkslist">
+  <p class="asidetitle">Links</p>
+    <ul>
+        
+          <li>
+            
+            	<a href="http://coolshell.cn/" target="_blank" title="CoolShell">CoolShell</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://wuchong.me/jacman/" target="_blank" title="Jacman Theme">Jacman Theme</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="https://zezhen.wordpress.com/" target="_blank" title="Justin">Justin</a>
+            
+          </li>
+        
+    </ul>
+</div>
+
+  
+
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS</a>
+</div>
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<section class="info">
+		<p> Hi there, welcome to my blog. <br/>
+			Let&#39;s make the world better together.</p>
+	</section>
+	 
+	<div class="social-font" class="clearfix">
+		
+		
+		<a href="https://github.com/zezhen" target="_blank" class="icon-github" title="github"></a>
+		
+		
+		
+		
+		
+		<a href="https://www.linkedin.com/in/justin-lin-ab95255b" target="_blank" class="icon-linkedin" title="linkedin"></a>
+		
+		
+		
+		
+		
+	</div>
+			
+		
+
+		<p class="copyright">
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2016 
+		
+		<a href="/about" target="_blank" title="zezhen">zezhen</a>
+		
+		
+		</p>
+</div>
+</footer>
+    <script src="/js/jquery-2.0.3.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/jquery.qrcode-0.12.0.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+        getSize();
+        if (myWidth >= 1024) {
+          c.click();
+        }
+  
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+        
+    }
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  c.click(function(){
+    ta.css('display', 'block').addClass('fadeIn');
+  });
+  o.click(function(){
+    ta.css('display', 'none');
+  });
+  $(window).scroll(function(){
+    ta.css("top",Math.max(140,320-$(this).scrollTop()));
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var html = [
+  '<div class="hoverqrcode clearfix"></div>',
+  '<a class="overlay" id="qrcode"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+
+  $('.hoverqrcode').hide();
+
+  var myWidth = 0;
+  function updatehoverqrcode(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+    var qrsize = myWidth > 1024 ? 200:100;
+    var options = {render: 'image', size: qrsize, fill: '#2ca6cb', text: url, radius: 0.5, quiet: 1};
+    var p = $('.article-share-qrcode').position();
+    $('.hoverqrcode').empty().css('width', qrsize).css('height', qrsize)
+                          .css('left', p.left-qrsize/2+20).css('top', p.top-qrsize-10)
+                          .qrcode(options);
+  };
+  $(window).resize(function(){
+    $('.hoverqrcode').hide();
+  });
+  $('.article-share-qrcode').click(function(){
+    updatehoverqrcode();
+    $('.hoverqrcode').toggle();
+  });
+  $('.article-share-qrcode').hover(function(){}, function(){
+      $('.hoverqrcode').hide();
+  });
+});   
+</script>
+
+
+
+
+<script type="text/javascript">
+
+var disqus_shortname = 'zezhen';
+
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+
+
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+	<div id="totop">
+	<a title="Back to Top"><img src="/img/scrollup.png"/></a>
+	</div>
+	<script src="/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+
+<!-- Tiny_search Begin -->
+
+<!-- Tiny_search End -->
+
+  </body>
+</html>

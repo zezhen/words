@@ -90,6 +90,181 @@
   </entry>
   
   <entry>
+    <title>Java Code Standards</title>
+    <link href="http://zezhen.github.io/posts/java-code-standards/"/>
+    <id>http://zezhen.github.io/posts/java-code-standards/</id>
+    <published>2013-11-23T18:37:41.000Z</published>
+    <updated>2016-03-04T19:24:04.000Z</updated>
+    
+    <content type="html">&lt;h1 id=&quot;Why-code-standards-are-important&quot;&gt;&lt;a href=&quot;#Why-code-standards-are-important&quot; class=&quot;headerlink&quot; title=&quot;Why code standards are important&quot;&gt;&lt;/a&gt;Why code standards are important&lt;/h1&gt;&lt;p&gt;Coding standards for Java are important because they lead to greater consistency within code of all developers. Consistency leads to code that is easier to understand, which in turn results in a code, which is easier to develop and maintain.&lt;/p&gt;
+&lt;h1 id=&quot;Principles&quot;&gt;&lt;a href=&quot;#Principles&quot; class=&quot;headerlink&quot; title=&quot;Principles&quot;&gt;&lt;/a&gt;Principles&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;General&lt;ul&gt;
+&lt;li&gt;Adhere to the style of original.&lt;/li&gt;
+&lt;li&gt;Adhere to the Principle of Least Astonishment.&lt;/li&gt;
+&lt;li&gt;Do it right the first time. Don’t create development debt.&lt;/li&gt;
+&lt;li&gt;Document any deviations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DRY Principle&lt;ul&gt;
+&lt;li&gt;DRY: Don’t Repeat Yourself. &lt;/li&gt;
+&lt;li&gt;DIE: Duplication is Evil.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;OO Design Principles&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&quot;Code-Layout&quot;&gt;&lt;a href=&quot;#Code-Layout&quot; class=&quot;headerlink&quot; title=&quot;Code Layout&quot;&gt;&lt;/a&gt;Code Layout&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;eclipse format xml&lt;/p&gt;
+&lt;p&gt; A lot of code layout rule, such as the indent space number, where to place the brace, maximum line length, can be formatted by eclipse automatically. Here is the &lt;a href=&quot;https://github.com/zezhen/usefulstuff/blob/master/java/stuffs/eclipse-format.xml&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;eclipse-format.xml&lt;/a&gt;, you can import it in eclipse via “Preference -&amp;gt; Java -&amp;gt; Code Style -&amp;gt; Formatter”, and format the code by “Command+Shift+F” or set the “Java -&amp;gt; Editor&amp;gt; Save Actions”. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Avoid Deep Nesting&lt;/p&gt;
+&lt;p&gt; Too many levels of nesting can make code harder to read and follow.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Blank Lines and Code Grouping&lt;/p&gt;
+&lt;p&gt; Use blank between logical sections inside a method to improve readability. It can also help to refactor code.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use “Command+Shift+O” to format the import statements in eclipse.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&quot;Comments&quot;&gt;&lt;a href=&quot;#Comments&quot; class=&quot;headerlink&quot; title=&quot;Comments&quot;&gt;&lt;/a&gt;Comments&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;the best code is self-documenting!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;When writing your comments, write for your audience: the next contributor who will need to understand your code. Be generous — the next one may be you!&lt;/li&gt;
+&lt;li&gt;Code should be commented to indicate what the code does (the intent, purpose or usage), rather than how it works internally,&lt;/li&gt;
+&lt;li&gt;Keep comments and code in sync.&lt;/li&gt;
+&lt;li&gt;Purpose of the comment is to explain code that doesn’t explain itself.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Block-Comments&quot;&gt;&lt;a href=&quot;#Block-Comments&quot; class=&quot;headerlink&quot; title=&quot;Block Comments&quot;&gt;&lt;/a&gt;Block Comments&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Use standard to hide code without removing it if it may be needed. (eclipse shortcut: command+shift+/)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Inline-Comments-command&quot;&gt;&lt;a href=&quot;#Inline-Comments-command&quot; class=&quot;headerlink&quot; title=&quot;Inline Comments (command+/)&quot;&gt;&lt;/a&gt;Inline Comments (command+/)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Do not put inline comment on the same line as a statement (trailing).&lt;/li&gt;
+&lt;li&gt;If line deserves comment, it most often should be treated as logical block with comment and so have to have blank lines around. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;JavaDoc-Comments&quot;&gt;&lt;a href=&quot;#JavaDoc-Comments&quot; class=&quot;headerlink&quot; title=&quot;JavaDoc Comments&quot;&gt;&lt;/a&gt;JavaDoc Comments&lt;/h3&gt;&lt;p&gt;(type /** before method or class and type ‘enter’)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Describe programming interface before your write the code. This can be your “design phase”.&lt;/li&gt;
+&lt;li&gt;Write summary descriptions that stand alone. First sentence must summarize behaviour.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;Naming-Convention&quot;&gt;&lt;a href=&quot;#Naming-Convention&quot; class=&quot;headerlink&quot; title=&quot;Naming Convention&quot;&gt;&lt;/a&gt;Naming Convention&lt;/h1&gt;&lt;p&gt;Use full English descriptors that accurately describe the variable/field/class/interface, avoid acronyms and abbreviations and use the &lt;strong&gt;CamelCase&lt;/strong&gt;.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Type&lt;/th&gt;
+&lt;th&gt;Rules&lt;/th&gt;
+&lt;th&gt;Examples&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Interfaces&lt;/td&gt;
+&lt;td&gt;nouns, prefix letter “I” to the interface name, or end with “able”&lt;/td&gt;
+&lt;td&gt;IHbaseDAO Serializable&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Classes&lt;/td&gt;
+&lt;td&gt;nouns, prefix  “Abstract” to abstract class&lt;/td&gt;
+&lt;td&gt;CorporateCustomer AbstractShape&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Methods&lt;/td&gt;
+&lt;td&gt;verbs, first letter lowercase&lt;/td&gt;
+&lt;td&gt;run(), openAccout()&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Constants&lt;/td&gt;
+&lt;td&gt;all uppercase with words separated by underscore(“_”), typically implemented as static final fields of classes&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;int MAX_ITERATIONS = 25;  int getMaxIterations(){return 25;}&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Variables&lt;/td&gt;
+&lt;td&gt;Fields that are collections, such as arrays or vectors, should be given names that are plural to indicate that they represent multiple values. If the name of the field begins with an acronym then the acronym should be completely in lower case&lt;/td&gt;
+&lt;td&gt;items, htmlParser&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Components&lt;/td&gt;
+&lt;td&gt;Use full English descriptor postfixed by the widget type.&lt;/td&gt;
+&lt;td&gt;okButton (customerList or customers? what’s about the set and map ?)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&quot;Value-Accessor&quot;&gt;&lt;a href=&quot;#Value-Accessor&quot; class=&quot;headerlink&quot; title=&quot;Value Accessor&quot;&gt;&lt;/a&gt;Value Accessor&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Don’t make any instance or class variable public without good reason&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Type&lt;/th&gt;
+&lt;th&gt;Rules&lt;/th&gt;
+&lt;th&gt;Examples&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Class Field&lt;/td&gt;
+&lt;td&gt;use Getters/Setters to access it(they can be generated by eclipse automatically); “is” operation for boolean field&lt;/td&gt;
+&lt;td&gt;int getValue(); void setValue(int value);boolean isAlive();&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Collections&lt;/td&gt;
+&lt;td&gt;take list as an example, getList, then add/remove, or getIterator, add, remove? List&lt;string&gt; getList();? or Iterator&lt;string&gt; getIterator(); void add(String value); String get(int index);&lt;/string&gt;&lt;/string&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Static Field&lt;/td&gt;
+&lt;td&gt;avoid using an object to access a class static variable or method&lt;/td&gt;
+&lt;td&gt;a = new Integer(0); a.MAX_VALUE // Avoid; Integer.MAX_VALUE //prefer&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&quot;Clean-Code&quot;&gt;&lt;a href=&quot;#Clean-Code&quot; class=&quot;headerlink&quot; title=&quot;Clean Code&quot;&gt;&lt;/a&gt;Clean Code&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;Keep code where it belongs.&lt;/li&gt;
+&lt;li&gt;Keep methods short. Consider anything over 20 lines a suspect.&lt;/li&gt;
+&lt;li&gt;Have methods with only a few arguments - preferably no more than two&lt;/li&gt;
+&lt;li&gt;Eliminate duplication in your code; use abstraction.&lt;/li&gt;
+&lt;li&gt;Give public methods short names, but use long descriptive names for private methods. The code is the documentation.&lt;br&gt;*You need comprehensive tests, otherwise you do not dare to make changes in case something breaks. Test code should be of the same quality as production code; if your tests are slow and buggy, you will not use them or trust them.&lt;/li&gt;
+&lt;li&gt;Don’t initialize variables to 0 or null where it’s not required (redundant), e.g. instance variables or call super() constructor where it is called automatically. Don’t clutter up your code.&lt;/li&gt;
+&lt;li&gt;Keep the public API simple. If the method doesn’t need to be public, don’t make it so.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;Code-Design&quot;&gt;&lt;a href=&quot;#Code-Design&quot; class=&quot;headerlink&quot; title=&quot;Code Design&quot;&gt;&lt;/a&gt;Code Design&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;Use nested constructors to eliminate redundant code.&lt;/li&gt;
+&lt;li&gt;Do not use System.exit().&lt;/li&gt;
+&lt;li&gt;Try to keep methods limited to 20-30 lines. More then this is usually a symptom of poorly abstracted code.&lt;/li&gt;
+&lt;li&gt;Avoid string concatenation (except when concatenation two or three strings), use StringBuilder (StringBuffer is syncronized and so is less efficient).&lt;/li&gt;
+&lt;li&gt;Declare a local variable as close as possible to its first use.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;Exceptions&quot;&gt;&lt;a href=&quot;#Exceptions&quot; class=&quot;headerlink&quot; title=&quot;Exceptions&quot;&gt;&lt;/a&gt;Exceptions&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;Always know why you are catching an exception.&lt;/li&gt;
+&lt;li&gt;Do not silently absorb a runtime or error exception.&lt;/li&gt;
+&lt;li&gt;Catch only exceptions for which you have explicit handling. Don’t handle exceptions unless the procedure can fix the problem or unless the procedure is responsible for reporting errors.&lt;/li&gt;
+&lt;li&gt;Only if your code really has a problem to continue e.g., when a parameter is invalid, feel free to throw an exception!&lt;/li&gt;
+&lt;li&gt;Do not throw an exception, if you only suppose the caller of your code could have a problem with a special result. Try to return a special result value instead e.g., null, and let the caller decide with a regular if-else-statement. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;try&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// something may throw exception&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125; &lt;span class=&quot;keyword&quot;&gt;catch&lt;/span&gt;(IOException e) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// log the exception message&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// continue or re-throw&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125; &lt;span class=&quot;keyword&quot;&gt;catch&lt;/span&gt;(Exception e) &amp;#123;  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// must place at last position&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125; &lt;span class=&quot;keyword&quot;&gt;finally&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// do some clean job, like&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// if(connection != null)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;//      connection.close();&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;try&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    Integer.parseInt(str);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125; &lt;span class=&quot;keyword&quot;&gt;catch&lt;/span&gt;(NumberFormatException e) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// not a integer&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h1 id=&quot;Other-Practises&quot;&gt;&lt;a href=&quot;#Other-Practises&quot; class=&quot;headerlink&quot; title=&quot;Other Practises&quot;&gt;&lt;/a&gt;Other Practises&lt;/h1&gt;&lt;h3 id=&quot;Files-Methods-Line-length&quot;&gt;&lt;a href=&quot;#Files-Methods-Line-length&quot; class=&quot;headerlink&quot; title=&quot;Files/Methods/Line length&quot;&gt;&lt;/a&gt;Files/Methods/Line length&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Avoid lines longer than 80 characters?&lt;/li&gt;
+&lt;li&gt;Files longer than 2000 lines are cumbersome and should be avoided. &lt;/li&gt;
+&lt;li&gt;One method  should be 20-30, &amp;lt;50 lines&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;Declaration&quot;&gt;&lt;a href=&quot;#Declaration&quot; class=&quot;headerlink&quot; title=&quot;Declaration&quot;&gt;&lt;/a&gt;Declaration&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Avoid assigning several variables to the same value in a single statement.&lt;br&gt; int a = b = 1; // Avoid&lt;/li&gt;
+&lt;li&gt;One declaration per line is recommended since it encourages commenting.&lt;br&gt;int level; // indentation level&lt;br&gt;int size;  // size of table&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Why-code-standards-are-important&quot;&gt;&lt;a href=&quot;#Why-code-standards-are-important&quot; class=&quot;headerlink&quot; title=&quot;Why code standards are impor
+    
+    </summary>
+    
+      <category term="coding" scheme="http://zezhen.github.io/categories/coding/"/>
+    
+    
+      <category term="java" scheme="http://zezhen.github.io/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Unit Test Best Practices</title>
     <link href="http://zezhen.github.io/posts/unit-test-best-practices/"/>
     <id>http://zezhen.github.io/posts/unit-test-best-practices/</id>

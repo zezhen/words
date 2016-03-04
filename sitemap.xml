@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://zezhen.github.io/posts/java-code-standards/</loc>
+    
+    <lastmod>2016-03-04T19:24:04.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://zezhen.github.io/posts/grub-rescue/</loc>
     
     <lastmod>2016-03-04T07:57:39.000Z</lastmod>
