@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zezhen.me/"/>
-  <updated>2016-04-05T06:22:33.000Z</updated>
+  <updated>2016-04-06T05:08:31.000Z</updated>
   <id>http://zezhen.me/</id>
   
   <author>
@@ -14,6 +14,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>My Heart Will Go On</title>
+    <link href="http://zezhen.me/posts/my-heart-will-go-on/"/>
+    <id>http://zezhen.me/posts/my-heart-will-go-on/</id>
+    <published>2016-04-06T04:58:09.000Z</published>
+    <updated>2016-04-06T05:08:31.000Z</updated>
+    
+    <content type="html">&lt;p&gt;超好听的指弹版《My Heart Will Go On》&lt;/p&gt;
+&lt;iframe height=&quot;498&quot; width=&quot;510&quot; src=&quot;/vedio/my_heart_will_go_on.mp4&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;超好听的指弹版《My Heart Will Go On》&lt;/p&gt;
+&lt;iframe height=&quot;498&quot; width=&quot;510&quot; src=&quot;/vedio/my_heart_will_go_on.mp4&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/
+    
+    </summary>
+    
+      <category term="life" scheme="http://zezhen.me/categories/life/"/>
+    
+    
+      <category term="music" scheme="http://zezhen.me/tags/music/"/>
+    
+  </entry>
   
   <entry>
     <title>清明小吃</title>
