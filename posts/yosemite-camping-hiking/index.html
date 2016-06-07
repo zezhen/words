@@ -4,26 +4,23 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>ubuntu的备份和还原 | this is zezhen</title>
+    <title>Yosemite camping &amp; hiking | this is zezhen</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="zezhen">
     
 
     
-    <meta name="description" content="如ubuntu安装到移动硬盘 &amp;amp; grub rescue问题解决中介绍的, 将ubuntu成功安装到移动硬盘上, 并能够到处用, 但总觉得系统运行速度上不太满意, 想想以后如果服务都在移动硬盘上跑, 感觉不靠谱啊. 总之, 心里就是不舒服, 考虑着是否能够方便的迁移整个系统呢, 于是就想到了ghost.
-在网上搜了一通, 结果说没有ubuntu ghost一说, 只能通过各种操作才能实现系">
+    <meta name="description">
 <meta property="og:type" content="article">
-<meta property="og:title" content="ubuntu的备份和还原">
-<meta property="og:url" content="http://zezhen.me/posts/ubuntu-backup-x-restore/index.html">
+<meta property="og:title" content="Yosemite camping & hiking">
+<meta property="og:url" content="http://zezhen.me/posts/yosemite-camping-hiking/index.html">
 <meta property="og:site_name" content="this is zezhen">
-<meta property="og:description" content="如ubuntu安装到移动硬盘 &amp;amp; grub rescue问题解决中介绍的, 将ubuntu成功安装到移动硬盘上, 并能够到处用, 但总觉得系统运行速度上不太满意, 想想以后如果服务都在移动硬盘上跑, 感觉不靠谱啊. 总之, 心里就是不舒服, 考虑着是否能够方便的迁移整个系统呢, 于是就想到了ghost.
-在网上搜了一通, 结果说没有ubuntu ghost一说, 只能通过各种操作才能实现系">
-<meta property="og:updated_time" content="2016-03-04T07:42:58.000Z">
+<meta property="og:description">
+<meta property="og:updated_time" content="2016-05-02T06:48:00.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="ubuntu的备份和还原">
-<meta name="twitter:description" content="如ubuntu安装到移动硬盘 &amp;amp; grub rescue问题解决中介绍的, 将ubuntu成功安装到移动硬盘上, 并能够到处用, 但总觉得系统运行速度上不太满意, 想想以后如果服务都在移动硬盘上跑, 感觉不靠谱啊. 总之, 心里就是不舒服, 考虑着是否能够方便的迁移整个系统呢, 于是就想到了ghost.
-在网上搜了一通, 结果说没有ubuntu ghost一说, 只能通过各种操作才能实现系">
+<meta name="twitter:title" content="Yosemite camping & hiking">
+<meta name="twitter:description">
 
     
     <link rel="alternative" href="/atom.xml" title="this is zezhen" type="application/atom+xml">
@@ -83,14 +80,14 @@
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/posts/ubuntu-backup-x-restore/" title="ubuntu的备份和还原" itemprop="url">ubuntu的备份和还原</a>
+      <a href="/posts/yosemite-camping-hiking/" title="Yosemite camping &amp; hiking" itemprop="url">Yosemite camping &amp; hiking</a>
   </h1>
   <p class="article-author">By
        
 		<a href="/about" title="zezhen" target="_blank" itemprop="author">zezhen</a>
 		
   <p class="article-time">
-    <time datetime="2013-04-07T03:33:52.000Z" itemprop="datePublished"> Published 2013-04-06</time>
+    <time datetime="2016-04-24T06:46:48.000Z" itemprop="datePublished"> Published 2016-04-23</time>
     
   </p>
 </header>
@@ -103,39 +100,20 @@
 		
 		</div>
 		
-		<p>如<a href="/posts/grub-rescue/">ubuntu安装到移动硬盘 &amp; grub rescue问题解决</a>中介绍的, 将ubuntu成功安装到移动硬盘上, 并能够到处用, 但总觉得系统运行速度上不太满意, 想想以后如果服务都在移动硬盘上跑, 感觉不靠谱啊. 总之, 心里就是不舒服, 考虑着是否能够方便的迁移整个系统呢, 于是就想到了ghost.</p>
-<p>在网上搜了一通, 结果说没有ubuntu ghost一说, 只能通过各种操作才能实现系统备份恢复. linux还不熟, 心里虚, 找啊找, 终于发现了UCloner这东西.</p>
-<p>UCloner (原名ubuntu-cloner)可实现Ubuntu系统的备份, 恢复, 克隆; 还提供图形界面, 不过目前只支持10.10, 10.04, 9.10等; 项目主页：<a href="http://code.google.com/p/ucloner/" target="_blank" rel="external">http://code.google.com/p/ucloner/</a></p>
-<p>UCloner的功能</p>
-<p>#1. 备份</p>
-<p>将当前系统备份为squashfs映像文件, 备份是会自动排出常规挂载目录/mnt和/media等, 可以手动增删备份的目录. 备份前需要安装squashfs-tools.</p>
-<p>#2. 恢复</p>
-<p>从映像文件恢复系统, 此操作必须在另一个系统中进行, 如上面提到的live cd, 不过得注意两个系统的版本.</p>
-<p>恢复时, 图形界面提供三个可选分区: /, /home和swap, /分区及其系统文件必须指定, 另外两个可选择(swap最好设一个);</p>
-<p>grub安装位置提供三个选择：”留空”, “目标根分区”或”目标根分区所在硬盘”.<br>如果留空，则不安装 grub。<br>如果选”目标根分区”(如 /dev/sda5)，将把 grub 安装到该分区的引导扇区。<br>如果选”目标根分区所在硬盘”(如 /dev/sda ), 将把 grub 安装到该硬盘 MBR.</p>
-<p>最后新主机名如果为空, 则保持原主机名.</p>
-<p>#3. 克隆</p>
-<p>相当于备份+恢复, 直接把当前系统复制到其他分区中, 可选择不同硬盘, 不用生成映像文件.</p>
-<p>———昏割线————</p>
-<p>p.s. linux可以打包备份和还原, 可在运行的系统上进行, 也不失为一个好方法. 只是恢复时当前系统的版本需要和备份版本相同, 不然容易出错, 毕竟不同版本的系统还是有所差别的, 备份文件只是覆盖, 原来存在的多余文件不会删除.</p>
-<p>备份:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo tar -cvpzf /media/ubuntu_backup.tgz --exclude=/proc --exclude=/sys --exclude=/tmp --exclude=/mnt --exclude=/media --exclude=/boot/grub --exclude=/etc/fstab --exclude=/etc/mtab --exclude=/etc/blkid.tab --exclude=/etc/udev/rules.d/70-persistent-net.rules --exclude=/lost+found --exclude=/home/lost+found --exclude=/home/*/.gvfs /</span><br></pre></td></tr></table></figure></p>
-<p>sudo为了获得root权限; tar为打包命令; 最后的/为根目录, 即要打包的文件; –exclude为排除的目录;</p>
-<p>还原:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo tar -xvpzf /media/ubuntu_backup.tgz -C /</span><br></pre></td></tr></table></figure></p>
-<p>将备份文件恢复到根目录下.</p>
-  
+		  
 	</div>
 		<footer class="article-footer clearfix">
 <div class="article-catetags">
 
 <div class="article-categories">
   <span></span>
-  <a class="article-category-link" href="/categories/stuff/">stuff</a>
+  <a class="article-category-link" href="/categories/life/">life</a>
 </div>
 
 
   <div class="article-tags">
   
-  <span></span> <a href="/tags/linux/">linux</a>
+  <span></span> <a href="/tags/travel/">travel</a>
   </div>
 
 </div>
@@ -144,7 +122,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://zezhen.me/posts/ubuntu-backup-x-restore/" data-title="ubuntu的备份和还原 | this is zezhen" data-tsina="null" class="share clearfix">
+	  <div data-url="http://zezhen.me/posts/yosemite-camping-hiking/" data-title="Yosemite camping &amp; hiking | this is zezhen" data-tsina="null" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -158,18 +136,18 @@
 <nav class="article-nav clearfix">
  
  <div class="prev" >
- <a href="/posts/mapreduce-brief-explanation/" title="MapReduce Brief Explanation">
+ <a href="/posts/fast-diary-of-hongyi/" title="弘一法师断食日记">
   <strong>上一篇：</strong><br/>
   <span>
-  MapReduce Brief Explanation</span>
+  弘一法师断食日记</span>
 </a>
 </div>
 
 
 <div class="next">
-<a href="/posts/grub-rescue/"  title="ubuntu安装到移动硬盘&amp;grub rescue问题解决">
+<a href="/posts/china-in-times/"  title="外媒封面上的128个中国表情">
  <strong>下一篇：</strong><br/> 
- <span>ubuntu安装到移动硬盘&amp;grub rescue问题解决
+ <span>外媒封面上的128个中国表情
 </span>
 </a>
 </div>
