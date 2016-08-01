@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://zezhen.me/timeline/index.html</loc>
+    <loc>http://zezhen.me/about/index.html</loc>
     
-    <lastmod>2016-07-31T18:56:14.000Z</lastmod>
+    <lastmod>2016-08-01T03:05:55.000Z</lastmod>
     
   </url>
   
@@ -131,13 +131,6 @@
     <loc>http://zezhen.me/tags/index.html</loc>
     
     <lastmod>2016-03-04T02:56:46.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zezhen.me/about/index.html</loc>
-    
-    <lastmod>2016-03-03T23:31:21.000Z</lastmod>
     
   </url>
   
