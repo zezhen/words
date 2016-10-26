@@ -2,9 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://zezhen.me/posts/jump-out-of-box/</loc>
+    
+    <lastmod>2016-10-26T04:39:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zezhen.me/posts/onlooker-stuff/</loc>
+    
+    <lastmod>2016-10-26T04:33:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zezhen.me/posts/social-stuff/</loc>
+    
+    <lastmod>2016-10-26T04:32:57.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zezhen.me/posts/java-code-standards/</loc>
+    
+    <lastmod>2016-10-26T04:32:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zezhen.me/posts/unit-test-best-practices/</loc>
+    
+    <lastmod>2016-10-26T04:32:35.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zezhen.me/posts/manage-oneself/</loc>
+    
+    <lastmod>2016-10-26T04:32:11.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zezhen.me/posts/speaking/</loc>
+    
+    <lastmod>2016-10-26T04:31:48.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zezhen.me/posts/you-are-not-the-programmer/</loc>
+    
+    <lastmod>2016-10-26T04:31:28.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zezhen.me/posts/getting-to-yes/</loc>
+    
+    <lastmod>2016-10-26T04:30:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://zezhen.me/posts/crucial-conversations/</loc>
     
-    <lastmod>2016-10-25T01:11:13.000Z</lastmod>
+    <lastmod>2016-10-26T04:29:46.000Z</lastmod>
     
   </url>
   
@@ -12,13 +75,6 @@
     <loc>http://zezhen.me/posts/Train-to-Busan/</loc>
     
     <lastmod>2016-09-18T16:33:56.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zezhen.me/posts/you-are-not-the-programmer/</loc>
-    
-    <lastmod>2016-08-03T06:05:35.000Z</lastmod>
     
   </url>
   
@@ -44,20 +100,6 @@
   </url>
   
   <url>
-    <loc>http://zezhen.me/posts/speaking/</loc>
-    
-    <lastmod>2016-08-03T06:00:15.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zezhen.me/posts/getting-to-yes/</loc>
-    
-    <lastmod>2016-08-03T06:00:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://zezhen.me/posts/Happy-Mid-Autumn-Festival/</loc>
     
     <lastmod>2016-08-03T05:58:32.000Z</lastmod>
@@ -68,27 +110,6 @@
     <loc>http://zezhen.me/posts/One-Road-with-Various-Names/</loc>
     
     <lastmod>2016-08-03T05:58:19.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zezhen.me/posts/manage-oneself/</loc>
-    
-    <lastmod>2016-08-03T05:58:03.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zezhen.me/posts/java-code-standards/</loc>
-    
-    <lastmod>2016-08-03T05:57:46.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zezhen.me/posts/unit-test-best-practices/</loc>
-    
-    <lastmod>2016-08-03T05:57:25.000Z</lastmod>
     
   </url>
   
@@ -110,20 +131,6 @@
     <loc>http://zezhen.me/posts/grub-rescue/</loc>
     
     <lastmod>2016-08-03T05:56:50.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zezhen.me/posts/social-stuff/</loc>
-    
-    <lastmod>2016-08-03T05:56:49.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zezhen.me/posts/onlooker-stuff/</loc>
-    
-    <lastmod>2016-08-03T05:56:47.000Z</lastmod>
     
   </url>
   
