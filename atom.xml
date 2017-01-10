@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zezhen.me/"/>
-  <updated>2016-10-26T04:39:10.000Z</updated>
+  <updated>2017-01-10T05:22:09.000Z</updated>
   <id>http://zezhen.me/</id>
   
   <author>
@@ -14,6 +14,40 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Find all divisors of a natural number</title>
+    <link href="http://zezhen.me/posts/find-all-divisors-of-a-natural-number/"/>
+    <id>http://zezhen.me/posts/find-all-divisors-of-a-natural-number/</id>
+    <published>2017-01-10T05:02:57.000Z</published>
+    <updated>2017-01-10T05:22:09.000Z</updated>
+    
+    <content type="html">&lt;p&gt;Given a natural number n, print all distinct divisors of it.&lt;/p&gt;
+&lt;p&gt;Examples:&lt;/p&gt;
+&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;Input : n = &lt;span class=&quot;number&quot;&gt;10&lt;/span&gt;       &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Output: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;10&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Input:  n = &lt;span class=&quot;number&quot;&gt;100&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Output: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;20&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;25&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;50&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;100&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Input:  n = &lt;span class=&quot;number&quot;&gt;125&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Output: &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;25&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;125&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;A &lt;em&gt;Naive Solution&lt;/em&gt; can be to iterate all the numbers from 1 to n, checking if that number divides n and printing it. &lt;/p&gt;
+&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt; range(&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;, n+&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;):&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; n % i == &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;print&lt;/span&gt; i&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;em&gt;How to improve above solution?&lt;/em&gt; As we can see, (i, n/i) can be a pair if i is the divisor of n, thus we don’t have to check all numbers from 1 to n. Therefore, the question will be where to be stop? The answer is sqrt(n).&lt;/p&gt;
+&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; math&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ans = []&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;divisor = []&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt; xrange(&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;, int(math.sqrt(n) + &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;)):&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; n % i == &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        ans.append(i)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; i != n / i:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            divisor.append(n / i)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ans.extend(reversed(divisor))&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;print&lt;/span&gt; ans&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Use list is to make divisor in order.&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Given a natural number n, print all distinct divisors of it.&lt;/p&gt;
+&lt;p&gt;Examples:&lt;/p&gt;
+&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;
+    
+    </summary>
+    
+      <category term="tech" scheme="http://zezhen.me/categories/tech/"/>
+    
+    
+      <category term="algorithm" scheme="http://zezhen.me/tags/algorithm/"/>
+    
+      <category term="math" scheme="http://zezhen.me/tags/math/"/>
+    
+  </entry>
   
   <entry>
     <title>跳出盒子</title>
@@ -289,9 +323,9 @@
       <category term="life" scheme="http://zezhen.me/categories/life/"/>
     
     
-      <category term="food" scheme="http://zezhen.me/tags/food/"/>
-    
       <category term="chinese" scheme="http://zezhen.me/tags/chinese/"/>
+    
+      <category term="food" scheme="http://zezhen.me/tags/food/"/>
     
       <category term="culture" scheme="http://zezhen.me/tags/culture/"/>
     
@@ -806,9 +840,9 @@
       <category term="life" scheme="http://zezhen.me/categories/life/"/>
     
     
-      <category term="english" scheme="http://zezhen.me/tags/english/"/>
-    
       <category term="stuff" scheme="http://zezhen.me/tags/stuff/"/>
+    
+      <category term="english" scheme="http://zezhen.me/tags/english/"/>
     
   </entry>
   
@@ -893,7 +927,7 @@
     <link href="http://zezhen.me/posts/java-code-standards/"/>
     <id>http://zezhen.me/posts/java-code-standards/</id>
     <published>2013-11-23T18:37:41.000Z</published>
-    <updated>2016-10-26T04:32:39.000Z</updated>
+    <updated>2017-01-10T05:04:15.000Z</updated>
     
     <content type="html">&lt;h1 id=&quot;Why-code-standards-are-important&quot;&gt;&lt;a href=&quot;#Why-code-standards-are-important&quot; class=&quot;headerlink&quot; title=&quot;Why code standards are important&quot;&gt;&lt;/a&gt;Why code standards are important&lt;/h1&gt;&lt;p&gt;Coding standards for Java are important because they lead to greater consistency within code of all developers. Consistency leads to code that is easier to understand, which in turn results in a code, which is easier to develop and maintain.&lt;/p&gt;
 &lt;h1 id=&quot;Principles&quot;&gt;&lt;a href=&quot;#Principles&quot; class=&quot;headerlink&quot; title=&quot;Principles&quot;&gt;&lt;/a&gt;Principles&lt;/h1&gt;&lt;ol&gt;
@@ -1056,7 +1090,7 @@
     
     </summary>
     
-      <category term="technique" scheme="http://zezhen.me/categories/technique/"/>
+      <category term="tech" scheme="http://zezhen.me/categories/tech/"/>
     
     
       <category term="english" scheme="http://zezhen.me/tags/english/"/>
@@ -1072,7 +1106,7 @@
     <link href="http://zezhen.me/posts/unit-test-best-practices/"/>
     <id>http://zezhen.me/posts/unit-test-best-practices/</id>
     <published>2013-10-15T18:13:00.000Z</published>
-    <updated>2016-10-26T04:32:35.000Z</updated>
+    <updated>2017-01-10T05:04:12.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;/img/unittest.jpg&quot; width=&quot;250&quot; height=&quot;250&quot;&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;A good dev must be a good test!
@@ -1181,12 +1215,12 @@
     
     </summary>
     
-      <category term="technique" scheme="http://zezhen.me/categories/technique/"/>
+      <category term="tech" scheme="http://zezhen.me/categories/tech/"/>
     
-    
-      <category term="unittest" scheme="http://zezhen.me/tags/unittest/"/>
     
       <category term="english" scheme="http://zezhen.me/tags/english/"/>
+    
+      <category term="unittest" scheme="http://zezhen.me/tags/unittest/"/>
     
   </entry>
   
@@ -1195,7 +1229,7 @@
     <link href="http://zezhen.me/posts/mapreduce-brief-explanation/"/>
     <id>http://zezhen.me/posts/mapreduce-brief-explanation/</id>
     <published>2013-05-04T06:45:32.000Z</published>
-    <updated>2016-08-03T05:56:59.000Z</updated>
+    <updated>2017-01-10T05:04:07.000Z</updated>
     
     <content type="html">&lt;p&gt;刚开始学hadoop时, 一个完全没接触过的同学问我mapreduce到底怎样的? 我一下子没解释清楚, 后来想想可以举个简单例子来说明mapreduce.&lt;/p&gt;
 &lt;p&gt;比如现在有很多很多普通的扑克牌, 每张都有花色和数字, 共4种花色(除大小王), 13中数字. 这些扑克牌杂乱的混合在一起, 而且存放在多个仓库中, 这是背景.&lt;/p&gt;
@@ -1235,7 +1269,7 @@
     
     </summary>
     
-      <category term="technique" scheme="http://zezhen.me/categories/technique/"/>
+      <category term="tech" scheme="http://zezhen.me/categories/tech/"/>
     
     
       <category term="chinese" scheme="http://zezhen.me/tags/chinese/"/>
@@ -1251,7 +1285,7 @@
     <link href="http://zezhen.me/posts/ubuntu-backup-x-restore/"/>
     <id>http://zezhen.me/posts/ubuntu-backup-x-restore/</id>
     <published>2013-04-07T03:33:52.000Z</published>
-    <updated>2016-08-03T05:56:53.000Z</updated>
+    <updated>2017-01-10T05:04:03.000Z</updated>
     
     <content type="html">&lt;p&gt;如&lt;a href=&quot;/posts/grub-rescue/&quot;&gt;ubuntu安装到移动硬盘 &amp;amp; grub rescue问题解决&lt;/a&gt;中介绍的, 将ubuntu成功安装到移动硬盘上, 并能够到处用, 但总觉得系统运行速度上不太满意, 想想以后如果服务都在移动硬盘上跑, 感觉不靠谱啊. 总之, 心里就是不舒服, 考虑着是否能够方便的迁移整个系统呢, 于是就想到了ghost.&lt;/p&gt;
 &lt;p&gt;在网上搜了一通, 结果说没有ubuntu ghost一说, 只能通过各种操作才能实现系统备份恢复. linux还不熟, 心里虚, 找啊找, 终于发现了UCloner这东西.&lt;/p&gt;
@@ -1280,7 +1314,7 @@
     
     </summary>
     
-      <category term="technique" scheme="http://zezhen.me/categories/technique/"/>
+      <category term="tech" scheme="http://zezhen.me/categories/tech/"/>
     
     
       <category term="linux" scheme="http://zezhen.me/tags/linux/"/>
@@ -1294,7 +1328,7 @@
     <link href="http://zezhen.me/posts/grub-rescue/"/>
     <id>http://zezhen.me/posts/grub-rescue/</id>
     <published>2013-04-04T06:25:43.000Z</published>
-    <updated>2016-08-03T05:56:50.000Z</updated>
+    <updated>2017-01-10T05:03:59.000Z</updated>
     
     <content type="html">&lt;p&gt;想好好折腾linux, 选择ubuntu入手, 但想到linux下配置啥的挺麻烦, 装个系统最好能长久用下去, 于是就将ubuntu安装到移动硬盘上, 这样到哪都好用了.&lt;/p&gt;
 &lt;p&gt;如何在ubuntu安装到移动硬盘?&lt;/p&gt;
@@ -1331,7 +1365,7 @@
     
     </summary>
     
-      <category term="technique" scheme="http://zezhen.me/categories/technique/"/>
+      <category term="tech" scheme="http://zezhen.me/categories/tech/"/>
     
     
       <category term="linux" scheme="http://zezhen.me/tags/linux/"/>
@@ -1365,38 +1399,9 @@
     
       <category term="note" scheme="http://zezhen.me/tags/note/"/>
     
-      <category term="people" scheme="http://zezhen.me/tags/people/"/>
-    
       <category term="social" scheme="http://zezhen.me/tags/social/"/>
     
       <category term="summary" scheme="http://zezhen.me/tags/summary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于围观</title>
-    <link href="http://zezhen.me/posts/onlooker-stuff/"/>
-    <id>http://zezhen.me/posts/onlooker-stuff/</id>
-    <published>2010-02-03T06:49:40.000Z</published>
-    <updated>2016-10-26T04:33:09.000Z</updated>
-    
-    <content type="html">&lt;p&gt;今天早上突然醒来，大汗淋漓，原因？或许太热，或许因为做梦，简单的讲，这个梦像是在学校做完广播体操后同学们拥挤着回教室，然后我跟另一个人好像走错了道，然后我们就回头，他突然就闯进人群，好像造成了小拥堵，然后我就成了被谴责的对象，说我不遵守规则。由于大家只记得谴责，忘了很多人要过往，于是造成交通大拥堵。但事实上一来我没有“乱闯红灯”，二来我所走的路是没人经过的错路，所以个人感觉跟拥堵没什么关系。然后我迅速离开事发焦点带，对他们说，围观，你们这群愚昧的人，好像是这么说的。然后貌似警察过来要追究我的的责任，我好像半睡半醒的说作为工作人员，你怎能和群众一样如此愚昧呢！接着就醒了…&lt;/p&gt;
-&lt;p&gt;突然想起较早之前广东那边有人跳桥，然后有个所谓”英雄”老人推他下去，跳桥人受了重伤，讨论这件事的责任时，yyx说到跳桥者应该负全责，因为他的跳桥行为导致了交通大阻塞，”英雄”老人是因此而自告奋勇(虽然是绕开了警察)采取值得商榷的措施导致跳桥人的受伤，还有老人以为桥下的气垫已经弄好了，就算要归咎责任也应该归咎救护人员等。说的有点远，政府的办事的高效率不言而喻，”英雄”老人的责任暂不讨论，但导致交通大阻塞的主要责任仅仅是跳桥者吗？&lt;/p&gt;
-&lt;p&gt;突然想想导火索的责任有多大？跳桥者是导火索，群众围观是结果。因为群众围观才导致交通大阻塞，如果不是好奇心的驱使，如果不是一群人闲着没事干围着看热闹，凭借跳桥者一个人如何导致交通大阻塞。突然想到以前syf说：男的强奸了一个穿的很暴露的女人，这个主要责任归咎于这个女人，谁叫她穿得暴露引诱男的呢。同样谁叫跳桥者要跳桥，”引诱”群众围观而导致交通阻塞。我当然强烈反对，男人是事件的施加者，而女人仅仅是诱因，如果讨伐诱因却忽略施加者，那是舍本逐末。但如何追究群众围观的责任呢？群众可以辩护说:关我什么是，我只是打酱油的。事实上群众并不会觉得这是他自己的责任，如果有一个身形巨大的群众个人来围观——因该是观看，就他一人无法形成围状，由于他的体型而导致阻塞，那我想大家肯定认为责任于他。个子这么大，干嘛来看啊，不知道会阻塞交通吗？！但幸运的是，对于个小的群众，这貌似完全不是他们的责任，又不是我导致阻塞的，这就是责任平摊效应。当人多了，责任平分到N多人头上，基本上可忽略不计了。一根稻草压死一只骆驼，这只是表面现象，压死骆驼的是这N+1根稻草。&lt;/p&gt;
-&lt;p&gt;朱迪·福斯特演的《The Accused》(暴劫梨花)讲述的就是为强奸行为呐喊助威的人是否应付相应的责任，影片的最后法庭裁决其有罪，因为呐喊助威者非但没有组织非法暴力的行为，反而助长了其发生，这跟施暴者本身又有何区别。同样因围观而导致出现的问题，围观者难咎其责。&lt;/p&gt;
-&lt;p&gt;我不喜欢围观，仅仅为了满足所谓的一点好奇心而在人群中挤得”头破血流”，仅仅为了看所谓的现场直播？但我发现，并没确切统计，围观者大部分都是受教育程度较低者，或许是精神上没太多可寄托的，于是对周围的事情特别的关心在意，因此也特别的喜欢围观看热闹。以前有种说法是中国人很喜欢围观，大概是因为中国人的整体素质还不够高吧（糗事百科中一则:不是没素质，只是素质较低而已）。希望以后大家素质提高了，能以很平静的心态看问题，即使围观也不会导致交通堵塞，能清楚的意识到自己的责任。&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天早上突然醒来，大汗淋漓，原因？或许太热，或许因为做梦，简单的讲，这个梦像是在学校做完广播体操后同学们拥挤着回教室，然后我跟另一个人好像走错了道，然后我们就回头，他突然就闯进人群，好像造成了小拥堵，然后我就成了被谴责的对象，说我不遵守规则。由于大家只记得谴责，忘了很多人要
-    
-    </summary>
-    
-      <category term="life" scheme="http://zezhen.me/categories/life/"/>
-    
-    
-      <category term="note" scheme="http://zezhen.me/tags/note/"/>
     
       <category term="people" scheme="http://zezhen.me/tags/people/"/>
     

@@ -2,6 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://zezhen.me/posts/find-all-divisors-of-a-natural-number/</loc>
+    
+    <lastmod>2017-01-10T05:22:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zezhen.me/posts/java-code-standards/</loc>
+    
+    <lastmod>2017-01-10T05:04:15.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zezhen.me/posts/unit-test-best-practices/</loc>
+    
+    <lastmod>2017-01-10T05:04:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zezhen.me/posts/mapreduce-brief-explanation/</loc>
+    
+    <lastmod>2017-01-10T05:04:07.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zezhen.me/posts/ubuntu-backup-x-restore/</loc>
+    
+    <lastmod>2017-01-10T05:04:03.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zezhen.me/posts/grub-rescue/</loc>
+    
+    <lastmod>2017-01-10T05:03:59.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://zezhen.me/posts/jump-out-of-box/</loc>
     
     <lastmod>2016-10-26T04:39:10.000Z</lastmod>
@@ -19,20 +61,6 @@
     <loc>http://zezhen.me/posts/social-stuff/</loc>
     
     <lastmod>2016-10-26T04:32:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zezhen.me/posts/java-code-standards/</loc>
-    
-    <lastmod>2016-10-26T04:32:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zezhen.me/posts/unit-test-best-practices/</loc>
-    
-    <lastmod>2016-10-26T04:32:35.000Z</lastmod>
     
   </url>
   
@@ -110,27 +138,6 @@
     <loc>http://zezhen.me/posts/One-Road-with-Various-Names/</loc>
     
     <lastmod>2016-08-03T05:58:19.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zezhen.me/posts/mapreduce-brief-explanation/</loc>
-    
-    <lastmod>2016-08-03T05:56:59.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zezhen.me/posts/ubuntu-backup-x-restore/</loc>
-    
-    <lastmod>2016-08-03T05:56:53.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zezhen.me/posts/grub-rescue/</loc>
-    
-    <lastmod>2016-08-03T05:56:50.000Z</lastmod>
     
   </url>
   
