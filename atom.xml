@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zezhen.me/"/>
-  <updated>2017-01-10T06:21:39.000Z</updated>
+  <updated>2017-01-22T11:59:38.000Z</updated>
   <id>http://zezhen.me/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://zezhen.me/posts/primality-test/"/>
     <id>http://zezhen.me/posts/primality-test/</id>
     <published>2017-01-10T05:40:42.000Z</published>
-    <updated>2017-01-10T06:21:39.000Z</updated>
+    <updated>2017-01-22T11:59:38.000Z</updated>
     
     <content type="html">&lt;p&gt;Given a positive integer, check if the number is prime or not. A prime is a natural number greater than 1 that has no positive divisors other than 1 and itself,  {2, 3, 5, 7} are the first few prime numbers.&lt;/p&gt;
 &lt;p&gt;A &lt;em&gt;naive solution&lt;/em&gt; is to iterate through all numbers from 2 to n-1 and for every number check if it divides n. If we find any number that divides, we return false.&lt;/p&gt;
@@ -29,7 +29,7 @@
 &lt;li&gt;Instead of checking till n, we can check till √n because a larger factor of n must be a multiple of smaller factor that has been already checked.&lt;/li&gt;
 &lt;li&gt;The algorithm can be improved further by observing that all primes are of the form 6k ± 1, with the exception of 2 and 3. This is because all integers can be expressed as (6k + i) for some integer k and for i = -1, 0, 1, 2, 3, or 4; 2 divides (6k + 0), (6k + 2), (6k + 4); and 3 divides (6k + 3). So a more efficient method is to test if n is divisible by 2 or 3, then to check through all the numbers of form 6k ± 1. (Source: &lt;a href=&quot;https://en.wikipedia.org/wiki/Primality_test&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;wikipedia&lt;/a&gt;)&lt;/li&gt;
 &lt;/ol&gt;
-&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;is_prime&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(n)&lt;/span&gt;:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;# Corner cases&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; n &amp;lt;= &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;False&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; n &amp;lt;= &lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;True&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;# (6k + 0), (6k + 2), (6k + 4) and&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;# (6k + 3)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; n%&lt;span class=&quot;number&quot;&gt;2&lt;/span&gt; == &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;or&lt;/span&gt; n%&lt;span class=&quot;number&quot;&gt;3&lt;/span&gt; == &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;True&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt; xrange(&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;, n, &lt;span class=&quot;number&quot;&gt;6&lt;/span&gt;):&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; i*i &amp;gt; n: &lt;span class=&quot;keyword&quot;&gt;break&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; n%i == &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;or&lt;/span&gt; n%(i+&lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;) == &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;           &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;False&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;True&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;is_prime&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(n)&lt;/span&gt;:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;# Corner cases&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; n &amp;lt;= &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;False&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; n &amp;lt;= &lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;True&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;# (6k + 0), (6k + 2), (6k + 4) and&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;# (6k + 3)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; n%&lt;span class=&quot;number&quot;&gt;2&lt;/span&gt; == &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;or&lt;/span&gt; n%&lt;span class=&quot;number&quot;&gt;3&lt;/span&gt; == &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;False&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt; xrange(&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;, n, &lt;span class=&quot;number&quot;&gt;6&lt;/span&gt;):&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; i*i &amp;gt; n: &lt;span class=&quot;keyword&quot;&gt;break&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; n%i == &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;or&lt;/span&gt; n%(i+&lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;) == &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;           &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;False&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;True&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;em&gt;Fermat Method&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;This method is a probabilistic method and is based on below Fermat’s Little Theorem.&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;[Fermat&amp;apos;s Little Theorem](https://en.wikipedia.org/wiki/Fermat&amp;apos;s_little_theorem):&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;If n is a prime number, then for every a, 1 &amp;lt;= a &amp;lt; n,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;a^n-1 ≡ 1 (mod n)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; OR &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;a^n-1 % n = 1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Example: Since 5 is prime, 2^4 ≡ 1 (mod 5) [or 2^4%5 = 1],&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;         3^4 ≡ 1 (mod 5) and 4^4 ≡ 1 (mod 5) &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;         Since 7 is prime, 2^6 ≡ 1 (mod 7),&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;         3^6 ≡ 1 (mod 7), 4^6 ≡ 1 (mod 7) &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;         5^6 ≡ 1 (mod 7) and 6^6 ≡ 1 (mod 7)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -86,6 +86,35 @@
       <category term="algorithm" scheme="http://zezhen.me/tags/algorithm/"/>
     
       <category term="math" scheme="http://zezhen.me/tags/math/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://zezhen.me/posts/hello-world/"/>
+    <id>http://zezhen.me/posts/hello-world/</id>
+    <published>2017-01-02T00:18:49.000Z</published>
+    <updated>2017-01-25T07:35:36.000Z</updated>
+    
+    <content type="html">&lt;p&gt;每个程序员写的第一个程序总是Hello World, 按照语法规范写好程序, 运行后便将这几个字符打印到控制台上, 这是最初入门的程序, 是IT世界的开端. 从大学开始接触编程到现在, 已经整整10年多了, 本科4年, 硕士3年, 工作3年多, 回首过往, 不禁感叹时光荏苒. 这10年, 不断的学习摸索, 从完全的小白到现在所谓的硅谷工程师, 对技术有了一定的了解, 但也只是在IT世界里发出了一声hello而已.&lt;/p&gt;
+&lt;p&gt;从06年接触变成, 刚开始学习谭浩强的绿本的C和红本的C++教程, 学习基本语法, 流程控制, 数据结构以及一些简单的算法, 到大二为止, 对编程仍然是一知半解; 到了大三暑期课程设计, 用MFC写一个画图板, 支持画图, 拖拽, 旋转等, 主要是模仿已有的产品, 没太多技术含量, 不过在最底层细节的实现上花了很多时间, 比如旋转一条直线曲线, 我是通过计算旋转角度来得到新的两个端点, 然后再重绘, 后来发现其实有API的, 好处是真正算是动手做了个产品出来, 比较欣慰的, 还有面向对象的使用和训练, 突然有种豁然开朗的感觉. 之后虽然说不上技术精进, 但再辅助一些书本, 慢慢的有了自己的概念和想法.&lt;/p&gt;
+&lt;p&gt;本科后续两年并没有太多本质上的进步, 研究生阶段更多的是本科的扩展, 没能在数据挖掘方面有多少深造, 编程技术也仅是熟练度以及知识面上的进步, 直到研究生毕业加入Yahoo北研, 仍然按照已有的style进行编程, 程序也时好时坏, 直到看到酷壳上的一篇文章, 以前的教育是编程=数据结构+算法, 从核心思想角度来看这个等式依然成立, 但如果从软件工程角度来看, 程序=控制+逻辑则更有知道意义. 将控制和逻辑分离开, 控制是通用的模板或框架, 逻辑则作为plugin, 可能根据需求进行替换, 当今大量的框架均是使用此模式, 比如mapreduce, 对于我们日常开发来说也是非常适用的, 比如排序.&lt;/p&gt;
+&lt;p&gt;再之后便去了美国, 因为工作内容的一些限制, 以及心态的变化, 并没有在技术上有所精进; 反而重拾了曾经心中的那一点对管理的心愿, 开始在execution上花了些时间, 虽然进展并不迅速, 但总体上还算学习了不少.&lt;/p&gt;
+&lt;p&gt;进入2017, 应如何say hello world?&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;每个程序员写的第一个程序总是Hello World, 按照语法规范写好程序, 运行后便将这几个字符打印到控制台上, 这是最初入门的程序, 是IT世界的开端. 从大学开始接触编程到现在, 已经整整10年多了, 本科4年, 硕士3年, 工作3年多, 回首过往, 不禁感叹时光荏苒
+    
+    </summary>
+    
+      <category term="career" scheme="http://zezhen.me/categories/career/"/>
+    
+    
+      <category term="career" scheme="http://zezhen.me/tags/career/"/>
+    
+      <category term="coding" scheme="http://zezhen.me/tags/coding/"/>
     
   </entry>
   
@@ -1351,57 +1380,6 @@
     <summary type="html">
     
       &lt;p&gt;如&lt;a href=&quot;/posts/grub-rescue/&quot;&gt;ubuntu安装到移动硬盘 &amp;amp; grub rescue问题解决&lt;/a&gt;中介绍的, 将ubuntu成功安装到移动硬盘上, 并能够到处用, 但总觉得系统运行速度上不太满意, 想想以后如果服务都在移动硬盘上跑,
-    
-    </summary>
-    
-      <category term="tech" scheme="http://zezhen.me/categories/tech/"/>
-    
-    
-      <category term="linux" scheme="http://zezhen.me/tags/linux/"/>
-    
-      <category term="chinese" scheme="http://zezhen.me/tags/chinese/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ubuntu安装到移动硬盘&amp;grub rescue问题解决</title>
-    <link href="http://zezhen.me/posts/grub-rescue/"/>
-    <id>http://zezhen.me/posts/grub-rescue/</id>
-    <published>2013-04-04T06:25:43.000Z</published>
-    <updated>2017-01-10T05:03:59.000Z</updated>
-    
-    <content type="html">&lt;p&gt;想好好折腾linux, 选择ubuntu入手, 但想到linux下配置啥的挺麻烦, 装个系统最好能长久用下去, 于是就将ubuntu安装到移动硬盘上, 这样到哪都好用了.&lt;/p&gt;
-&lt;p&gt;如何在ubuntu安装到移动硬盘?&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;首先制作一个u盘版的livecd. 这个可以用&lt;a href=&quot;https://fedorahosted.org/liveusb-creator/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Fedora LiveUSB Creator&lt;/a&gt;, 兼容Ubuntu 几分钟就搞定了&lt;/li&gt;
-&lt;li&gt;选择从u盘启动, 进入livecd系统, 相当于体验版. 选择安装Ubuntu, 注意分区选择移动硬盘, 挂载点最简单的是根目录和swap, 其他按序挂载; 最后”安装启动引导器的设备”选择移动硬盘, 如sda, 而不是它的某个分区, 如sda1, 这样系统就可以从移动硬盘启动了.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;只要简单两步就安装完成了, 同理如果把ubuntu安装到U盘上也是一样的.&lt;/p&gt;
-&lt;p&gt;装完后在自己电脑上成功启动, 但换个电脑就不行了. 按照对linux启动的了解, 启动的先后顺序是BIOS, MBR, BootLoader, OS. 已经系统的grub(GRand Unified Bootloader)安装到移动硬盘上了, 从移动硬盘启动时, MBR能直接识别Grub以启动系统, 在自己电脑上试验成功说明安装的确是成功的.&lt;/p&gt;
-&lt;p&gt;tips. 事实上, 这个版本系统是用UCloner克隆到移动硬盘上, 或许问题出在此.&lt;/p&gt;
-&lt;p&gt;在其他电脑上启动时, 无法启动grub, 而是进入了grub rescue, 显示信息为&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;error: unknown filesystems&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;grub rescue&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;网上遇到这个问题多数是安装了windows+ubuntu双系统后, 在windows对磁盘重新分区导致的, 与我在移动硬盘上的ubuntu在别的电脑上运行类似, 疑问: 为什么grub启动跟其他磁盘或分区有关系呢?&lt;/p&gt;
-&lt;p&gt;在grub rescue中通过ls查看分盘和分区, 如果ls (hd0,6)/boot/grub显示信息, 说明(hd0,6)是安装/boot的分区, 可通过以下命令进入系统&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;set root=(hd0,6)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;set prefix=(hd0,6)/boot/grub&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;insmod normal&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;normal&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;# after getting into ubuntu&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo update-grub&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo grub-install /dev/sda&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;但本人ls每个个分区都是出错, set命令显示的boot和prefix都是指向实际的’/‘分区.&lt;/p&gt;
-&lt;p&gt;继续搜索网上解决方法, 多是reinstalling GRUB from the LiveCD, 如下:&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo mount /dev/sda4 /mnt&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo grub-install  --boot-directory=/mnt/boot /dev/sda&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;# sda4 is the / partition, so sda is the disk&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;# Back in Ubuntu&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo update-grub&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;但本人试过这个方法, 没有成功.&lt;/p&gt;
-&lt;p&gt;后来在网上搜到了这句话: Some bioses have a maximum read capability of 137GB and will therefore not find boot files which are on the disc after that limit.&lt;/p&gt;
-&lt;p&gt;有些bios的读取磁盘能力有限, 只能读前137G大小的内容. 这才发现最初因为移动硬盘前面部分存了几百G的资料, 为省力直接在磁盘后面部分划分出空闲空间作为linux分区. 重新将linux安装到移动硬盘前面部分, 便可以到处启动啦, 真心坑爹啊!!&lt;/p&gt;
-&lt;p&gt;p.s. 下面是两个启动信息分析工具, 如有其它问题, 可以检测后, 贴到论坛让大牛们帮忙分析:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&quot;https://help.ubuntu.com/community/Boot-Info&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Boot-Repair&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://bootinfoscript.sourceforge.net/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Boot Info Script&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;想好好折腾linux, 选择ubuntu入手, 但想到linux下配置啥的挺麻烦, 装个系统最好能长久用下去, 于是就将ubuntu安装到移动硬盘上, 这样到哪都好用了.&lt;/p&gt;
-&lt;p&gt;如何在ubuntu安装到移动硬盘?&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;首先制作一个u盘版的liv
     
     </summary>
     

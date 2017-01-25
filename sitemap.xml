@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://zezhen.me/posts/hello-world/</loc>
+    
+    <lastmod>2017-01-25T07:35:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://zezhen.me/posts/primality-test/</loc>
     
-    <lastmod>2017-01-10T06:21:39.000Z</lastmod>
+    <lastmod>2017-01-22T11:59:38.000Z</lastmod>
     
   </url>
   
