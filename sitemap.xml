@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://zezhen.me/posts/how-to-win-friends-and-influence-people/</loc>
+    
+    <lastmod>2017-03-05T23:27:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zezhen.me/posts/calculate-depth-of-a-full-binary-tree-from-preorder/</loc>
+    
+    <lastmod>2017-01-26T02:45:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://zezhen.me/posts/hello-world/</loc>
     
     <lastmod>2017-01-25T10:59:41.000Z</lastmod>
