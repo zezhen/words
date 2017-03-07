@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://zezhen.me/posts/primality-test/</loc>
+    <loc>http://zezhen.me/posts/quiz-show/</loc>
     
-    <lastmod>2017-03-06T00:56:50.000Z</lastmod>
+    <lastmod>2017-03-07T21:28:10.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://zezhen.me/posts/how-to-win-friends-and-influence-people/</loc>
     
-    <lastmod>2017-03-05T23:27:19.000Z</lastmod>
+    <lastmod>2017-03-06T00:56:56.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zezhen.me/posts/primality-test/</loc>
+    
+    <lastmod>2017-03-06T00:56:50.000Z</lastmod>
     
   </url>
   
