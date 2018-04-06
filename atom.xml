@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Zezhen</title>
-  <subtitle>A craftsperson at information age</subtitle>
+  <subtitle>to be different and make a difference</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zezhen.me/"/>
-  <updated>2017-11-23T14:53:54.000Z</updated>
+  <updated>2018-04-06T07:03:03.000Z</updated>
   <id>http://zezhen.me/</id>
   
   <author>
@@ -16,14 +16,112 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>未来简史</title>
+    <link href="http://zezhen.me/posts/a-brief-history-of-tomorrow/"/>
+    <id>http://zezhen.me/posts/a-brief-history-of-tomorrow/</id>
+    <published>2018-03-31T19:24:13.000Z</published>
+    <updated>2018-04-06T07:03:03.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/img/a-brief-history-of-tomorrow.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;人类的历史, 其实也是跟饥荒, 瘟疫和战争斗争的历史. 温饱问题是生存的头等大事, 人类进入农业社会, 靠天吃饭成为常态, 而粮食产量相对固定, 因此社会是否兴旺发达很多时候取决于气候, 年景好的时候粮食多自然人口就多, 反之则忍饥挨饿, 甚至易子而食, 人口自然便少, 千百年也逃不出马尔斯陷阱. 与疾病斗争则是贯穿整个历史, 但在瘟疫面前人类往往无能为力, 天花, 黑死病, 流感等, 所到之处, 人类一个个倒下, 完全失去当年横扫地球的威风, 唯一能做的只是等待, 等待上天的怜悯, 等待瘟疫自己消失. 战争则是人类作死的结果, 人的贪念无可遏制, 但又找不到一种可持续的方式摆脱战争, 随着武器的发展, 人口的增加, 战争的规模也愈加巨大, 直至爆发一战二战如此世界性大战方且罢手.&lt;/p&gt;
+&lt;p&gt;而在过去几十年, 人类终于遏制了千百年来无能为力的问题, 虽然仍然有人挣扎在生存线上, 从人类角度, 饥荒已不在是个问题; 如今瘟疫也有了有效的控制, 天花等病毒也上世纪80年代被完全消灭, 虽然仍会有像埃博拉病毒等肆虐, 但人类已经不再像祖先那样手足无措了; 经过一战二战的惨痛教训, 人类开始思考战争对相互的伤害, 而今随着全球化的发展, 战争所能达到的目的逐渐被比如经济等手段所替代, 大规模战争已经很难再会发生了.&lt;/p&gt;
+&lt;p&gt;回顾过去, 放眼未来, 而今人类要开始追求的是永生, 是幸福, 是神. 生物工程, 纳米技术, 人工智能等等, 或许将彻底改变人类自己, 人类的命运会如何?&lt;/p&gt;
+&lt;h3 id=&quot;人类的历史&quot;&gt;&lt;a href=&quot;#人类的历史&quot; class=&quot;headerlink&quot; title=&quot;人类的历史&quot;&gt;&lt;/a&gt;人类的历史&lt;/h3&gt;&lt;p&gt;人类就生物个体来看, 并不比其他动物有优势, 但人类因为智力的发展, 能够依靠虚构和想象, 去集结更大的群体, 发展更聪明的战术, 其实人类的历史是构建于虚构或想象之上, 人类因为想象而集结, 因为虚构而强大. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;文字&lt;/strong&gt;和&lt;strong&gt;货币&lt;/strong&gt;的创造让智人突破大脑的数据处理能力限制, 原先较小的部落之间能够有更深层次更便捷的交流与协作, 人类合作的重力场摆脱了离心力, 让各个团体融合起来, 形成城市, 国家, 直至现今的全球社会.&lt;/p&gt;
+&lt;p&gt;而&lt;strong&gt;宗教&lt;/strong&gt;也在历史演进中自然而然的产生, 因为智人需要宗教的虚构故事以解释”超自然”现象, 但是如果把宗教简单定义为神或者迷信则有失偏颇, 比如有人说自己信科学不信宗教, 在他们大肆批判宗教的时候, 殊不知很多物理学家相信某个宇宙真理的存在, 这或许是上帝创造的, 或许是某个未知的力量, 我们并不知晓. 宗教是主观的, 可以弥补科学对客观事实解释的不足. &lt;/p&gt;
+&lt;p&gt;另外, 每个宗教都有其社会功能, 它们对世界提出了一套完整描述, 让社会制定出各种共同的规范和价值观, 从而约束人类的行为, 这即是宗教所宣传的美好价值观, 比如基督教的博爱同情, 因此从社会功能的角度看, 科学也是某种宗教, 现代的人文主义亦是. 而激起很数人反对的或辩论的则是其对事实的主张, 比如”上帝确实存在”, “要服从全知全能永不犯错的神”等等.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;人文主义&lt;/strong&gt;, 或自由主义可以认为是现代的宗教, 其强调个人感受, 探寻内心的想法, 它认为人类自身能够明辨是非, 可以不再附庸于神, 即所谓尼采的”上帝已死”. 而今如果我相信上帝, 是因为我选择相信, 是因为自己感觉到了上帝的存在, 其权威源自自我内心.&lt;/p&gt;
+&lt;h3 id=&quot;无用的阶级&quot;&gt;&lt;a href=&quot;#无用的阶级&quot; class=&quot;headerlink&quot; title=&quot;无用的阶级&quot;&gt;&lt;/a&gt;无用的阶级&lt;/h3&gt;&lt;p&gt;首先, 人类有自由意志吗? 按照自由主义的思维, 答案是肯定的, 因为每个人都有其价值, 每个人能够控制自己的想法. 而真实情况又如何? 如果所谓”自由意志”指的就是”依自己的欲望行事”, 那么人类确实有自由意志. 但欲望是否为人类自身所控制呢? 人类能不能选择要产生什么样的欲望? 而欲望又是因何产生呢? 实际上, 人的选择要么是由基因控制的生物预设, 要么就是随机. 如果生物确实没有自由意志, 也就意味着只要使用药物、基因工程或直接对脑做出刺激, 就能操纵甚至控制人. &lt;/p&gt;
+&lt;p&gt;其次, 人类每个个体都有用吗? 自由主义或民主宪政建立在人人平等的基础上, 但却没能直面回答人人有用这个命题. 从古至今人们崇拜英雄, 无论表面如何掩饰, 但心中不免会承认英雄比平民更有用, 如果二选一的话, 虽然很不道德, 但没有理由不选英雄. 人类进程是由茫茫大众推进的, 还是少数精英的贡献结果?&lt;/p&gt;
+&lt;p&gt;最后, 人类有价值吗? 随着科技的发展, 现如今, 科技逐渐有了能力”比我们更了解我们自己”. 一旦如此, 自由主义就即将崩溃, 权威也将从个人转向由科技, 人也无需费力去认识自己, 寻找自我, 不用在浪费时间去研究哲学, 冥想或精神分析, 反而该系统性地收集自己的生物统计数据, 让科技告诉你结果.  &lt;/p&gt;
+&lt;p&gt;纵观历史, 就业市场可分为三个主要部门: 农业, 工业和服务业. 农业社会, 绝大多数人都从事农业劳作, 工业革命后大多数人逐渐进入工业部门, 而今服务业占比逐渐变大. 如今, 人类在军事上已不再有太多价值, 主要依赖军事科技, 少部分依赖精锐部队, 而再经济, 社会等领域, 机器算法做得越来越来, 等到终于有一天人工智能做的比人更好更快, 人将何去何从. 未来或许有两种人, 一类是绝大多数无用的普通人, 另一类是一小部分经过升级的超人类, 后者看前者可能就像是19世纪欧洲人看非洲人那样. &lt;/p&gt;
+&lt;p&gt;未来科技人文主义, 或数据主义的发展口号就是, 信科技, 信数据, 得永生.&lt;/p&gt;
+&lt;h3 id=&quot;人类真正的意义&quot;&gt;&lt;a href=&quot;#人类真正的意义&quot; class=&quot;headerlink&quot; title=&quot;人类真正的意义&quot;&gt;&lt;/a&gt;人类真正的意义&lt;/h3&gt;&lt;p&gt;原始狩猎阶段, 人类祈求神的帮助, 依靠动植物提供他们更多的食物; 农业革命后, 动物变成人类的资产, 在地球舞台上失去了位置, 人类只会与神交流; 科学革命之后, 诸神也失去了光彩, 只剩下人类在舞台上唱独角戏; 假如未来有一天, 人工智能超越人类, 是否人类也将被赶出舞台呢?&lt;/p&gt;
+&lt;p&gt;看过电影&lt;lucy&gt;的朋友可能会惊叹于女主的超能力, 我却对摩根大叔所说的两句话印象深刻, 第一句是其演讲是说的, 生命的目的在于”Gaining Time”, 可以通过永生或者繁殖两种方式, 一般在环境恶劣时会选择前者, 环境舒适时会选择后者. 第二句是他与女主的对话时说的, 生命的意义在于传递知识. 由此, 生命的意思便是在时间中获取知识, 并将其传递下去. (多么希望拿到电影里的那个U盘, 满满的人类精华)&lt;/lucy&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;Life only has one single purpose: Gainng Time. &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;To achive that, the cells have two solutions: Immortality or Reproduction.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;The nature purpose of life is to pass on the knowledge what it learn.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;人类存在的意义是什么? 如果人类的行为由基因控制, 而基因存在的目的是为了获取和传播知识, 是否可以认为基因仅仅是知识的宿主? 宇宙万千, 基因只是碳基生物的宿主形态. 未来, 以人工智能机器人为代表的硅基生物的兴起, 宿主只是从基因变成电路板而已. 等到那天, 记得pass on即可.&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/img/a-brief-history-of-tomorrow.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;人类的历史, 其实也是跟饥荒, 瘟疫和战争斗争的历史. 温饱问题是生存的头等大事, 人类进入农业社会, 靠天吃饭成为常态, 而粮食产量相对固定, 因
+    
+    </summary>
+    
+      <category term="read" scheme="http://zezhen.me/categories/read/"/>
+    
+    
+      <category term="history" scheme="http://zezhen.me/tags/history/"/>
+    
+      <category term="hunman" scheme="http://zezhen.me/tags/hunman/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>How Not to Be Wrong</title>
+    <link href="http://zezhen.me/posts/how-not-to-be-wrong/"/>
+    <id>http://zezhen.me/posts/how-not-to-be-wrong/</id>
+    <published>2018-03-26T00:26:49.000Z</published>
+    <updated>2018-04-05T18:55:22.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/img/how-not-to-be-wrong.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;首先得吐槽下中文版的翻译, 叫魔鬼数学也是醉了, 副标题更是扯, 英文版副标题是The Power of Mathematical Thinking. 总体而言, 这本书简单看看, 了解些概念, 而真正的领悟需要在生活中不断摸索, 数学是工具, 也是思维方式, 需要用数学的思维去理解问题, 思考问题, 这样才能可能做对的事情, 不至于出错.&lt;/p&gt;
+&lt;h3 id=&quot;线性思维&quot;&gt;&lt;a href=&quot;#线性思维&quot; class=&quot;headerlink&quot; title=&quot;线性思维&quot;&gt;&lt;/a&gt;线性思维&lt;/h3&gt;&lt;p&gt;很多时候人们做出的结论往往是基于部分观察, 或者把问题简单化而忽视多方因素. 比如国家税收, 税率为0时税收为0, 随着税率增加税收会增加, 按照线性思维, 税率为100%时, 税收将达到最高值, 可实际上并非如此, 两者关系类似拉弗曲线, 线性思维只看到低税率时的关系, 或者忽略了劳动积极性对税收的影响.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;那如何避免线性思维?&lt;/em&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;em&gt;不轻易下结论&lt;/em&gt;. 对自己下的结论要有充分的信心, 明白可能疏漏或无法解释的问题, 要明白任何结论不可能100%正确.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;尽可能观察更多数据&lt;/em&gt;. 观察的片面是导致线性思维的主要因素, 尽可能跳出框架, 了解更多的可能性.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;全面思考问题, 不直接简化问题&lt;/em&gt;. 对问题需要全面思考和建模, 而不是直接简化问题, 比如火箭升空模型中忽略重力因素等.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;统计思维&quot;&gt;&lt;a href=&quot;#统计思维&quot; class=&quot;headerlink&quot; title=&quot;统计思维&quot;&gt;&lt;/a&gt;统计思维&lt;/h3&gt;&lt;p&gt;中医不是科学, 这基本是定论, 但有些人仍然相信中医, 能举出很多例子说明中医是有效的, 甚至有些是寻西医无果的情况下被中医治好了, 更加坚定这些人的信念. 或许这些人需要去了解下统计学, 去理解小概率事件.&lt;/p&gt;
+&lt;p&gt;另一个故事是巴尔的摩的股票经纪人. 当有经济人连续10天给你发动股票预测信息, 结果他都预测成功了, 如股神一般存在, 你终于忍不住投钱给他, 结果到了第11天你亏的血本无归. 为何前10天总能预测成功呢? 从你角度是的, 但从对方角度, 他把涨跌信息发给了很多人, 一半涨一半跌, 对预测成功的部分, 第二天采取同样策略, 以此类推, 直到第10天, 你是连续命中的那批人中的一个, 你们幸运的概率仅有1/1024, 绝对的小概率事件, 甚至是个意外.&lt;/p&gt;
+&lt;p&gt;在现实生活中发现的各种现象, 有的令人惊讶, 有的则无须大惊小怪, 那么我们应该采取何种判断标准呢？其实很多科学问题都可以被简化为二选一的简单形式：某件事正在发生, 是还是不是？比如针对某种疾病研发的新药对该疾病确有疗效, 还是作用为零？可以假设其毫无作用, 即为零假设(null hypothesis), 如果零假设成立, 说明新药毫无疗效, 我们只好乖乖继续研究, 那如何推翻零假设? 我们可以借助某个标准框架 – “显著性检验” (significance testing)&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;显著性检验&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;用于在科学实验中检测实验组与对照组之间是否有差异以及差异是否显著的办法, 这种思维方法也适用于日常生活, 了解事物发生是否因为某种偶然因素. 网上有很多详细论述, 比如&lt;a href=&quot;https://www.cnblogs.com/hdu-zsk/p/6293721.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;显著性检验(基础篇)&lt;/a&gt;, 以后有空再整理到这里.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;期望&lt;/em&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;彩票期望值. &lt;/p&gt;
+&lt;p&gt; 一张材料值多少钱? 比如Powerball, 人们用$2的价格购买一张彩票, 其价值要么是0, 要么是中大奖. 而实际上, 一张彩票的期望值约为0.9x, 因为你要考虑到中奖和不中奖的情况. 用$2的钱买价值不到$1的彩票, 自然是亏本买卖. Cash WinFall的故事正是考虑彩票期望值而产生的.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;效用理论&lt;/p&gt;
+&lt;p&gt; 其实也也可称为成本理论, 当你选择A而放弃B, B也是你付出的成本. 1982年的诺贝尔经济学奖得主George Stigler说过: “如果你从来没有误过飞机, 那只能说明你浪费在机场的时间太多”, 因为为了让误机率降到0所付出的时间成本, 可能比误机所造成的成本本身还高.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;以上的成本是机会成本, 还有沉没成本和边际成本, 以后再详细聊聊.&lt;/p&gt;
+&lt;h3 id=&quot;非对称性支配效应-教你如何把妹&quot;&gt;&lt;a href=&quot;#非对称性支配效应-教你如何把妹&quot; class=&quot;headerlink&quot; title=&quot;非对称性支配效应 - 教你如何把妹&quot;&gt;&lt;/a&gt;非对称性支配效应 - 教你如何把妹&lt;/h3&gt;&lt;p&gt;以多头绒泡菌为实验对象, 这类菌喜欢燕麦但厌恶光线.&lt;br&gt;实验一: 在皮式培养皿一侧放置3克燕麦无光, 在另一侧放置5克燕麦有光, 在中间放置此菌. 试验结果是两侧菌数相当, 即较多食物的喜好抵消了光线的厌恶.&lt;br&gt;实验二: 把实验一种的5克燕麦换成10克, 则结果是绝大多数菌类趋于该处, 即实验一的平衡被打破, 更多食物的吸引更强.&lt;br&gt;实验三: 在实验一的基础上, 在另一侧增加一个1克燕麦无光. 实验假设是1克燕麦相对另外两个毫无吸引力, 所以不会有菌类出现, 剩余两侧继续平分菌类.&lt;br&gt;=&amp;gt; 实验结果显示: 1. 无菌类出现在1克燕麦出, 2. 选择3克燕麦无光的菌类是5克燕麦有光的三倍!!&lt;/p&gt;
+&lt;p&gt;How? 多头绒泡菌可能通过类似于波达计算法的机制, 实现了某种形式的“民主”, 投票人按喜好排列候选人, 排第一则得到某个分数, 排第二则得较小的分数, 以此类推. 分数累积下来最高的获胜.&lt;/p&gt;
+&lt;p&gt;假设菌类中有一半倾向无光, 一半倾向食物 (3克无关和5克有光打到某种平衡).&lt;br&gt;实验一, 3克无光和5克有关的排列是 AB 和 BA, 假设排第一的得2分, 排第二得1分,  所以A和B各得1.5, 打平手.&lt;br&gt;实验二, 3克无光和1克无光与5克有光的排列是 ACB 和 BAC, 假设排第一得2分, 第二得1.5分, 第三得1分, 则A得1.75, B得1.5, C得1.25, 所以有更多的菌类选择A, 少数选择B, C为空.&lt;/p&gt;
+&lt;p&gt;以上阐述并不严谨, 但从某种程度上解释了了非对称支配效应. 这又跟把妹有什么关系呢? 这个效应同样作用在人身上, 加入你跟你的竞争对手各有所长, 比如你跟竞争对手相比, 智商高情商低, 妹子选择你的概率为50%, 但如果出现了第三者, 情商跟你差不多智商却比你低, 女生没有理由选择他, 但却会有更多女生选择你. (其实最重要是颜值, lol)&lt;/p&gt;
+&lt;h3 id=&quot;总结&quot;&gt;&lt;a href=&quot;#总结&quot; class=&quot;headerlink&quot; title=&quot;总结&quot;&gt;&lt;/a&gt;总结&lt;/h3&gt;&lt;p&gt;数学是常识的衍生物, 很多时候却与直觉相悖, 比如好的东西未必是更优的选择, 在机会足够多的情况下不可能的事情也会发生, 决策需要考虑所有可能事件的影响等等, 需要经常并习惯性的用数学思维去思考和理解世界.&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/img/how-not-to-be-wrong.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;首先得吐槽下中文版的翻译, 叫魔鬼数学也是醉了, 副标题更是扯, 英文版副标题是The Power of Mathematical Thinking. 总体而言, 
+    
+    </summary>
+    
+      <category term="read" scheme="http://zezhen.me/categories/read/"/>
+    
+    
+      <category term="math" scheme="http://zezhen.me/tags/math/"/>
+    
+      <category term="thinking" scheme="http://zezhen.me/tags/thinking/"/>
+    
+  </entry>
+  
+  <entry>
     <title>贾平凹 自在·独行</title>
     <link href="http://zezhen.me/posts/zi-zai-du-xing/"/>
     <id>http://zezhen.me/posts/zi-zai-du-xing/</id>
     <published>2017-11-23T10:37:50.000Z</published>
-    <updated>2017-11-23T14:53:54.000Z</updated>
+    <updated>2018-04-04T15:02:12.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;/img/zizaiduxing.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;记得高中毕业家里请客吃饭, 请了好多高中同学, TYY送了我两本书, 一本是史铁生的&amp;lt;地坛&amp;gt;, 另一本是贾平凹的&amp;lt;活法&amp;gt;(好像, 有点记不清了), 她是个很有文学气质的女生, 语文老师说她的文字很有灵性, 她推荐的书自然会好好读一读, 也是从那个时候开始知道了贾平凹, 如今书中的具体内容已经忘光, 唯一记得这个名字, 也只知道他是个文学大师. 前段时间和朋友外出露营, 第二天早上伴着鸟叫虫声醒来, 同行的小伙伴已经起来好一会了, 几个在准备早饭, 几个在讨论学术, 几个在看书 (露营带书倒是个很好的习惯), 我便参与他们的晨间活动话题; JL看的这本&amp;lt;自在独行&amp;gt;, 是本杂文集, 她让我看其中的一篇&amp;lt;父子&amp;gt;, 女生并不能完全理解, 让我看看感觉是否跟书中的一样, 我便读了一遍, 很切实, 一下子便喜欢上了. 想起读过的另一本杂文集, 梁文道的&amp;lt;我执&amp;gt;, 同样很喜欢.&lt;/p&gt;
+&lt;p&gt;记得高中毕业家里请客吃饭, 请了好多高中同学, TYY送了我两本书, 一本是史铁生的&amp;lt;地坛&amp;gt;, 另一本是贾平凹的&amp;lt;活法&amp;gt;(好像, 有点记不清了), 她是个很有文学气质的女生, 语文老师说她的文字很有灵性, 她推荐的书自然会好好读一读, 也是从那个时候开始知道了贾平凹, 如今书中的具体内容已经忘光, 唯一记得这个名字, 也只知道他是个文学大师. 前段时间和朋友外出露营, 第二天早上伴着鸟叫虫鸣声醒来, 同行的小伙伴已经起来好一会了, 几个在准备早饭, 几个在讨论学术, 几个在看书 (露营带书倒是个很好的习惯), 我便参与他们的晨间活动话题; JL看的这本&amp;lt;自在独行&amp;gt;, 是本杂文集, 她让我看其中的一篇&amp;lt;父子&amp;gt;, 女生并不能完全理解, 让我看看感觉是否跟书中的一样, 我便读了一遍, 很切实, 一下子便喜欢上了. 想起读过的另一本杂文集, 梁文道的&amp;lt;我执&amp;gt;, 同样很喜欢.&lt;/p&gt;
 &lt;p&gt;于是记下了todo list, 找JL借这本书, 当然是一个多月后了, 刚开始在家里睡前随便翻翻, 开篇几章是作者自己儿时的一些经历, 父亲母亲, 学校, 非常的感同身受, 书中作者也很有想法, 重点在于作者享受孤独, 更确切的说是习惯孤独与自在的生活? 感恩节回家, 在飞机上15个小时, 睡觉一会, 电影半部, 其余大部分时间都在看这本书, 带着Bose防噪耳机, 享受一人的世界一时的孤独. 其实说实话, 看完这本书, 感觉没收获什么, 关键没有太多理解, 特别是后面的章节, 书中写一些个人的爱好, 旅游等等, 快速略读过去, 但就是翻翻, 那种感觉也是挺好的.&lt;/p&gt;
 &lt;p&gt;这本书的标题”自在独行”吸引我, 一直以来我也是个自在独行之人, 过着自己的惬意生活, 享受着独自的人生之旅. 在很多外人看来, 我可能看起来还蛮社交的, 其实我是个懒人, 懒于与他人交往, 在我看来社交大多时候是无效的, 实在消耗能量, 大家伙都在闲扯瞎侃些有的没的东西, 特别是人多的时候, 很难有深入交流, 还不如一个人宅着, 整理思考更能让人有所收获, 精力充沛. 感情方面虽然有所期待, 但想到放弃孤独, 心中便久久不舍, 也因此错过了很多失去了很多, 等真的经历过一段之后, 才明白, 自在孤独慢慢的就成了一种奢侈, 人处于世, 不可能永远保持自己的小世界, 跳出舒适区也好, 对外接触更多迸发更多也罢, 总归要把握天时地利人和, 往前一步. 等自己的生活变成两个人, 三个人, 四个人的时候, 自在独行的时间便是要更弥足珍贵了吧. 或许只有在万物寂静的时候, 一个人默默的敲着键盘, 思绪回到当年那个不羁的岁月.&lt;/p&gt;
 &lt;p&gt;记于成都家.&lt;/p&gt;
@@ -47,8 +145,8 @@
   
   <entry>
     <title>人类简史</title>
-    <link href="http://zezhen.me/posts/A-brief-history-of-humankind/"/>
-    <id>http://zezhen.me/posts/A-brief-history-of-humankind/</id>
+    <link href="http://zezhen.me/posts/a-brief-history-of-humankind/"/>
+    <id>http://zezhen.me/posts/a-brief-history-of-humankind/</id>
     <published>2017-11-10T01:53:25.000Z</published>
     <updated>2017-11-13T07:22:19.000Z</updated>
     
@@ -87,7 +185,7 @@
     <link href="http://zezhen.me/posts/influence/"/>
     <id>http://zezhen.me/posts/influence/</id>
     <published>2017-06-12T06:40:28.000Z</published>
-    <updated>2018-01-01T05:44:08.000Z</updated>
+    <updated>2018-04-04T04:57:37.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;/img/influence.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;要想成功, 就需要利用人性的弱点&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -102,14 +200,14 @@
 &lt;h3 id=&quot;4-喜好&quot;&gt;&lt;a href=&quot;#4-喜好&quot; class=&quot;headerlink&quot; title=&quot;4. 喜好&quot;&gt;&lt;/a&gt;4. 喜好&lt;/h3&gt;&lt;p&gt;推销员说的第一句话”是您的朋友××推荐我拜访您的，他说您可能需要……” 可能对他的推销结果很有帮助, 毕竟对方直接拒绝有碍面子, 这已经是成功的一半了; 所以当成功推销一款产品后, 总是询问是否有其他人需要这款产品 是非常必要的.&lt;/p&gt;
 &lt;p&gt;其实&lt;em&gt;&lt;code&gt;人们总是比较愿意答应自己认识和喜爱的人提出的请求&lt;/code&gt;&lt;/em&gt;, 如何建立好感? &lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;有吸引力的外表. 这个社会总是拼颜值, 人们总是习惯性的把各种好的品质加到漂亮的人身上, 无论外面或者衣着.&lt;/li&gt;
+&lt;li&gt;有吸引力的外表. 这个社会总是拼颜值, 人们总是习惯性的把各种好的品质加到漂亮的人身上, 无论外表或者衣着.&lt;/li&gt;
 &lt;li&gt;相似性. 无论是观点, 个性, 背景, 兴趣等, 只要相似, 总不免让人多说几句, 多增加情感, 比如校友, 同乡, 同好等等, 自然而然便有了亲切之感.&lt;/li&gt;
 &lt;li&gt;称赞. 千穿万穿马屁不穿, 奉承的话总是不会错, 不过说好话的水平很重要.&lt;/li&gt;
 &lt;li&gt;接触与合作. 所谓日久生情, 或者为公共目标努力而有了兄弟之情等, 人们总是喜欢和熟人在一起&lt;/li&gt;
 &lt;li&gt;关联. 吉兆和凶兆, 跟人的心情和预判总是相关的.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&quot;5-权威&quot;&gt;&lt;a href=&quot;#5-权威&quot; class=&quot;headerlink&quot; title=&quot;5. 权威&quot;&gt;&lt;/a&gt;5. 权威&lt;/h3&gt;&lt;p&gt;在权威的强大压力面前，个人的抵抗力是十分渺小的&lt;/p&gt;
-&lt;p&gt;在决定是否听从权威的意见之前，我们需要问自己两个问题，一个是“这个权威是不是一个真正的专家”，这个问题让我们的注意力集中到两条重要的信息上：这个权威的资格、以及这些资格与我们手头的问题是否有关系。&lt;/p&gt;
+&lt;p&gt;在决定是否听从权威的意见之前，我们需要问自己两个问题，一个是“这个权威是不是一个真正的专家”，二是这个专家的权威与我们手头的问题是否有关系。&lt;/p&gt;
 &lt;h3 id=&quot;6-短缺&quot;&gt;&lt;a href=&quot;#6-短缺&quot; class=&quot;headerlink&quot; title=&quot;6. 短缺&quot;&gt;&lt;/a&gt;6. 短缺&lt;/h3&gt;&lt;p&gt;所谓&lt;em&gt;&lt;code&gt;物以稀为贵&lt;/code&gt;&lt;/em&gt;, 人们总会认为难得的东西通常都比容易得到的东西要好, 太容易得到的便会不够珍惜; 而与希望获得一样东西的渴望相比, 害怕失去同样价值的东西的恐惧似乎更能成为人们行动的动力。&lt;/p&gt;
 </content>
     
@@ -508,9 +606,9 @@
       <category term="career" scheme="http://zezhen.me/categories/career/"/>
     
     
-      <category term="coding" scheme="http://zezhen.me/tags/coding/"/>
-    
       <category term="career" scheme="http://zezhen.me/tags/career/"/>
+    
+      <category term="coding" scheme="http://zezhen.me/tags/coding/"/>
     
   </entry>
   
@@ -620,11 +718,11 @@
       <category term="read" scheme="http://zezhen.me/categories/read/"/>
     
     
-      <category term="howto" scheme="http://zezhen.me/tags/howto/"/>
-    
       <category term="people" scheme="http://zezhen.me/tags/people/"/>
     
       <category term="communication" scheme="http://zezhen.me/tags/communication/"/>
+    
+      <category term="howto" scheme="http://zezhen.me/tags/howto/"/>
     
   </entry>
   
@@ -788,13 +886,13 @@
       <category term="life" scheme="http://zezhen.me/categories/life/"/>
     
     
-      <category term="food" scheme="http://zezhen.me/tags/food/"/>
-    
       <category term="chinese" scheme="http://zezhen.me/tags/chinese/"/>
     
       <category term="culture" scheme="http://zezhen.me/tags/culture/"/>
     
       <category term="china" scheme="http://zezhen.me/tags/china/"/>
+    
+      <category term="food" scheme="http://zezhen.me/tags/food/"/>
     
   </entry>
   
@@ -964,11 +1062,11 @@
       <category term="read" scheme="http://zezhen.me/categories/read/"/>
     
     
-      <category term="howto" scheme="http://zezhen.me/tags/howto/"/>
-    
       <category term="people" scheme="http://zezhen.me/tags/people/"/>
     
       <category term="communication" scheme="http://zezhen.me/tags/communication/"/>
+    
+      <category term="howto" scheme="http://zezhen.me/tags/howto/"/>
     
   </entry>
   
@@ -1056,225 +1154,11 @@
       <category term="career" scheme="http://zezhen.me/categories/career/"/>
     
     
-      <category term="howto" scheme="http://zezhen.me/tags/howto/"/>
-    
       <category term="career" scheme="http://zezhen.me/tags/career/"/>
     
-      <category term="forward" scheme="http://zezhen.me/tags/forward/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>谈话的力量 Speaking</title>
-    <link href="http://zezhen.me/posts/speaking/"/>
-    <id>http://zezhen.me/posts/speaking/</id>
-    <published>2016-03-05T00:46:10.000Z</published>
-    <updated>2016-10-26T04:31:48.000Z</updated>
-    
-    <content type="html">&lt;p&gt;&lt;img src=&quot;/img/speaking.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h1 id=&quot;通过提问题促进交谈&quot;&gt;&lt;a href=&quot;#通过提问题促进交谈&quot; class=&quot;headerlink&quot; title=&quot;通过提问题促进交谈&quot;&gt;&lt;/a&gt;通过提问题促进交谈&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;每个人都能提问题，但并不等于人人都会提问题. &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;很少有人知道如何提出问题能有效地促进交谈. 当你的问题没有引起积极的回应时，可能不是因为对方不友好， 或者对你不感兴趣，或者问题不合时宜， 而可能仅仅因为你所提问题的类型， 或者语言的组织形式. &lt;/p&gt;
-&lt;h3 id=&quot;封闭式和开放式&quot;&gt;&lt;a href=&quot;#封闭式和开放式&quot; class=&quot;headerlink&quot; title=&quot;封闭式和开放式&quot;&gt;&lt;/a&gt;封闭式和开放式&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;封闭式问题&lt;br&gt;  封闭式问题有点像对错判断或多项选择题，回答只需要一两个词. 例如: “你是哪里人？”, “你经常跑步吗？” . 如果单纯地使用封闭式问题，会导致谈话枯燥，产生令人尴尬的沉默. &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;开放式问题&lt;br&gt;  开放式问题就像问答题一样，不是一两个词就可以回答的. 这种问题需要解释和说明，同时向对方表示（他们也很高兴你这样做！）你对他们说的话很感兴趣，还想了解更多的内容. “你是怎么想到要开这门课程的？”&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;提问题增强你的控制能力&quot;&gt;&lt;a href=&quot;#提问题增强你的控制能力&quot; class=&quot;headerlink&quot; title=&quot;提问题增强你的控制能力&quot;&gt;&lt;/a&gt;提问题增强你的控制能力&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;当你开口提问题的时候，你在很大程度上控制着话题的选择&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;在选择问题的过程中，要牢记以下两条:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;提问题的时候要持愿意倾听的态度. 无论你多么善于交际，如果你只是冷冷地流于形式，对方最终会感觉到你只不过是在设法让他对你产生好感. &lt;/li&gt;
-&lt;li&gt;尽量保持双重视角. 不仅考虑到自己想听什么, 想说什么，还要考虑到对方的需要. 最令人讨厌的就是毫不顾及别人的想法和需求. &lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;提问题常见的问题&quot;&gt;&lt;a href=&quot;#提问题常见的问题&quot; class=&quot;headerlink&quot; title=&quot;提问题常见的问题&quot;&gt;&lt;/a&gt;提问题常见的问题&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;问题过于宽泛&lt;br&gt; 宽泛的问题, 比如”今天怎样, 最近忙什么”听起来像一句套话, 回答往往也是套话; 另外对方需要花精力选择话题, 多数人会放弃. 询问对方更可能关心的问题提出开放式问题.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;开始的问题太难&lt;br&gt; 通常情况下，最好是以简单的问题开始，谈论一些对方感兴趣并且熟悉的话题, 否则对对方造成一定压力.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;问引导性的问题&lt;br&gt; 引导性问题可能是最封闭式的问题，往往只需要得到对方的同意&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;提问之前就已经表示不赞同&lt;br&gt; 当对方的观点和你不一致，你想讨论彼此的不同之处时，应在问明对方理由之后再表达不赞同的意见. &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;找不到提问的内容&lt;br&gt; 如果有机会事先准备一些问题，会比完全依靠自己的临场发挥容易很多. 另外，有意识地记住一些备用问题，也很实用而且有趣，它们可以随时有效地打开尴尬的局面. 比如如果你能够在地球上的任意一个地方呆一星期，你会选择哪里？做些什么？&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;blockquote&gt;
-&lt;p&gt;刚开始学习提出开放式问题时，需要着意去努力. 但是如同走路和书写等技能一样，一段时间之后你就会做得很自然了&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1 id=&quot;表达诚实的称赞&quot;&gt;&lt;a href=&quot;#表达诚实的称赞&quot; class=&quot;headerlink&quot; title=&quot;表达诚实的称赞&quot;&gt;&lt;/a&gt;表达诚实的称赞&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;给予诚实的称赞，不仅能够鼓励对方继续按照你喜欢的方式做事，而且能够让他们对你产生好感&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&quot;重复受鼓励的行为&quot;&gt;&lt;a href=&quot;#重复受鼓励的行为&quot; class=&quot;headerlink&quot; title=&quot;重复受鼓励的行为&quot;&gt;&lt;/a&gt;重复受鼓励的行为&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;忽视你喜欢的做法却对你不喜欢的做法进行惩罚，这样做并不有助于别人了解你的需要. &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;根据行为认知理论，别人对你的态度在很大程度上取决于你的反应. 受到你赞扬的行为出现的频率会增加，而被你忽视的行为就会逐渐减少. 受到惩罚的行为会减少，除非对方故意要引起你的注意，那样他就会继续这样做，因为惩罚毕竟比毫不在意好. &lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;我在俄勒冈有一个学生蒂姆，他经常在我课间吃东西的时候主动和我说话. 
-在短暂的寒暄之后，他总是会找一些理由来抱怨下雨和天冷，抱怨前妻对他的态度，抱怨他工作的无聊和费力不讨好; 
-
-我知道蒂姆有严重的感情上的困扰，于是决定改变他和我在一起时的行为，只对他偶尔的积极乐观的谈话给予回应. 
-当他提到有邻居帮他修车，或者有位知名演员要来演出，或者碰见了一位老朋友时，我总是笑着点点头，问他一些开放式问题. 
-而当他表现得消极的时候，我就不搭理他. 我会抬头看看路人，或者开始吃我的三明治. 
-
-一段时间之后，他的行为完全改变了，和我在一起时他总是乐观而又温和. 
-每次见到他，他总是会主动和我打招呼，满脸笑容，告诉我一些好消息. 
-在我回加利福尼亚之前，他悄悄地对我说，那些和我在一起的时光常常是一天中最美好的. 
-但是和别人在一起的时候，他还是那样脾气暴躁, 消极悲观. 
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;有效地表达称赞&quot;&gt;&lt;a href=&quot;#有效地表达称赞&quot; class=&quot;headerlink&quot; title=&quot;有效地表达称赞&quot;&gt;&lt;/a&gt;有效地表达称赞&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;直接称赞, 加上对方的名字, 接着一个开放式问题. (对方听到你的赞扬时，就不用苦苦地找一个回应的方法，只需说声谢谢，然后回答你提出的问题; 否者谦逊之人可能会拒绝赞扬, 反而让人尴尬.)&lt;/li&gt;
-&lt;li&gt;将消极批评换成积极称赞, 及时失败, 也可以赞扬他们在一定程度上的进步，或者是尝试的勇气. (好的老板多数如此)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;积极地接受称赞&quot;&gt;&lt;a href=&quot;#积极地接受称赞&quot; class=&quot;headerlink&quot; title=&quot;积极地接受称赞&quot;&gt;&lt;/a&gt;积极地接受称赞&lt;/h3&gt;&lt;p&gt;称赞是相互的, 接受称赞, 积极坦诚的交流.&lt;/p&gt;
-&lt;h1 id=&quot;倾听别人的话语&quot;&gt;&lt;a href=&quot;#倾听别人的话语&quot; class=&quot;headerlink&quot; title=&quot;倾听别人的话语&quot;&gt;&lt;/a&gt;倾听别人的话语&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;积极的倾听是一种非常好的回应方式，既能鼓励对方继续说下去，又能保证你理解对方所说的内容&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;对方要表达的信息, 以语言或非语言等方式编码, 通过某种媒介传给你, 经过你解码后再理解. 这中间可能产生很多误解. 所以听者不应该过分地相信自己的直观感受并以此来行事，而应当掌握这门技巧，保证你准确地进行解码，了解了对方真正的意图. 另外最重要的是&lt;strong&gt;不要随便地评判别人&lt;/strong&gt;&lt;/p&gt;
-&lt;h3 id=&quot;积极倾听时常犯的错误&quot;&gt;&lt;a href=&quot;#积极倾听时常犯的错误&quot; class=&quot;headerlink&quot; title=&quot;积极倾听时常犯的错误&quot;&gt;&lt;/a&gt;积极倾听时常犯的错误&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;人云亦云&lt;/li&gt;
-&lt;li&gt;忽视或轻视对方的感受&lt;ol&gt;
-&lt;li&gt;告诉对方你所看到和听到的, 借以得出自己结论的内容. &lt;/li&gt;
-&lt;li&gt;试探性地告诉对方你对其动作的理解. &lt;/li&gt;
-&lt;li&gt;问对方你的结论是否正确. &lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;让别人解释你说的话&quot;&gt;&lt;a href=&quot;#让别人解释你说的话&quot; class=&quot;headerlink&quot; title=&quot;让别人解释你说的话&quot;&gt;&lt;/a&gt;让别人解释你说的话&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;为了保证不产生误解，我们来试一种新的做法. 每次你说完之后，我先告诉你我听到了什么，再作回答. 
-如果我理解有误，你就要重新表述一遍，直到我完全明白. 反之也是一样. 
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;要想保证别人正确地理解你要传递的信息，可以通过这样的话让他也积极倾听&lt;/p&gt;
-&lt;h3 id=&quot;利用自由信息&quot;&gt;&lt;a href=&quot;#利用自由信息&quot; class=&quot;headerlink&quot; title=&quot;利用自由信息&quot;&gt;&lt;/a&gt;利用自由信息&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;只要用心去注意，你会发现谈话的对方经常都在给出很多细小的自由信息&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;要利用自由信息，你所要做的就是就此作一番评论或是提一个开放式问题&lt;/p&gt;
-&lt;h1 id=&quot;让别人知道你&quot;&gt;&lt;a href=&quot;#让别人知道你&quot; class=&quot;headerlink&quot; title=&quot;让别人知道你&quot;&gt;&lt;/a&gt;让别人知道你&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;别人也想知道你的情况. 你透露出的信息能让他们大致估计出和你能有什么样的关系. 自我透露能够起到非常重要的作用，让别人走进你的生活. &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;交流通常都会经历以下四个阶段: 套话, 事实, 意见和感受. &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;客套话: 两个人一见面，几乎总是以客套话开场, 起本身不是要作信息交流&lt;/li&gt;
-&lt;li&gt;事实: 寒喧之后，人们通常会交换一些事实性信息. 对于新认识的人来说，就是指关于你个人的基本情况, 每个人都试图发现两个人之间是否有足够的共同之处，是否值得发展这份友谊; 而对于熟人来说，则是指最近的状况. &lt;/li&gt;
-&lt;li&gt;意见: 意见比上两者更能够让别人了解你, 真正想了解你的人会进一步了解你对政治, 金钱和爱情的看法, 如果你以公开一些的态度表达你的意见，别人就可能借此展开有趣的谈话. &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;感受: 感受不是仅仅描述发生的事情．表达对此事情的看法，而是要传达你在感情上对此事的反应.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;事实: 我每天至少问五个开放式问题．
-意见: 问开放式问题会得到很好的回报．
-感受: 自从开始使用开放式问题以来，人们对我的态度简直让我惊讶不已．
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;自我透露常见的问题&quot;&gt;&lt;a href=&quot;#自我透露常见的问题&quot; class=&quot;headerlink&quot; title=&quot;自我透露常见的问题&quot;&gt;&lt;/a&gt;自我透露常见的问题&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;给人错误的印象: 如果你夸大优点, 隐瞒缺点，或者根据对方的需要来表述你的观点. 这可能让对方会感到厌烦或者让对方会被你的假象所吸引,引起日后的麻烦.&lt;/li&gt;
-&lt;li&gt;不被人相信: 自我透露能够帮助你建立良好, 亲密的友谊，但是只有在对方相信你的情况下才有效果. 所以自我透露要内容具体, 展示正面和反面, 形象更立体.&lt;/li&gt;
-&lt;li&gt;观点不明确: 很多人常常把自己真实的观点掩饰起来, 或者用问句来表达意见或感情. &lt;/li&gt;
-&lt;li&gt;害怕对方生厌而退缩&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&quot;开始一段谈话&quot;&gt;&lt;a href=&quot;#开始一段谈话&quot; class=&quot;headerlink&quot; title=&quot;开始一段谈话&quot;&gt;&lt;/a&gt;开始一段谈话&lt;/h1&gt;&lt;p&gt;首先，寻找那些可能愿意向你敞开心扉交谈的人. 大多数人都喜欢有机会结识一些新的面孔. 那些独自一人, 没有事情忙的人，正是你的首选. &lt;/p&gt;
-&lt;p&gt;一旦选定了交谈的对象，下一步就是笑一笑，目光交流，然后开口说话. &lt;/p&gt;
-&lt;p&gt;搭话的内容基本上只有三种话题可以选择: 环境, 对方, 自己. 而且也只有三种方式开始: 提问题, 发表看法, 陈述事实. &lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;比如在餐馆: “不介意我和你坐一桌吧？”（作家亨利.米勒从来都不愿意独自就餐，所以经常使用这句话. 
-想一想，如果他去了旁边空着的桌子，他就会错过认识成百上千人的机会. 
-据我的经验，20％的人会拒绝这个请求，他们通常会抱歉说在等朋友，或者有很多事情要做. )
-这些专家认为这种直接的方式比其他微妙的方式更能给对方留下深刻印象. 
-当今社会有这么多人, 这么多刺激因素，给人留下印象是最关键的. 
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;发出可能被接受的邀请&quot;&gt;&lt;a href=&quot;#发出可能被接受的邀请&quot; class=&quot;headerlink&quot; title=&quot;发出可能被接受的邀请&quot;&gt;&lt;/a&gt;发出可能被接受的邀请&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;大多数在社会交往上很成功的人都积极地把别人拉入自己的生活中. 他们经常采用的最重要的两种方式就是: 主动与希望认识的人交谈; 向希望作进一步了解的人主动发出邀请. &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;双重视角: 不同的人有不同的兴趣, 问对方喜欢什么活动，然后选择一项你也喜欢的，邀请他参加&lt;/li&gt;
-&lt;li&gt;态度直接: 告诉他你想到的活动, 包括时间, 地点，或许你可以用双重视角告诉他你觉得他会玩得开心，然后问他是否感兴趣. 不要开口就问: “星期六晚上有什么事情吗吗”&lt;/li&gt;
-&lt;li&gt;小处着手: 要求的越少，得到的可能性就越大. 所以对一个刚认识的人来说，他更愿意和你去喝一杯咖啡，而不是去吃大餐. &lt;/li&gt;
-&lt;li&gt;随意一些: 不要给对方太大压力, 轻轻松松比较好.&lt;/li&gt;
-&lt;li&gt;如果遭到拒绝: 如果对方拒绝邀请, 通常会解释清楚, 可以重新安排; 如果不给任何解释, 可以提议换个时间或者活动项目. 如果对&lt;br&gt;方仍然拒绝, 也没有任何解释, 那就应该礼貌地离开.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&quot;积极地接受批评&quot;&gt;&lt;a href=&quot;#积极地接受批评&quot; class=&quot;headerlink&quot; title=&quot;积极地接受批评&quot;&gt;&lt;/a&gt;积极地接受批评&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;批评你的人通常最想得到的是你倾听他的意见和想法，并且认真地对待. 如果你不愿听对方的批评，问题就会积累起来无法解决，反而会让矛盾越来越激化&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;一般的人会本能地防卫自己，做出如下反应:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;想办法逃避, 对别人的批评视而不见，拒绝讨论这个话题, 转移话题，或者自己走开&lt;/li&gt;
-&lt;li&gt;对批评的否定回应就是完全不予承认&lt;/li&gt;
-&lt;li&gt;为自己的做法找借口，给出具体的解释，并且努力降低其重要性&lt;/li&gt;
-&lt;li&gt;对批评的防卫性反应就是回击&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;积极的抉择&quot;&gt;&lt;a href=&quot;#积极的抉择&quot; class=&quot;headerlink&quot; title=&quot;积极的抉择&quot;&gt;&lt;/a&gt;积极的抉择&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;询问具体内容.&lt;br&gt;别人的批评通常都是一些概括性语言, 比如我不喜欢你的态度, 这有助于弄明白对方的意图&lt;/li&gt;
-&lt;li&gt;同意对方的批评.&lt;br&gt;如果你愿意听从对方的批评而改过，&lt;strong&gt;同意对方说的事实&lt;/strong&gt;．然后说出你将有什么新的做法;&lt;br&gt;如果你不愿意改变，&lt;strong&gt;同意对方说的事实&lt;/strong&gt;, 承认自己可能给对方带来的不便，保持自己的立场, 否定对方的结论. &lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&quot;拒绝别人的操纵&quot;&gt;&lt;a href=&quot;#拒绝别人的操纵&quot; class=&quot;headerlink&quot; title=&quot;拒绝别人的操纵&quot;&gt;&lt;/a&gt;拒绝别人的操纵&lt;/h1&gt;&lt;p&gt;亲人, 朋友，甚至陌生人有时都会让你做一些你不愿做的事情, 一遍又一遍地跟你提起，给你一大堆有吸引力的理由，对你的拒绝却加以谴责, 他们以为只要不断努力，时间一长，总会把你说服的. 如果你屈从了他们，你可能会对他们感到愤怒，对自己也感到厌恶. 幸好有一条简单易学的技巧, 由热夫·旺德拉(zev wanderer)博士创制的技巧:&lt;/p&gt;
-&lt;h3 id=&quot;破唱片&quot;&gt;&lt;a href=&quot;#破唱片&quot; class=&quot;headerlink&quot; title=&quot;破唱片&quot;&gt;&lt;/a&gt;破唱片&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;如果不明白对方的话，询问具体内容. &lt;/li&gt;
-&lt;li&gt;一旦清楚了之后，同意对方说的事实或者同意对方有发表意见的权利. &lt;/li&gt;
-&lt;li&gt;通过自我透露，表明不愿意按对方说的去做．可以加上你的理由. &lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;在这之后，如果对方仍然坚持，则使用破唱片的技巧，他说什么都表示同意，但始终用同样的话拒绝他的要求. &lt;/p&gt;
-&lt;h1 id=&quot;要求改变&quot;&gt;&lt;a href=&quot;#要求改变&quot; class=&quot;headerlink&quot; title=&quot;要求改变&quot;&gt;&lt;/a&gt;要求改变&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;当你的需要没有得到满足，你的权利受到侵犯. 被动地希望别人能改变他们的做法往往是徒劳的.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;确定谁有烦恼&lt;br&gt;一开始就要搞清楚谁有烦恼. 一旦你的需要没有得到满足．你就有烦恼. 人们一般也不愿意别人将不属于自己的罪名放到自己头上. 清楚地告诉对方“我有烦恼”，他就不会产生抵触的情绪，也就更容易解决你们之间的矛盾. &lt;/li&gt;
-&lt;li&gt;说明有问题的行为&lt;br&gt;简要地说明让你烦恼的行为, 尽量采用客观的态度，说得具体一些&lt;/li&gt;
-&lt;li&gt;陈述后果并说明感受&lt;/li&gt;
-&lt;li&gt;暂停: 给对方时间回想你说的话．让他能够提出一项双方都能接受的解决办法.&lt;/li&gt;
-&lt;li&gt;直接要求, 提出解决办法&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&quot;减少社交场合中的紧张心理&quot;&gt;&lt;a href=&quot;#减少社交场合中的紧张心理&quot; class=&quot;headerlink&quot; title=&quot;减少社交场合中的紧张心理&quot;&gt;&lt;/a&gt;减少社交场合中的紧张心理&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;挑战你的逃避意识, 挑战恐惧心理&lt;/li&gt;
-&lt;li&gt;以偏概全: 对自己, 给自己贴标签, 令自己局限在某个范围; 对别人, 则限制了对他人的认知&lt;/li&gt;
-&lt;li&gt;要求过高: 要求自己遵循一些对自己不利的准则也许你严格遵循的一些行为准则正在削弱着你社会交往的能力; 要求别人做到完美….&lt;blockquote&gt;
-&lt;p&gt;完美是优秀的敌人&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&quot;有计划地去努力&quot;&gt;&lt;a href=&quot;#有计划地去努力&quot; class=&quot;headerlink&quot; title=&quot;有计划地去努力&quot;&gt;&lt;/a&gt;有计划地去努力&lt;/h1&gt;&lt;p&gt;done&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;/img/speaking.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h1 id=&quot;通过提问题促进交谈&quot;&gt;&lt;a href=&quot;#通过提问题促进交谈&quot; class=&quot;headerlink&quot; title=&quot;通过提问题促进交谈&quot;&gt;&lt;/a&gt;通过提问题促进交谈&lt;/h1&gt;&lt;
-    
-    </summary>
-    
-      <category term="read" scheme="http://zezhen.me/categories/read/"/>
-    
-    
       <category term="howto" scheme="http://zezhen.me/tags/howto/"/>
     
-      <category term="people" scheme="http://zezhen.me/tags/people/"/>
-    
-      <category term="communication" scheme="http://zezhen.me/tags/communication/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Happy Mid-Autumn Festival</title>
-    <link href="http://zezhen.me/posts/Happy-Mid-Autumn-Festival/"/>
-    <id>http://zezhen.me/posts/Happy-Mid-Autumn-Festival/</id>
-    <published>2015-09-27T04:23:46.000Z</published>
-    <updated>2016-08-03T05:58:32.000Z</updated>
-    
-    <content type="html">&lt;p&gt;&lt;img src=&quot;/img/mooncake.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;The Mid-Autumn Festival is a harvest festival celebrated by ethnic Chinese people. The festival is held on the 15th day of the eighth month in the Chinese Han calendar, on the night of the full moon between early September to early October of the Gregorian calendar. The Mid-Autumn Festival is one of the four most important Chinese festivals.&lt;/p&gt;
-&lt;p&gt;Mooncake (simplified Chinese: 月饼; traditional Chinese: 月餅; pinyin: yuè bĭng) is a Chinese bakery product traditionally eaten during the Mid-Autumn Festival (Zhongqiujie). The festival is for lunar worship and moon watching, when mooncakes are regarded as an indispensable delicacy. Mooncakes are offered between friends or on family gatherings while celebrating the festival.&lt;/p&gt;
-&lt;p&gt;Chinese people give the full moon whose shape is roundness as the meaning of family together, when I was in China, my family will get together to have dinner and enjoy the big full moon. It’s my first time far away from my hometown at this day, fortunately I have some Chinese friends here and we can have funs and celebration together.&lt;/p&gt;
-&lt;p&gt;Happy Mid-Autumn Festival!&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;/img/mooncake.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;The Mid-Autumn Festival is a harvest festival celebrated by ethnic Chinese people. The festiv
-    
-    </summary>
-    
-      <category term="life" scheme="http://zezhen.me/categories/life/"/>
-    
-    
-      <category term="english" scheme="http://zezhen.me/tags/english/"/>
-    
-      <category term="culture" scheme="http://zezhen.me/tags/culture/"/>
-    
-      <category term="china" scheme="http://zezhen.me/tags/china/"/>
+      <category term="forward" scheme="http://zezhen.me/tags/forward/"/>
     
   </entry>
   
