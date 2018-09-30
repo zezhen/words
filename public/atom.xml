@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Zezhen</title>
+  
+  <subtitle>to be different and make a difference</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://zezhen.me/"/>
+  <updated>2018-09-30T23:18:45.931Z</updated>
+  <id>http://zezhen.me/</id>
+  
+  <author>
+    <name>zezhen</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>把玩Scratch - 开发篇</title>
+    <link href="http://zezhen.me/posts/play-scratch-dev-part/"/>
+    <id>http://zezhen.me/posts/play-scratch-dev-part/</id>
+    <published>2018-09-28T20:30:28.000Z</published>
+    <updated>2018-09-30T23:18:45.931Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;/img/scratch.jpg&quot; width=&quot;450&quot; height=&quot;570&quot;&gt;&lt;/p&gt;
+&lt;p&gt;前段时间心血来潮和朋友一起要搞个编程教育事业, 现在这块在国内还比较火, 学生家长也很愿意做这方面的投资, 前景看好, 那就试试呗.
+        
+      
+    
+    </summary>
+    
+      <category term="tech" scheme="http://zezhen.me/categories/tech/"/>
+    
+    
+      <category term="scratch" scheme="http://zezhen.me/tags/scratch/"/>
+    
+      <category term="programming" scheme="http://zezhen.me/tags/programming/"/>
+    
+      <category term="education" scheme="http://zezhen.me/tags/education/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Interesting Scala</title>
+    <link href="http://zezhen.me/posts/interesting-scala/"/>
+    <id>http://zezhen.me/posts/interesting-scala/</id>
+    <published>2018-07-02T07:00:00.000Z</published>
+    <updated>2018-09-30T20:59:52.250Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;/img/scala-spiral.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;各种编程语言中, 对于Java是最为熟悉的, 但用久了就觉得各种不方便, 比如函数不是第一公民, 在其他程序中很方便的实现在Java里得用各种类封装, 相比之下,
+        
+      
+    
+    </summary>
+    
+      <category term="tech" scheme="http://zezhen.me/categories/tech/"/>
+    
+    
+      <category term="coding" scheme="http://zezhen.me/tags/coding/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>生命的跃升</title>
+    <link href="http://zezhen.me/posts/life-ascending/"/>
+    <id>http://zezhen.me/posts/life-ascending/</id>
+    <published>2018-06-18T05:24:13.000Z</published>
+    <updated>2018-06-19T04:42:34.761Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;/img/life-ascending.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span id=&quot;生命起源-一切的开始&quot;&gt;生命起源 — 一切的开始&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;地球是如何孕育出生命的? 本章节从多方面介绍了生命在地球上行程的可能,
+        
+      
+    
+    </summary>
+    
+      <category term="read" scheme="http://zezhen.me/categories/read/"/>
+    
+    
+      <category term="life" scheme="http://zezhen.me/tags/life/"/>
+    
+      <category term="nature" scheme="http://zezhen.me/tags/nature/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何成为废柴</title>
+    <link href="http://zezhen.me/posts/how-to-ruin-yourself/"/>
+    <id>http://zezhen.me/posts/how-to-ruin-yourself/</id>
+    <published>2018-04-11T19:24:13.000Z</published>
+    <updated>2018-06-08T04:30:25.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;/img/how-to-ruin-yourself.jpg&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="read" scheme="http://zezhen.me/categories/read/"/>
+    
+    
+      <category term="life" scheme="http://zezhen.me/tags/life/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>未来简史</title>
+    <link href="http://zezhen.me/posts/a-brief-history-of-tomorrow/"/>
+    <id>http://zezhen.me/posts/a-brief-history-of-tomorrow/</id>
+    <published>2018-03-31T19:24:13.000Z</published>
+    <updated>2018-06-08T04:30:25.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;/img/a-brief-history-of-tomorrow.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;人类的历史, 其实也是跟饥荒, 瘟疫和战争斗争的历史. 温饱问题是生存的头等大事, 人类进入农业社会, 靠天吃饭成为常态, 而粮食产量相对固定,
+        
+      
+    
+    </summary>
+    
+      <category term="read" scheme="http://zezhen.me/categories/read/"/>
+    
+    
+      <category term="history" scheme="http://zezhen.me/tags/history/"/>
+    
+      <category term="hunman" scheme="http://zezhen.me/tags/hunman/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>How Not to Be Wrong</title>
+    <link href="http://zezhen.me/posts/how-not-to-be-wrong/"/>
+    <id>http://zezhen.me/posts/how-not-to-be-wrong/</id>
+    <published>2018-03-26T00:26:49.000Z</published>
+    <updated>2018-06-08T04:30:25.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;/img/how-not-to-be-wrong.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;首先得吐槽下中文版的翻译, 叫魔鬼数学也是醉了, 副标题更是扯, 英文版副标题是The Power of Mathematical Thinking. 总体而言,
+        
+      
+    
+    </summary>
+    
+      <category term="read" scheme="http://zezhen.me/categories/read/"/>
+    
+    
+      <category term="thinking" scheme="http://zezhen.me/tags/thinking/"/>
+    
+      <category term="math" scheme="http://zezhen.me/tags/math/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>贾平凹 自在·独行</title>
+    <link href="http://zezhen.me/posts/zi-zai-du-xing/"/>
+    <id>http://zezhen.me/posts/zi-zai-du-xing/</id>
+    <published>2017-11-23T10:37:50.000Z</published>
+    <updated>2018-06-08T04:30:25.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;/img/zizaiduxing.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;记得高中毕业家里请客吃饭, 请了好多高中同学, TYY送了我两本书, 一本是史铁生的&amp;lt;地坛&amp;gt;, 另一本是贾平凹的&amp;lt;活法&amp;gt;(好像, 有点记不清了),
+        
+      
+    
+    </summary>
+    
+      <category term="read" scheme="http://zezhen.me/categories/read/"/>
+    
+    
+      <category term="self" scheme="http://zezhen.me/tags/self/"/>
+    
+      <category term="essay" scheme="http://zezhen.me/tags/essay/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>人类简史</title>
+    <link href="http://zezhen.me/posts/A-brief-history-of-humankind/"/>
+    <id>http://zezhen.me/posts/A-brief-history-of-humankind/</id>
+    <published>2017-11-10T01:53:25.000Z</published>
+    <updated>2018-06-08T04:30:25.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;/img/humankind.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span id=&quot;认知革命&quot;&gt;认知革命&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;小时候看过一部动画片&amp;lt;布雷斯塔警长&amp;gt;, 男主有鹰的眼睛，狼的耳朵，豹的速度，熊的力量,
+        
+      
+    
+    </summary>
+    
+      <category term="read" scheme="http://zezhen.me/categories/read/"/>
+    
+    
+      <category term="history" scheme="http://zezhen.me/tags/history/"/>
+    
+      <category term="human" scheme="http://zezhen.me/tags/human/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>影响力</title>
+    <link href="http://zezhen.me/posts/influence/"/>
+    <id>http://zezhen.me/posts/influence/</id>
+    <published>2017-06-12T06:40:28.000Z</published>
+    <updated>2018-06-08T04:30:25.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;/img/influence.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+      <category term="read" scheme="http://zezhen.me/categories/read/"/>
+    
+    
+      <category term="social" scheme="http://zezhen.me/tags/social/"/>
+    
+      <category term="human" scheme="http://zezhen.me/tags/human/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>机智问答</title>
+    <link href="http://zezhen.me/posts/quiz-show/"/>
+    <id>http://zezhen.me/posts/quiz-show/</id>
+    <published>2017-03-07T21:16:09.000Z</published>
+    <updated>2018-06-08T05:16:49.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&gt; &lt;em&gt;为什么楚霸王项羽会乌江自刎?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;天下古今之庸人，皆以一惰字致败。天下古今之才人，皆以一傲字致败。– 曾国藩&lt;/p&gt;
+&lt;p&gt;&gt; &lt;em&gt;结婚以后两个人在一起最重要的是什么?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;就当这婚还没结。&lt;/p&gt;
+&lt;p&gt;&gt;
+        
+      
+    
+    </summary>
+    
+      <category term="fun" scheme="http://zezhen.me/categories/fun/"/>
+    
+    
+      <category term="stuff" scheme="http://zezhen.me/tags/stuff/"/>
+    
+      <category term="reproduce" scheme="http://zezhen.me/tags/reproduce/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何赢得朋友并影响他人</title>
+    <link href="http://zezhen.me/posts/how-to-win-friends-and-influence-people/"/>
+    <id>http://zezhen.me/posts/how-to-win-friends-and-influence-people/</id>
+    <published>2017-02-26T19:08:33.000Z</published>
+    <updated>2018-06-08T04:30:25.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;/img/social.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;span id=&quot;如何待人&quot;&gt;如何待人?&lt;/span&gt;&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
+        
+      
+    
+    </summary>
+    
+      <category term="read" scheme="http://zezhen.me/categories/read/"/>
+    
+    
+      <category term="social" scheme="http://zezhen.me/tags/social/"/>
+    
+      <category term="self-management" scheme="http://zezhen.me/tags/self-management/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Calculate Depth of a Full Binary Tree from Preorder</title>
+    <link href="http://zezhen.me/posts/calculate-depth-of-a-full-binary-tree-from-preorder/"/>
+    <id>http://zezhen.me/posts/calculate-depth-of-a-full-binary-tree-from-preorder/</id>
+    <published>2017-01-26T02:41:32.000Z</published>
+    <updated>2018-06-08T04:30:25.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Given preorder of a binary tree, calculate its depth(or height) [starting from depth 0]. The preorder is given as a string with two
+        
+      
+    
+    </summary>
+    
+      <category term="tech" scheme="http://zezhen.me/categories/tech/"/>
+    
+    
+      <category term="coding" scheme="http://zezhen.me/tags/coding/"/>
+    
+      <category term="algorithm" scheme="http://zezhen.me/tags/algorithm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Primality Test</title>
+    <link href="http://zezhen.me/posts/primality-test/"/>
+    <id>http://zezhen.me/posts/primality-test/</id>
+    <published>2017-01-10T05:40:42.000Z</published>
+    <updated>2018-06-08T04:30:25.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Given a positive integer, check if the number is prime or not. A prime is a natural number greater than 1 that has no positive divisors
+        
+      
+    
+    </summary>
+    
+      <category term="tech" scheme="http://zezhen.me/categories/tech/"/>
+    
+    
+      <category term="algorithm" scheme="http://zezhen.me/tags/algorithm/"/>
+    
+      <category term="math" scheme="http://zezhen.me/tags/math/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Find all divisors of a natural number</title>
+    <link href="http://zezhen.me/posts/find-all-divisors-of-a-natural-number/"/>
+    <id>http://zezhen.me/posts/find-all-divisors-of-a-natural-number/</id>
+    <published>2017-01-10T05:02:57.000Z</published>
+    <updated>2018-06-08T04:30:25.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Given a natural number n, print all distinct divisors of it.&lt;/p&gt;
+&lt;p&gt;Examples:&lt;/p&gt;
+&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
+        
+      
+    
+    </summary>
+    
+      <category term="tech" scheme="http://zezhen.me/categories/tech/"/>
+    
+    
+      <category term="algorithm" scheme="http://zezhen.me/tags/algorithm/"/>
+    
+      <category term="math" scheme="http://zezhen.me/tags/math/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://zezhen.me/posts/hello-world/"/>
+    <id>http://zezhen.me/posts/hello-world/</id>
+    <published>2017-01-02T00:18:49.000Z</published>
+    <updated>2018-06-08T04:30:25.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;/img/helloworld.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;每个程序员写的第一个程序总是Hello World, 按照语法规范写好程序, 运行后便将这几个字符打印到控制台上, 这是最初入门的程序, 是IT世界的开端.
+        
+      
+    
+    </summary>
+    
+      <category term="career" scheme="http://zezhen.me/categories/career/"/>
+    
+    
+      <category term="career" scheme="http://zezhen.me/tags/career/"/>
+    
+      <category term="coding" scheme="http://zezhen.me/tags/coding/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>跳出盒子</title>
+    <link href="http://zezhen.me/posts/jump-out-of-box/"/>
+    <id>http://zezhen.me/posts/jump-out-of-box/</id>
+    <published>2016-10-26T04:25:47.000Z</published>
+    <updated>2018-06-08T04:30:25.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;/img/outofbox.jpg&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="read" scheme="http://zezhen.me/categories/read/"/>
+    
+    
+      <category term="people" scheme="http://zezhen.me/tags/people/"/>
+    
+      <category term="self-management" scheme="http://zezhen.me/tags/self-management/"/>
+    
+      <category term="communication" scheme="http://zezhen.me/tags/communication/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关键对话 如何高效沟通</title>
+    <link href="http://zezhen.me/posts/crucial-conversations/"/>
+    <id>http://zezhen.me/posts/crucial-conversations/</id>
+    <published>2016-10-25T01:03:28.000Z</published>
+    <updated>2018-06-08T04:30:25.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;/img/crucialconversation.jpg&quot; width=&quot;250&quot; height=&quot;250&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+      <category term="read" scheme="http://zezhen.me/categories/read/"/>
+    
+    
+      <category term="people" scheme="http://zezhen.me/tags/people/"/>
+    
+      <category term="communication" scheme="http://zezhen.me/tags/communication/"/>
+    
+      <category term="howto" scheme="http://zezhen.me/tags/howto/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Train to Busan</title>
+    <link href="http://zezhen.me/posts/Train-to-Busan/"/>
+    <id>http://zezhen.me/posts/Train-to-Busan/</id>
+    <published>2016-09-18T08:10:29.000Z</published>
+    <updated>2018-06-08T04:30:25.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;电影无论从剧情题材还是拍摄场面上看都无新意, 毕竟僵尸类或者火车密闭空间的电影不少, 不过这部影片有之前看过的电影所没有的, 那就是人情, 看的过程中我不禁想起两部电影, 一部是生化危机, 一部是迷雾, 生活危机也是讲述病毒僵尸,但相比它是动作片, 各种枪战,
+        
+      
+    
+    </summary>
+    
+      <category term="life" scheme="http://zezhen.me/categories/life/"/>
+    
+    
+      <category term="movie" scheme="http://zezhen.me/tags/movie/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>弘一法师断食日记</title>
+    <link href="http://zezhen.me/posts/fast-diary-of-hongyi/"/>
+    <id>http://zezhen.me/posts/fast-diary-of-hongyi/</id>
+    <published>2016-06-07T03:48:53.000Z</published>
+    <updated>2018-06-08T04:30:25.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;1916年的阳历年假开始之后，李叔同断然做出决定，到大慈山虎跑寺断食二十一天。陪他去的是校工闻玉。几天前，他曾看过一篇文章，介绍断食的方法：第一周食量逐渐减少，第二周不食人间烟火，第三周食量逐渐增加，恢复正常。&lt;br&gt;他写下断食日记，详细记载下这一段不寻常的经历。下面是他亲
+        
+      
+    
+    </summary>
+    
+      <category term="life" scheme="http://zezhen.me/categories/life/"/>
+    
+    
+      <category term="culture" scheme="http://zezhen.me/tags/culture/"/>
+    
+      <category term="personality" scheme="http://zezhen.me/tags/personality/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>外媒封面上的128个中国表情</title>
+    <link href="http://zezhen.me/posts/china-in-times/"/>
+    <id>http://zezhen.me/posts/china-in-times/</id>
+    <published>2016-04-06T05:31:54.000Z</published>
+    <updated>2018-06-08T05:16:36.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;在半个多世纪的时间里，《时代》、《新闻周刊》、《经济学人》等西方媒体从未停止过对中国和中国共产党的关注。以下这128个外媒封面上的中国表情，也代表着外国媒体对中国的各种评价，令人感慨良多。&lt;/p&gt;
+&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+      <category term="fun" scheme="http://zezhen.me/categories/fun/"/>
+    
+    
+      <category term="chinese" scheme="http://zezhen.me/tags/chinese/"/>
+    
+      <category term="history" scheme="http://zezhen.me/tags/history/"/>
+    
+  </entry>
+  
+</feed>
