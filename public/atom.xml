@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zezhen.me/"/>
-  <updated>2019-01-22T04:12:31.249Z</updated>
+  <updated>2019-03-15T04:16:44.800Z</updated>
   <id>http://zezhen.me/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Marriage</title>
+    <link href="http://zezhen.me/posts/marriage/"/>
+    <id>http://zezhen.me/posts/marriage/</id>
+    <published>2019-03-15T04:15:18.000Z</published>
+    <updated>2019-03-15T04:16:44.800Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;/img/marriage.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;span id=&quot;确定对的人&quot;&gt;确定对的人&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;其实也无所谓对的人, 对与不对全在自己. 很多人总想着找个真爱, 却在寻找中迷失了自己;
+        
+      
+    
+    </summary>
+    
+      <category term="life" scheme="http://zezhen.me/categories/life/"/>
+    
+    
+      <category term="love" scheme="http://zezhen.me/tags/love/"/>
+    
+  </entry>
   
   <entry>
     <title>把玩Scratch - 开发篇</title>
@@ -52,7 +79,7 @@
     <link href="http://zezhen.me/posts/interesting-scala/"/>
     <id>http://zezhen.me/posts/interesting-scala/</id>
     <published>2018-07-02T07:00:00.000Z</published>
-    <updated>2018-07-06T05:03:18.000Z</updated>
+    <updated>2018-09-30T20:59:52.250Z</updated>
     
     <summary type="html">
     
@@ -79,7 +106,7 @@
     <link href="http://zezhen.me/posts/life-ascending/"/>
     <id>http://zezhen.me/posts/life-ascending/</id>
     <published>2018-06-18T05:24:13.000Z</published>
-    <updated>2018-06-19T04:42:26.000Z</updated>
+    <updated>2018-06-19T04:42:34.761Z</updated>
     
     <summary type="html">
     
@@ -250,7 +277,7 @@
     <link href="http://zezhen.me/posts/influence/"/>
     <id>http://zezhen.me/posts/influence/</id>
     <published>2017-06-12T06:40:28.000Z</published>
-    <updated>2018-10-01T16:37:17.000Z</updated>
+    <updated>2018-10-01T16:37:17.408Z</updated>
     
     <summary type="html">
     
@@ -562,35 +589,6 @@
       <category term="culture" scheme="http://zezhen.me/tags/culture/"/>
     
       <category term="personality" scheme="http://zezhen.me/tags/personality/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>外媒封面上的128个中国表情</title>
-    <link href="http://zezhen.me/posts/china-in-times/"/>
-    <id>http://zezhen.me/posts/china-in-times/</id>
-    <published>2016-04-06T05:31:54.000Z</published>
-    <updated>2018-06-08T05:16:36.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;在半个多世纪的时间里，《时代》、《新闻周刊》、《经济学人》等西方媒体从未停止过对中国和中国共产党的关注。以下这128个外媒封面上的中国表情，也代表着外国媒体对中国的各种评价，令人感慨良多。&lt;/p&gt;
-&lt;p&gt;&lt;img
-        
-      
-    
-    </summary>
-    
-      <category term="fun" scheme="http://zezhen.me/categories/fun/"/>
-    
-    
-      <category term="chinese" scheme="http://zezhen.me/tags/chinese/"/>
-    
-      <category term="history" scheme="http://zezhen.me/tags/history/"/>
     
   </entry>
   
