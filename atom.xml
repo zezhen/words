@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zezhen.me/"/>
-  <updated>2019-03-16T22:21:43.723Z</updated>
+  <updated>2019-03-16T22:48:31.233Z</updated>
   <id>http://zezhen.me/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://zezhen.me/posts/CAP-theorem-understading/"/>
     <id>http://zezhen.me/posts/CAP-theorem-understading/</id>
     <published>2019-03-16T22:21:43.000Z</published>
-    <updated>2019-03-16T22:21:43.723Z</updated>
+    <updated>2019-03-16T22:48:31.233Z</updated>
     
     <summary type="html">
     
@@ -49,7 +49,7 @@
     <link href="http://zezhen.me/posts/marriage/"/>
     <id>http://zezhen.me/posts/marriage/</id>
     <published>2019-03-15T04:15:18.000Z</published>
-    <updated>2019-03-16T18:17:56.746Z</updated>
+    <updated>2019-03-16T22:48:41.433Z</updated>
     
     <summary type="html">
     
@@ -244,9 +244,9 @@
       <category term="read" scheme="http://zezhen.me/categories/read/"/>
     
     
-      <category term="math" scheme="http://zezhen.me/tags/math/"/>
-    
       <category term="thinking" scheme="http://zezhen.me/tags/thinking/"/>
+    
+      <category term="math" scheme="http://zezhen.me/tags/math/"/>
     
   </entry>
   
@@ -509,9 +509,9 @@
     
     </summary>
     
-      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
-    
       <category term="career" scheme="http://zezhen.me/categories/career/"/>
+    
+      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
     
     
       <category term="coding" scheme="http://zezhen.me/tags/coding/"/>
@@ -595,7 +595,7 @@
       
         
         
-          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;电影无论从剧情题材还是拍摄场面上看都无新意,
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt; 电影无论从剧情题材还是拍摄场面上看都无新意,
         
       
     
