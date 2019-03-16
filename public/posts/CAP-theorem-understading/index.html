@@ -1,0 +1,105 @@
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description"><title>CAP theorem understading | Zezhen</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/normalize/8.0.0/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/pure-min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script><!-- hexo-inject:begin --><!-- hexo-inject:end -->(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create','UA-75244464-1','auto');ga('send','pageview');
+</script><!-- hexo-inject:begin --><!-- hexo-inject:end --></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">CAP theorem understading</h1><a id="logo" href="/.">Zezhen</a><p class="description">Be different and Make a difference</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> Home</i></a><a href="/archives/"><i class="fa fa-archive"> Archive</i></a><a href="/about/"><i class="fa fa-user"> About</i></a><a href="/atom.xml"><i class="fa fa-rss"> RSS</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-4-4"><div class="content_container"><div class="post"><h1 class="post-title">CAP theorem understading</h1><div class="post-meta">Mar 16, 2019<span> | </span><span class="category"><a href="/categories/tech/">tech</a><a href="/categories/english/">english</a></span></div><a class="disqus-comment-count" data-disqus-identifier="posts/CAP-theorem-understading/" href="/posts/CAP-theorem-understading/#disqus_thread"></a><div class="clear"><div class="toc-article" id="toc"><div class="toc-title">Contents</div><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">1.</span> <span class="toc-text">Goal of a System</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#undefined"><span class="toc-number">1.1.</span> <span class="toc-text">Availability and Partition</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#undefined"><span class="toc-number">1.2.</span> <span class="toc-text">Consistency</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">2.</span> <span class="toc-text">CAP Theorem</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#undefined"><span class="toc-number">2.1.</span> <span class="toc-text">Explanation</span></a></li></ol></li></ol></div></div><div class="post-content"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><img src="/img/cap.jpeg" alt=""></p>
+<!-- hexo-inject:begin --><!-- hexo-inject:end --><h2><span id="goal-of-a-system">Goal of a System</span></h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">The goal of a system is to provide a function quickly and correctly.</span><br></pre></td></tr></table></figure>
+<p>When the data and requests (read/write) are in small scale, it’s easy to reach that in one node, which adaptable to store the data and handle all requests. However, things become complex along with the growing data and larger volume of requests.</p>
+<h3><span id="availability-and-partition">Availability and Partition</span></h3><p>To continuously provide quick response of the function, we need to guarantee the good function <em>performance</em>, which means no downtime, low latency, etc, a.k.a. <em>Availability</em>. </p>
+<p>Appreantly current one machine cannot store all data and handle all requests, therefore we have to scale both the data and requests to reach good availability. There are two directions as below, the easiness and effectiveness to scale data and requests is known as <em>Scalability</em>.</p>
+<ol>
+<li><em>Horizontal scaling</em>, which scales by adding more machines into your pool of resources<br> It’s easy to <em>scale out</em> by adding more machines, but has tradeoff due to CAP theorem limitation. Take the DB table as an example, scale out method splits different rows data into multiple tables or machines. Caution: carefully select the split points to avoid unbalanced data distribution.</li>
+<li><em>Vertical scaling</em>, which scales by adding more power (CPU, RAM) to an existing machine.<br> One single machine has the upper limitation, <em>scale up</em> method uses more computation and storage support to solve the problem, it’s transparent to application. The cons are that the cost is higher and it needs another scale up once reach limitation again.</li>
+</ol>
+<p>If we hotizontally scale out the large scale of data into multiple parts according to some splitting mechanism, each machine can store one or more parts, each part of data is called <em>Partition</em>. Within each partition, we can provide full list of functions as like we are in baby step.</p>
+<h3><span id="consistency">Consistency</span></h3><p>Another aspect of the goal is function correctness, which depends on correctness of logic and data. Logic is in the application code and fixed before next update, while data is changing due to the operations like adding, removing or updating, etc. What’s more, data might be lost if the matchine is down. Therefore, we need some data protection methods to guarantee the data won’t be lost due to unexpect failure problems.</p>
+<p><em>Replication</em> is one of practical ways, if the probability of data lost in one replica is $p$, then k replica lose data at same time will be $p^k$, condering p is a small number close to 0, thus $p^k$ is very very small number closing to zero, which means more replication can guarantee data safety in higher probability.</p>
+<p>After we replicate one copy of data into multiple replications, we need to gantantee that at some time points the data in different replication should be same, otherwise the same logic read from different data will cause function discrepancy. We can use <em>Consistency</em> models<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Consistency model](https://en.wikipedia.org/wiki/Consistency_model)
+">[1]</span></a></sup> to synchronize the data among multiple replications, there are two types of algorithms focus on differnet aspect to reach consistent state.</p>
+<ol>
+<li><em>Strong Consistency</em>. Only one consistent state can be observed by all parallel processes. Read more about linearizable<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Linearizability](https://en.wikipedia.org/wiki/Linearizability)
+">[3]</span></a></sup> and sequential<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Sequential consistency](https://en.wikipedia.org/wiki/Sequential_consistency)
+">[2]</span></a></sup> models.</li>
+<li><em>Weak Consistency</em>. Different parallel processes can perceive variables in different states. Read more about data-centric consistency<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Data-Centric consistency](http://csis.pace.edu/~marchese/CS865/Lectures/Chap7/Chapter7fin.htm)
+">[4]</span></a></sup>, causal consistency<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Causal consistency](https://en.wikipedia.org/wiki/Causal_consistency)
+">[5]</span></a></sup> and eventual consistency<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Eventual consistency](https://en.wikipedia.org/wiki/Eventual_consistency)
+">[6]</span></a></sup> models.</li>
+</ol>
+<p>As we can see above, if we use strong consistency model, all processes can observe one consistent state, but the tradeoff is that it needs to take some times to reach converged state, during this period, it’s hard to guarantee availability; or in another way, if we use weak consistency, parallel processes can perceive variables in different states, which cannot guarantee the function consistency or correctness all the time.</p>
+<h2><span id="cap-theorem">CAP Theorem</span></h2><p>The CAP theorem<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[CAP Theorem](https://en.wikipedia.org/wiki/CAP_theorem)
+">[7]</span></a></sup> states that it is impossible for a distributed data store to simultaneously provide more than two out of the following three guarantees:</p>
+<ol>
+<li><em>Consistency</em>: Every read receives the most recent write or an error</li>
+<li><em>Availability</em>: Every request receives a (non-error) response – without the guarantee that it contains the most recent write</li>
+<li><em>Partition tolerance</em>: The system continues to operate despite an arbitrary number of messages being dropped (or delayed) by the network between nodes</li>
+</ol>
+<p>In particular, the CAP theorem implies that <em>in the presence of a network partition, one has to choose between consistency and availability.</em></p>
+<h3><span id="explanation">Explanation</span></h3><p>No distributed system is safe from network failures, thus network partitioning generally has to be tolerated. In the presence of a partition, one is then left with two options: consistency or availability. When choosing consistency over availability, the system will return an error or a time-out if particular information cannot be guaranteed to be up to date due to network partitioning. When choosing availability over consistency, the system will always process the query and try to return the most recent available version of the information, even if it cannot guarantee it is up to date due to network partitioning.</p>
+<p>Database systems designed with traditional <em>ACID</em> guarantees in mind such as RDBMS choose consistency over availability, whereas systems designed around the <em>BASE</em> philosophy, common in the NoSQL movement for example, choose availability over consistency. The <em>PACELC</em><sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[PACELC theorem](https://en.wikipedia.org/wiki/PACELC_theorem)">[8]</span></a></sup> theorem builds on CAP by stating that even in the absence of partitioning, another trade-off between latency and consistency occurs.</p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/Consistency_model" target="_blank" rel="noopener">Consistency model</a><a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/Sequential_consistency" target="_blank" rel="noopener">Sequential consistency</a><a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/Linearizability" target="_blank" rel="noopener">Linearizability</a><a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="http://csis.pace.edu/~marchese/CS865/Lectures/Chap7/Chapter7fin.htm" target="_blank" rel="noopener">Data-Centric consistency</a><a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/Causal_consistency" target="_blank" rel="noopener">Causal consistency</a><a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/Eventual_consistency" target="_blank" rel="noopener">Eventual consistency</a><a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/CAP_theorem" target="_blank" rel="noopener">CAP Theorem</a><a href="#fnref:7" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/PACELC_theorem" target="_blank" rel="noopener">PACELC theorem</a><a href="#fnref:8" rev="footnote"> ↩</a></span></li></ol></div></div></div><div class="tags"><a href="/tags/distsys/">distsys</a></div><div class="post-nav"><a class="next" href="/posts/marriage/">Marriage</a></div><div id="disqus_thread"><div class="btn_click_load"><button class="disqus_click_btn">阅读评论（请确保 Disqus 可以正常加载）</button></div><script type="text/javascript">var disqus_config = function () {
+    this.page.url = 'http://zezhen.me/posts/CAP-theorem-understading/';
+    this.page.identifier = 'posts/CAP-theorem-understading/';
+    this.page.title = 'CAP theorem understading';
+  };</script><script type="text/javascript" id="disqus-lazy-load-script">$.ajax({
+url: 'https://disqus.com/next/config.json',
+timeout: 2500,
+type: 'GET',
+success: function(){
+  var d = document;
+  var s = d.createElement('script');
+  s.src = '//zezhen.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', + new Date());
+  (d.head || d.body).appendChild(s);
+  $('.disqus_click_btn').css('display', 'none');
+},
+error: function() {
+  $('.disqus_click_btn').css('display', 'block');
+}
+});</script><script type="text/javascript" id="disqus-click-load">$('.btn_click_load').click(() => {  //click to load comments
+    (() => { // DON'T EDIT BELOW THIS LINE
+        var d = document;
+        var s = d.createElement('script');
+        s.src = '//zezhen.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', + new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    $('.disqus_click_btn').css('display','none');
+});</script><script type="text/javascript" id="disqus-count-script">$(function() {
+     var xhr = new XMLHttpRequest();
+     xhr.open('GET', '//disqus.com/next/config.json', true);
+     xhr.timeout = 2500;
+     xhr.onreadystatechange = function () {
+       if (xhr.readyState === 4 && xhr.status === 200) {
+         $('.post-meta .post-comments-count').show();
+         var s = document.createElement('script');
+         s.id = 'dsq-count-scr';
+         s.src = 'https://zezhen.disqus.com/count.js';
+         s.async = true;
+         (document.head || document.body).appendChild(s);
+       }
+     };
+     xhr.ontimeout = function () { xhr.abort(); };
+     xhr.send(null);
+   });
+</script></div></div></div></div><div class="pure-u-1 pure-u-md-4-4"><div id="footer">Copyright © 2019 <a href="/." rel="nofollow">Zezhen.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=0.0.0" async></script><script type="text/javascript" src="//cdn.bootcss.com/fancybox/3.3.5/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/fancybox/3.3.5/jquery.fancybox.min.css"><script type="text/x-mathjax-config">MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+</script><script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML" async></script><script type="text/javascript" src="/js/codeblock-resizer.js?v=0.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=0.0.0"></script></div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end --></body></html>

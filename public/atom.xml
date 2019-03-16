@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zezhen.me/"/>
-  <updated>2019-03-16T18:17:56.746Z</updated>
+  <updated>2019-03-16T22:21:43.723Z</updated>
   <id>http://zezhen.me/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CAP theorem understading</title>
+    <link href="http://zezhen.me/posts/CAP-theorem-understading/"/>
+    <id>http://zezhen.me/posts/CAP-theorem-understading/</id>
+    <published>2019-03-16T22:21:43.000Z</published>
+    <updated>2019-03-16T22:21:43.723Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;/img/cap.jpeg&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="tech" scheme="http://zezhen.me/categories/tech/"/>
+    
+      <category term="english" scheme="http://zezhen.me/categories/english/"/>
+    
+    
+      <category term="distsys" scheme="http://zezhen.me/tags/distsys/"/>
+    
+  </entry>
   
   <entry>
     <title>Marriage</title>
@@ -29,8 +57,7 @@
       
         
         
-          &lt;p&gt;&lt;img src=&quot;/img/marriage.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;span id=&quot;确定对的人&quot;&gt;确定对的人&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;其实也无所谓对的人, 对与不对全在自己. 很多人总想着找个真爱, 却在寻找中迷失了自己;
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;/img/marriage.jpg&quot;
         
       
     
@@ -58,8 +85,7 @@
       
         
         
-          &lt;p&gt;&lt;img src=&quot;/img/scratch.jpg&quot; width=&quot;450&quot; height=&quot;570&quot;&gt;&lt;/p&gt;
-&lt;p&gt;前段时间心血来潮和朋友一起要搞个编程教育事业, 现在这块在国内还比较火, 学生家长也很愿意做这方面的投资, 前景看好, 那就试试呗.
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;/img/scratch.jpg&quot;
         
       
     
@@ -91,8 +117,7 @@
       
         
         
-          &lt;p&gt;&lt;img src=&quot;/img/scala-spiral.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;各种编程语言中, 对于Java是最为熟悉的, 但用久了就觉得各种不方便, 比如函数不是第一公民, 在其他程序中很方便的实现在Java里得用各种类封装, 相比之下,
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;/img/scala-spiral.png&quot;
         
       
     
@@ -120,8 +145,7 @@
       
         
         
-          &lt;p&gt;&lt;img src=&quot;/img/life-ascending.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;span id=&quot;生命起源-一切的开始&quot;&gt;生命起源 — 一切的开始&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;地球是如何孕育出生命的? 本章节从多方面介绍了生命在地球上行程的可能,
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;/img/life-ascending.jpg&quot;
         
       
     
@@ -151,7 +175,7 @@
       
         
         
-          &lt;p&gt;&lt;img src=&quot;/img/how-to-ruin-yourself.jpg&quot;
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img
         
       
     
@@ -179,8 +203,7 @@
       
         
         
-          &lt;p&gt;&lt;img src=&quot;/img/a-brief-history-of-tomorrow.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;人类的历史, 其实也是跟饥荒, 瘟疫和战争斗争的历史. 温饱问题是生存的头等大事, 人类进入农业社会, 靠天吃饭成为常态, 而粮食产量相对固定,
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img
         
       
     
@@ -210,8 +233,7 @@
       
         
         
-          &lt;p&gt;&lt;img src=&quot;/img/how-not-to-be-wrong.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;首先得吐槽下chinese版的翻译, 叫魔鬼数学也是醉了, 副标题更是扯, 英文版副标题是The Power of Mathematical Thinking.
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img
         
       
     
@@ -222,9 +244,9 @@
       <category term="read" scheme="http://zezhen.me/categories/read/"/>
     
     
-      <category term="math" scheme="http://zezhen.me/tags/math/"/>
-    
       <category term="thinking" scheme="http://zezhen.me/tags/thinking/"/>
+    
+      <category term="math" scheme="http://zezhen.me/tags/math/"/>
     
   </entry>
   
@@ -241,8 +263,7 @@
       
         
         
-          &lt;p&gt;&lt;img src=&quot;/img/zizaiduxing.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;记得高中毕业家里请客吃饭, 请了好多高中同学, TYY送了我两本书, 一本是史铁生的&amp;lt;地坛&amp;gt;, 另一本是贾平凹的&amp;lt;活法&amp;gt;(好像, 有点记不清了),
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;/img/zizaiduxing.jpg&quot;
         
       
     
@@ -272,8 +293,7 @@
       
         
         
-          &lt;p&gt;&lt;img src=&quot;/img/humankind.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;span id=&quot;认知革命&quot;&gt;认知革命&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;小时候看过一部动画片&amp;lt;布雷斯塔警长&amp;gt;, 男主有鹰的眼睛，狼的耳朵，豹的速度，熊的力量,
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;/img/humankind.jpg&quot;
         
       
     
@@ -303,8 +323,7 @@
       
         
         
-          &lt;p&gt;&lt;img src=&quot;/img/influence.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;/img/influence.jpg&quot;
         
       
     
@@ -334,11 +353,7 @@
       
         
         
-          &lt;p&gt;&gt; &lt;em&gt;为什么楚霸王项羽会乌江自刎?&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;天下古今之庸人，皆以一惰字致败。天下古今之才人，皆以一傲字致败。– 曾国藩&lt;/p&gt;
-&lt;p&gt;&gt; &lt;em&gt;结婚以后两个人在一起最重要的是什么?&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;就当这婚还没结。&lt;/p&gt;
-&lt;p&gt;&gt;
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&gt;
         
       
     
@@ -368,8 +383,7 @@
       
         
         
-          &lt;p&gt;&lt;img src=&quot;/img/social.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h2&gt;&lt;span id=&quot;如何待人&quot;&gt;如何待人?&lt;/span&gt;&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;/img/social.jpg&quot;
         
       
     
@@ -399,7 +413,7 @@
       
         
         
-          &lt;p&gt;Given preorder of a binary tree, calculate its depth(or height) [starting from depth 0]. The preorder is given as a string with two
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;Given preorder of a binary tree,
         
       
     
@@ -429,7 +443,7 @@
       
         
         
-          &lt;p&gt;Given a positive integer, check if the number is prime or not. A prime is a natural number greater than 1 that has no positive divisors
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;Given a positive integer, check if
         
       
     
@@ -459,9 +473,7 @@
       
         
         
-          &lt;p&gt;Given a natural number n, print all distinct divisors of it.&lt;/p&gt;
-&lt;p&gt;Examples:&lt;/p&gt;
-&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;Given a natural number n, print all
         
       
     
@@ -491,16 +503,15 @@
       
         
         
-          &lt;p&gt;&lt;img src=&quot;/img/helloworld.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;每个程序员写的第一个程序总是Hello World, 按照语法规范写好程序, 运行后便将这几个字符打印到控制台上, 这是最初入门的程序, 是IT世界的开端.
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;/img/helloworld.jpg&quot;
         
       
     
     </summary>
     
-      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
-    
       <category term="career" scheme="http://zezhen.me/categories/career/"/>
+    
+      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
     
     
       <category term="coding" scheme="http://zezhen.me/tags/coding/"/>
@@ -520,7 +531,7 @@
       
         
         
-          &lt;p&gt;&lt;img src=&quot;/img/outofbox.jpg&quot;
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;/img/outofbox.jpg&quot;
         
       
     
@@ -552,8 +563,7 @@
       
         
         
-          &lt;p&gt;&lt;img src=&quot;/img/crucialconversation.jpg&quot; width=&quot;250&quot; height=&quot;250&quot;&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;span
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img
         
       
     
@@ -585,7 +595,7 @@
       
         
         
-          &lt;p&gt;电影无论从剧情题材还是拍摄场面上看都无新意, 毕竟僵尸类或者火车密闭空间的电影不少, 不过这部影片有之前看过的电影所没有的, 那就是人情, 看的过程中我不禁想起两部电影, 一部是生化危机, 一部是迷雾, 生活危机也是讲述病毒僵尸,但相比它是动作片, 各种枪战,
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;电影无论从剧情题材还是拍摄场面上看都无新意,
         
       
     
@@ -597,36 +607,6 @@
     
     
       <category term="movie" scheme="http://zezhen.me/tags/movie/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>弘一法师断食日记</title>
-    <link href="http://zezhen.me/posts/fast-diary-of-hongyi/"/>
-    <id>http://zezhen.me/posts/fast-diary-of-hongyi/</id>
-    <published>2016-06-07T03:48:53.000Z</published>
-    <updated>2019-03-16T18:17:56.726Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;1916年的阳历年假开始之后，李叔同断然做出决定，到大慈山虎跑寺断食二十一天。陪他去的是校工闻玉。几天前，他曾看过一篇文章，介绍断食的方法：第一周食量逐渐减少，第二周不食人间烟火，第三周食量逐渐增加，恢复正常。&lt;br&gt;他写下断食日记，详细记载下这一段不寻常的经历。下面是他亲
-        
-      
-    
-    </summary>
-    
-      <category term="life" scheme="http://zezhen.me/categories/life/"/>
-    
-      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
-    
-    
-      <category term="culture" scheme="http://zezhen.me/tags/culture/"/>
-    
-      <category term="personality" scheme="http://zezhen.me/tags/personality/"/>
     
   </entry>
   
