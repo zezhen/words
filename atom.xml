@@ -394,9 +394,9 @@
       <category term="read" scheme="http://zezhen.me/categories/read/"/>
     
     
-      <category term="social" scheme="http://zezhen.me/tags/social/"/>
-    
       <category term="self-management" scheme="http://zezhen.me/tags/self-management/"/>
+    
+      <category term="social" scheme="http://zezhen.me/tags/social/"/>
     
   </entry>
   

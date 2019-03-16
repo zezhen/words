@@ -5,7 +5,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create','UA-75244464-1','auto');ga('send','pageview');
 </script><!-- hexo-inject:begin --><!-- hexo-inject:end --></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Unit Test Best Practices</h1><a id="logo" href="/.">Zezhen</a><p class="description">Be different and Make a difference</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> Home</i></a><a href="/archives/"><i class="fa fa-archive"> Archive</i></a><a href="/about/"><i class="fa fa-user"> About</i></a><a href="/atom.xml"><i class="fa fa-rss"> RSS</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-4-4"><div class="content_container"><div class="post"><h1 class="post-title">Unit Test Best Practices</h1><div class="post-meta">Oct 15, 2013<span> | </span><span class="category"><a href="/categories/tech/">tech</a><a href="/categories/english/">english</a></span></div><a class="disqus-comment-count" data-disqus-identifier="posts/unit-test-best-practices/" href="/posts/unit-test-best-practices/#disqus_thread"></a><div class="post-content"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><img src="/img/unittest.jpg" width="250" height="250"></p>
 <!-- hexo-inject:begin --><!-- hexo-inject:end --><pre><code>A good dev must be a good test!
-</code></pre><h1><span id="the-value-of-unit-tests">The Value of Unit Tests</span></h1><ol>
+</code></pre><h1 id="The-Value-of-Unit-Tests"><a href="#The-Value-of-Unit-Tests" class="headerlink" title="The Value of Unit Tests"></a>The Value of Unit Tests</h1><ol>
 <li><p>UTs give you confidence that your code works as you expect it to work, help in long-term development, such as code refactor.</p>
 </li>
 <li><p>UTs provide excellent implicit documentation because they show exactly how the code is designed to be used.</p>
@@ -13,7 +13,7 @@ ga('create','UA-75244464-1','auto');ga('send','pageview');
 <li><p>new members always begin with unit test, so well-written ut code is very helpful to understand existing project.</p>
 </li>
 </ol>
-<h1><span id="how-to-write-unit-tests">How to Write Unit Tests</span></h1><ol>
+<h1 id="How-to-Write-Unit-Tests"><a href="#How-to-Write-Unit-Tests" class="headerlink" title="How to Write Unit Tests"></a>How to Write Unit Tests</h1><ol>
 <li>Structure of UT code<ol>
 <li>Set up all conditions for testing.<ol>
 <li>necessary data should be created in test class, so that the tests don’t have to rely on external env.</li>
@@ -46,7 +46,7 @@ ga('create','UA-75244464-1','auto');ga('send','pageview');
 </ol>
 </li>
 </ol>
-<h1><span id="what-to-test">What to Test</span></h1><ol>
+<h1 id="What-to-Test"><a href="#What-to-Test" class="headerlink" title="What to Test"></a>What to Test</h1><ol>
 <li>Inputs<ol>
 <li>divide all possible input data into into different subsets, and choose several representatives from each subset, both valid and invalid input, so you can cover all of the conditions.</li>
 <li>Normal conditions<ul>
@@ -81,7 +81,7 @@ ga('create','UA-75244464-1','auto');ga('send','pageview');
 </ol>
 </li>
 </ol>
-<h1><span id="properties-of-well-written-ut">Properties of Well-Written UT</span></h1><ol>
+<h1 id="Properties-of-Well-Written-UT"><a href="#Properties-of-Well-Written-UT" class="headerlink" title="Properties of Well-Written UT"></a>Properties of Well-Written UT</h1><ol>
 <li>Through<ol>
 <li>cover as many lines of code as possible</li>
 <li>cover each branch of conditional logic, including ternary operator.</li>
