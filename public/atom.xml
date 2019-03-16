@@ -225,7 +225,7 @@
     <link href="http://zezhen.me/posts/how-not-to-be-wrong/"/>
     <id>http://zezhen.me/posts/how-not-to-be-wrong/</id>
     <published>2018-03-26T00:26:49.000Z</published>
-    <updated>2019-03-16T18:17:56.736Z</updated>
+    <updated>2019-03-16T22:39:42.380Z</updated>
     
     <summary type="html">
     
@@ -244,9 +244,9 @@
       <category term="read" scheme="http://zezhen.me/categories/read/"/>
     
     
-      <category term="thinking" scheme="http://zezhen.me/tags/thinking/"/>
-    
       <category term="math" scheme="http://zezhen.me/tags/math/"/>
+    
+      <category term="thinking" scheme="http://zezhen.me/tags/thinking/"/>
     
   </entry>
   
@@ -509,9 +509,9 @@
     
     </summary>
     
-      <category term="career" scheme="http://zezhen.me/categories/career/"/>
-    
       <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
+    
+      <category term="career" scheme="http://zezhen.me/categories/career/"/>
     
     
       <category term="coding" scheme="http://zezhen.me/tags/coding/"/>
@@ -583,11 +583,11 @@
   </entry>
   
   <entry>
-    <title>Train to Busan</title>
+    <title>釜山行</title>
     <link href="http://zezhen.me/posts/Train-to-Busan/"/>
     <id>http://zezhen.me/posts/Train-to-Busan/</id>
     <published>2016-09-18T08:10:29.000Z</published>
-    <updated>2019-03-16T18:17:56.727Z</updated>
+    <updated>2019-03-16T22:42:50.046Z</updated>
     
     <summary type="html">
     
@@ -601,9 +601,9 @@
     
     </summary>
     
-      <category term="life" scheme="http://zezhen.me/categories/life/"/>
-    
       <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
+    
+      <category term="fun" scheme="http://zezhen.me/categories/fun/"/>
     
     
       <category term="movie" scheme="http://zezhen.me/tags/movie/"/>
