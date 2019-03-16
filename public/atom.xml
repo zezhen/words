@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zezhen.me/"/>
-  <updated>2019-03-15T04:16:44.800Z</updated>
+  <updated>2019-03-16T18:17:56.746Z</updated>
   <id>http://zezhen.me/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://zezhen.me/posts/marriage/"/>
     <id>http://zezhen.me/posts/marriage/</id>
     <published>2019-03-15T04:15:18.000Z</published>
-    <updated>2019-03-15T04:16:44.800Z</updated>
+    <updated>2019-03-16T18:17:56.746Z</updated>
     
     <summary type="html">
     
@@ -30,13 +30,15 @@
         
         
           &lt;p&gt;&lt;img src=&quot;/img/marriage.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h2&gt;&lt;span id=&quot;确定对的人&quot;&gt;确定对的人&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;其实也无所谓对的人, 对与不对全在自己. 很多人总想着找个真爱, 却在寻找中迷失了自己;
+&lt;h3&gt;&lt;span id=&quot;确定对的人&quot;&gt;确定对的人&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;其实也无所谓对的人, 对与不对全在自己. 很多人总想着找个真爱, 却在寻找中迷失了自己;
         
       
     
     </summary>
     
       <category term="life" scheme="http://zezhen.me/categories/life/"/>
+    
+      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
     
     
       <category term="love" scheme="http://zezhen.me/tags/love/"/>
@@ -48,7 +50,7 @@
     <link href="http://zezhen.me/posts/play-scratch-dev-part/"/>
     <id>http://zezhen.me/posts/play-scratch-dev-part/</id>
     <published>2018-09-28T20:30:28.000Z</published>
-    <updated>2019-01-22T04:12:31.249Z</updated>
+    <updated>2019-03-16T18:24:07.067Z</updated>
     
     <summary type="html">
     
@@ -65,6 +67,8 @@
     
       <category term="tech" scheme="http://zezhen.me/categories/tech/"/>
     
+      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
+    
     
       <category term="scratch" scheme="http://zezhen.me/tags/scratch/"/>
     
@@ -79,7 +83,7 @@
     <link href="http://zezhen.me/posts/interesting-scala/"/>
     <id>http://zezhen.me/posts/interesting-scala/</id>
     <published>2018-07-02T07:00:00.000Z</published>
-    <updated>2018-09-30T20:59:52.250Z</updated>
+    <updated>2019-03-16T18:24:08.102Z</updated>
     
     <summary type="html">
     
@@ -96,6 +100,8 @@
     
       <category term="tech" scheme="http://zezhen.me/categories/tech/"/>
     
+      <category term="english" scheme="http://zezhen.me/categories/english/"/>
+    
     
       <category term="coding" scheme="http://zezhen.me/tags/coding/"/>
     
@@ -106,7 +112,7 @@
     <link href="http://zezhen.me/posts/life-ascending/"/>
     <id>http://zezhen.me/posts/life-ascending/</id>
     <published>2018-06-18T05:24:13.000Z</published>
-    <updated>2018-06-19T04:42:34.761Z</updated>
+    <updated>2019-03-16T18:17:56.739Z</updated>
     
     <summary type="html">
     
@@ -120,6 +126,8 @@
       
     
     </summary>
+    
+      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
     
       <category term="read" scheme="http://zezhen.me/categories/read/"/>
     
@@ -135,7 +143,7 @@
     <link href="http://zezhen.me/posts/how-to-ruin-yourself/"/>
     <id>http://zezhen.me/posts/how-to-ruin-yourself/</id>
     <published>2018-04-11T19:24:13.000Z</published>
-    <updated>2018-06-08T04:30:25.000Z</updated>
+    <updated>2019-03-16T18:17:56.738Z</updated>
     
     <summary type="html">
     
@@ -149,6 +157,8 @@
     
     </summary>
     
+      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
+    
       <category term="read" scheme="http://zezhen.me/categories/read/"/>
     
     
@@ -161,7 +171,7 @@
     <link href="http://zezhen.me/posts/a-brief-history-of-tomorrow/"/>
     <id>http://zezhen.me/posts/a-brief-history-of-tomorrow/</id>
     <published>2018-03-31T19:24:13.000Z</published>
-    <updated>2019-01-22T04:12:10.878Z</updated>
+    <updated>2019-03-16T18:17:56.737Z</updated>
     
     <summary type="html">
     
@@ -175,6 +185,8 @@
       
     
     </summary>
+    
+      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
     
       <category term="read" scheme="http://zezhen.me/categories/read/"/>
     
@@ -190,7 +202,7 @@
     <link href="http://zezhen.me/posts/how-not-to-be-wrong/"/>
     <id>http://zezhen.me/posts/how-not-to-be-wrong/</id>
     <published>2018-03-26T00:26:49.000Z</published>
-    <updated>2018-06-08T04:30:25.000Z</updated>
+    <updated>2019-03-16T18:17:56.736Z</updated>
     
     <summary type="html">
     
@@ -199,18 +211,20 @@
         
         
           &lt;p&gt;&lt;img src=&quot;/img/how-not-to-be-wrong.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;首先得吐槽下中文版的翻译, 叫魔鬼数学也是醉了, 副标题更是扯, 英文版副标题是The Power of Mathematical Thinking. 总体而言,
+&lt;p&gt;首先得吐槽下chinese版的翻译, 叫魔鬼数学也是醉了, 副标题更是扯, 英文版副标题是The Power of Mathematical Thinking.
         
       
     
     </summary>
     
+      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
+    
       <category term="read" scheme="http://zezhen.me/categories/read/"/>
     
     
-      <category term="thinking" scheme="http://zezhen.me/tags/thinking/"/>
-    
       <category term="math" scheme="http://zezhen.me/tags/math/"/>
+    
+      <category term="thinking" scheme="http://zezhen.me/tags/thinking/"/>
     
   </entry>
   
@@ -219,7 +233,7 @@
     <link href="http://zezhen.me/posts/zi-zai-du-xing/"/>
     <id>http://zezhen.me/posts/zi-zai-du-xing/</id>
     <published>2017-11-23T10:37:50.000Z</published>
-    <updated>2018-06-08T04:30:25.000Z</updated>
+    <updated>2019-03-16T18:17:56.735Z</updated>
     
     <summary type="html">
     
@@ -233,6 +247,8 @@
       
     
     </summary>
+    
+      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
     
       <category term="read" scheme="http://zezhen.me/categories/read/"/>
     
@@ -248,7 +264,7 @@
     <link href="http://zezhen.me/posts/A-brief-history-of-humankind/"/>
     <id>http://zezhen.me/posts/A-brief-history-of-humankind/</id>
     <published>2017-11-10T01:53:25.000Z</published>
-    <updated>2019-01-22T04:15:37.480Z</updated>
+    <updated>2019-03-16T18:17:56.734Z</updated>
     
     <summary type="html">
     
@@ -262,6 +278,8 @@
       
     
     </summary>
+    
+      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
     
       <category term="read" scheme="http://zezhen.me/categories/read/"/>
     
@@ -277,7 +295,7 @@
     <link href="http://zezhen.me/posts/influence/"/>
     <id>http://zezhen.me/posts/influence/</id>
     <published>2017-06-12T06:40:28.000Z</published>
-    <updated>2018-10-01T16:37:17.408Z</updated>
+    <updated>2019-03-16T18:17:56.733Z</updated>
     
     <summary type="html">
     
@@ -291,6 +309,8 @@
       
     
     </summary>
+    
+      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
     
       <category term="read" scheme="http://zezhen.me/categories/read/"/>
     
@@ -306,7 +326,7 @@
     <link href="http://zezhen.me/posts/quiz-show/"/>
     <id>http://zezhen.me/posts/quiz-show/</id>
     <published>2017-03-07T21:16:09.000Z</published>
-    <updated>2018-06-08T05:16:49.000Z</updated>
+    <updated>2019-03-16T18:24:23.728Z</updated>
     
     <summary type="html">
     
@@ -324,6 +344,8 @@
     
     </summary>
     
+      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
+    
       <category term="fun" scheme="http://zezhen.me/categories/fun/"/>
     
     
@@ -338,7 +360,7 @@
     <link href="http://zezhen.me/posts/how-to-win-friends-and-influence-people/"/>
     <id>http://zezhen.me/posts/how-to-win-friends-and-influence-people/</id>
     <published>2017-02-26T19:08:33.000Z</published>
-    <updated>2019-01-22T04:16:00.645Z</updated>
+    <updated>2019-03-16T18:17:56.731Z</updated>
     
     <summary type="html">
     
@@ -352,6 +374,8 @@
       
     
     </summary>
+    
+      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
     
       <category term="read" scheme="http://zezhen.me/categories/read/"/>
     
@@ -367,7 +391,7 @@
     <link href="http://zezhen.me/posts/calculate-depth-of-a-full-binary-tree-from-preorder/"/>
     <id>http://zezhen.me/posts/calculate-depth-of-a-full-binary-tree-from-preorder/</id>
     <published>2017-01-26T02:41:32.000Z</published>
-    <updated>2018-06-08T04:30:25.000Z</updated>
+    <updated>2019-03-16T18:24:09.013Z</updated>
     
     <summary type="html">
     
@@ -383,6 +407,8 @@
     
       <category term="tech" scheme="http://zezhen.me/categories/tech/"/>
     
+      <category term="english" scheme="http://zezhen.me/categories/english/"/>
+    
     
       <category term="coding" scheme="http://zezhen.me/tags/coding/"/>
     
@@ -395,7 +421,7 @@
     <link href="http://zezhen.me/posts/primality-test/"/>
     <id>http://zezhen.me/posts/primality-test/</id>
     <published>2017-01-10T05:40:42.000Z</published>
-    <updated>2018-06-08T04:30:25.000Z</updated>
+    <updated>2019-03-16T18:24:09.812Z</updated>
     
     <summary type="html">
     
@@ -411,6 +437,8 @@
     
       <category term="tech" scheme="http://zezhen.me/categories/tech/"/>
     
+      <category term="english" scheme="http://zezhen.me/categories/english/"/>
+    
     
       <category term="algorithm" scheme="http://zezhen.me/tags/algorithm/"/>
     
@@ -423,7 +451,7 @@
     <link href="http://zezhen.me/posts/find-all-divisors-of-a-natural-number/"/>
     <id>http://zezhen.me/posts/find-all-divisors-of-a-natural-number/</id>
     <published>2017-01-10T05:02:57.000Z</published>
-    <updated>2018-06-08T04:30:25.000Z</updated>
+    <updated>2019-03-16T18:24:12.603Z</updated>
     
     <summary type="html">
     
@@ -441,6 +469,8 @@
     
       <category term="tech" scheme="http://zezhen.me/categories/tech/"/>
     
+      <category term="english" scheme="http://zezhen.me/categories/english/"/>
+    
     
       <category term="algorithm" scheme="http://zezhen.me/tags/algorithm/"/>
     
@@ -453,7 +483,7 @@
     <link href="http://zezhen.me/posts/hello-world/"/>
     <id>http://zezhen.me/posts/hello-world/</id>
     <published>2017-01-02T00:18:49.000Z</published>
-    <updated>2018-06-08T04:30:25.000Z</updated>
+    <updated>2019-03-16T18:22:21.148Z</updated>
     
     <summary type="html">
     
@@ -468,10 +498,10 @@
     
     </summary>
     
+      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
+    
       <category term="career" scheme="http://zezhen.me/categories/career/"/>
     
-    
-      <category term="career" scheme="http://zezhen.me/tags/career/"/>
     
       <category term="coding" scheme="http://zezhen.me/tags/coding/"/>
     
@@ -482,7 +512,7 @@
     <link href="http://zezhen.me/posts/jump-out-of-box/"/>
     <id>http://zezhen.me/posts/jump-out-of-box/</id>
     <published>2016-10-26T04:25:47.000Z</published>
-    <updated>2018-06-08T04:30:25.000Z</updated>
+    <updated>2019-03-16T18:17:56.729Z</updated>
     
     <summary type="html">
     
@@ -495,6 +525,8 @@
       
     
     </summary>
+    
+      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
     
       <category term="read" scheme="http://zezhen.me/categories/read/"/>
     
@@ -512,7 +544,7 @@
     <link href="http://zezhen.me/posts/crucial-conversations/"/>
     <id>http://zezhen.me/posts/crucial-conversations/</id>
     <published>2016-10-25T01:03:28.000Z</published>
-    <updated>2019-01-22T04:16:31.154Z</updated>
+    <updated>2019-03-16T18:17:56.728Z</updated>
     
     <summary type="html">
     
@@ -526,6 +558,8 @@
       
     
     </summary>
+    
+      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
     
       <category term="read" scheme="http://zezhen.me/categories/read/"/>
     
@@ -543,7 +577,7 @@
     <link href="http://zezhen.me/posts/Train-to-Busan/"/>
     <id>http://zezhen.me/posts/Train-to-Busan/</id>
     <published>2016-09-18T08:10:29.000Z</published>
-    <updated>2018-06-08T04:30:25.000Z</updated>
+    <updated>2019-03-16T18:17:56.727Z</updated>
     
     <summary type="html">
     
@@ -559,6 +593,8 @@
     
       <category term="life" scheme="http://zezhen.me/categories/life/"/>
     
+      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
+    
     
       <category term="movie" scheme="http://zezhen.me/tags/movie/"/>
     
@@ -569,7 +605,7 @@
     <link href="http://zezhen.me/posts/fast-diary-of-hongyi/"/>
     <id>http://zezhen.me/posts/fast-diary-of-hongyi/</id>
     <published>2016-06-07T03:48:53.000Z</published>
-    <updated>2018-06-08T04:30:25.000Z</updated>
+    <updated>2019-03-16T18:17:56.726Z</updated>
     
     <summary type="html">
     
@@ -584,6 +620,8 @@
     </summary>
     
       <category term="life" scheme="http://zezhen.me/categories/life/"/>
+    
+      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
     
     
       <category term="culture" scheme="http://zezhen.me/tags/culture/"/>
