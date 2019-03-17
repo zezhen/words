@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zezhen.me/"/>
-  <updated>2019-03-16T22:48:31.233Z</updated>
+  <updated>2019-03-17T02:15:44.419Z</updated>
   <id>http://zezhen.me/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>CAP theorem understading</title>
-    <link href="http://zezhen.me/posts/CAP-theorem-understading/"/>
-    <id>http://zezhen.me/posts/CAP-theorem-understading/</id>
+    <title>learn CAP theorem</title>
+    <link href="http://zezhen.me/posts/learn-CAP-theorem/"/>
+    <id>http://zezhen.me/posts/learn-CAP-theorem/</id>
     <published>2019-03-16T22:21:43.000Z</published>
-    <updated>2019-03-16T22:48:31.233Z</updated>
+    <updated>2019-03-17T02:15:44.419Z</updated>
     
     <summary type="html">
     
@@ -41,6 +41,8 @@
     
     
       <category term="distsys" scheme="http://zezhen.me/tags/distsys/"/>
+    
+      <category term="learn" scheme="http://zezhen.me/tags/learn/"/>
     
   </entry>
   
@@ -394,9 +396,9 @@
       <category term="read" scheme="http://zezhen.me/categories/read/"/>
     
     
-      <category term="self-management" scheme="http://zezhen.me/tags/self-management/"/>
-    
       <category term="social" scheme="http://zezhen.me/tags/social/"/>
+    
+      <category term="self-management" scheme="http://zezhen.me/tags/self-management/"/>
     
   </entry>
   
@@ -495,7 +497,7 @@
     <link href="http://zezhen.me/posts/hello-world/"/>
     <id>http://zezhen.me/posts/hello-world/</id>
     <published>2017-01-02T00:18:49.000Z</published>
-    <updated>2019-03-16T18:22:21.148Z</updated>
+    <updated>2019-03-17T02:21:35.608Z</updated>
     
     <summary type="html">
     
@@ -509,12 +511,12 @@
     
     </summary>
     
-      <category term="career" scheme="http://zezhen.me/categories/career/"/>
-    
       <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
     
+      <category term="self" scheme="http://zezhen.me/categories/self/"/>
     
-      <category term="coding" scheme="http://zezhen.me/tags/coding/"/>
+    
+      <category term="coding - career" scheme="http://zezhen.me/tags/coding-career/"/>
     
   </entry>
   
@@ -544,9 +546,9 @@
     
       <category term="people" scheme="http://zezhen.me/tags/people/"/>
     
-      <category term="self-management" scheme="http://zezhen.me/tags/self-management/"/>
-    
       <category term="communication" scheme="http://zezhen.me/tags/communication/"/>
+    
+      <category term="self-management" scheme="http://zezhen.me/tags/self-management/"/>
     
   </entry>
   
