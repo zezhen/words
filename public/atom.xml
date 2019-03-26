@@ -396,9 +396,9 @@
       <category term="read" scheme="http://zezhen.me/categories/read/"/>
     
     
-      <category term="self-management" scheme="http://zezhen.me/tags/self-management/"/>
-    
       <category term="social" scheme="http://zezhen.me/tags/social/"/>
+    
+      <category term="self-management" scheme="http://zezhen.me/tags/self-management/"/>
     
   </entry>
   
@@ -544,11 +544,11 @@
       <category term="read" scheme="http://zezhen.me/categories/read/"/>
     
     
-      <category term="communication" scheme="http://zezhen.me/tags/communication/"/>
-    
       <category term="people" scheme="http://zezhen.me/tags/people/"/>
     
       <category term="self-management" scheme="http://zezhen.me/tags/self-management/"/>
+    
+      <category term="communication" scheme="http://zezhen.me/tags/communication/"/>
     
   </entry>
   
@@ -557,7 +557,7 @@
     <link href="http://zezhen.me/posts/crucial-conversations/"/>
     <id>http://zezhen.me/posts/crucial-conversations/</id>
     <published>2016-10-25T01:03:28.000Z</published>
-    <updated>2019-03-26T22:35:04.080Z</updated>
+    <updated>2019-03-26T22:36:24.878Z</updated>
     
     <summary type="html">
     
@@ -576,9 +576,9 @@
       <category term="read" scheme="http://zezhen.me/categories/read/"/>
     
     
-      <category term="communication" scheme="http://zezhen.me/tags/communication/"/>
-    
       <category term="people" scheme="http://zezhen.me/tags/people/"/>
+    
+      <category term="communication" scheme="http://zezhen.me/tags/communication/"/>
     
       <category term="howto" scheme="http://zezhen.me/tags/howto/"/>
     
