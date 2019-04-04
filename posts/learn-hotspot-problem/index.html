@@ -1,0 +1,123 @@
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description"><title>learn hotspot problem | Zezhen</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/normalize/8.0.0/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/pure-min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script><!-- hexo-inject:begin --><!-- hexo-inject:end -->(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create','UA-75244464-1','auto');ga('send','pageview');
+</script><!-- hexo-inject:begin --><!-- hexo-inject:end --></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">learn hotspot problem</h1><a id="logo" href="/.">Zezhen</a><p class="description">Be different and Make a difference</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> Home</i></a><a href="/archives/"><i class="fa fa-archive"> Archive</i></a><a href="/about/"><i class="fa fa-user"> About</i></a><a href="/atom.xml"><i class="fa fa-rss"> RSS</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-4-4"><div class="content_container"><div class="post"><h1 class="post-title">learn hotspot problem</h1><div class="post-meta">Apr 3, 2019<span> | </span><span class="category"><a href="/categories/tech/">tech</a><a href="/categories/english/">english</a></span></div><a class="disqus-comment-count" data-disqus-identifier="posts/learn-hotspot-problem/" href="/posts/learn-hotspot-problem/#disqus_thread"></a><div class="clear"><div class="toc-article" id="toc"><div class="toc-title">Contents</div><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Summary"><span class="toc-number">1.</span> <span class="toc-text">Summary</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Data-Uneven-Distribution"><span class="toc-number">2.</span> <span class="toc-text">Data Uneven Distribution</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Large-Data-Hotkeys"><span class="toc-number">3.</span> <span class="toc-text">Large Data Hotkeys</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Heavy-Writing-Hotkeys"><span class="toc-number">4.</span> <span class="toc-text">Heavy Writing Hotkeys</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#More-about-writing-process"><span class="toc-number">4.1.</span> <span class="toc-text">More about writing process</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Heavy-Reading-Hotkeys"><span class="toc-number">5.</span> <span class="toc-text">Heavy Reading Hotkeys</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Miscs"><span class="toc-number">6.</span> <span class="toc-text">Miscs</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Detect-Reading-Writing-Hotkeys"><span class="toc-number">6.1.</span> <span class="toc-text">Detect Reading/Writing Hotkeys</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Ack-Success-Write"><span class="toc-number">6.2.</span> <span class="toc-text">Ack Success Write</span></a></li></ol></li></ol></div></div><div class="post-content"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><img src="/img/hotspots.jpg" alt=""></p>
+<!-- hexo-inject:begin --><!-- hexo-inject:end --><h3 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h3><p>Here is my understanding summary of hotspots problem in distributed system, when design the system, due to the large scale of data and requests(read or write), it’s common that you need to handle the hotspot problems. According to my understanding, there are typically two aspects.</p>
+<ol>
+<li>Data uneven distribution, or</li>
+<li>Hotkeys problems.</li>
+</ol>
+<p>For the hotkeys problems, we can further divide it into three aspects: </p>
+<ol>
+<li><em>Large data hotkeys</em>, a.k.a. keys are attached with large of data, data of one hotspot key will be distributed to one host, which might be too large for one host to keep, e.g. the Donald Trump post a lot of tweets every day, but you might post one daily or even weekly.</li>
+<li><em>Heavy reading hotkeys</em>, a.k.a. keys are popular to be read, e.g. Donald Trup has a lot of followers, and his posts were heavily read by follwers.</li>
+<li><em>Heavy writing hotkeys</em>, a.k.a. keys are popular to be writed, Donald Trump’s case is still useful here, he posted so many tweets, which generate large volume of write requests to system.</li>
+</ol>
+<p>So below we will visit these four scenarios and think about the solutions.</p>
+<h3 id="Data-Uneven-Distribution"><a href="#Data-Uneven-Distribution" class="headerlink" title="Data Uneven Distribution"></a>Data Uneven Distribution</h3><p>What’s if there are too much data that cannot fit into one host? The answer will be sharding, e.g. partitioned by some primary keys, that can separate the data into multiple hosts, while a potential problem is that the data might not be unevenly distributed, like lots of keys are distibuted into some hosts, while less keys go to other hosts.</p>
+<p>There are multiple potential solutions, like using a better hash function, like <a href="https://en.wikipedia.org/wiki/MurmurHash" target="_blank" rel="noopener">MurmurHash</a> or using another better primary keys, or use the compound key, read more in <a href="#Large-Data-Hotkeys">below section</a>.</p>
+<h3 id="Large-Data-Hotkeys"><a href="#Large-Data-Hotkeys" class="headerlink" title="Large Data Hotkeys"></a>Large Data Hotkeys</h3><p>For large data hotkeys, it’s not easy to store whole data into one host, thus we need do further partition. We could solve the problem via compound key. Let’s talk more below.</p>
+<p>First choice is to use multiple keys, e.g. (k1, k2), the pros is that the combination of two keys might evenly distribute data into multiple hosts, but the cons is apparent, if you want to read data for k1, either you know all the possible k2 and scatter-gather to read all partition or brute-foce read all partition and filter by (k1, *).</p>
+<p>Second choice is to use primary key and (hashcode(another key[s]) % n), n is the weight for this key, different keys can have various n, which represnt it’s data size or importance, etc. Default can be 1.</p>
+<ol>
+<li>When reading, client need to scatter-gather n partition to read full data</li>
+<li>When writing, client need to generate (hashcode(another key[s]) % n) first, then write the data into corrensponding partition.</li>
+</ol>
+<p>Another things we need to do is to detect which are hotkeys, we can either whitelist them or <a href="#Detect-Reading-Writing-Hotkeys">dynamic detect them</a>.</p>
+<h3 id="Heavy-Writing-Hotkeys"><a href="#Heavy-Writing-Hotkeys" class="headerlink" title="Heavy Writing Hotkeys"></a>Heavy Writing Hotkeys</h3><p>The most straight-forward solution is to separate the reading and writing, like Mysql’s master-slaves, all writes go to one master and all reads go to multiple slaves. While what if the too many writes that one host can not handle? Usually we have two kinds of choices, depends the preference of service aviliability or data consistency.</p>
+<p><em>Prefer C</em><br>We can use one or more queue(s) to buffer all requests, system can ack to clients that the requests will be processed properly, it’s the <em>async</em> processing mode for clients, or client have to wait the backend working thread(s) process the requests one by one and ack back once done the job, which is the <em>sync</em> mode. </p>
+<p>The pros is that the node can process all the requests without flood, but the cons is that there might be high delay and might timeout. Take Redis as instance, it uses one single-thread to process all the requests to this host or partition node, while all data are in MEM and requests processing latency is quite low, which meet most of scenarios.</p>
+<p><em>Prefer A</em></p>
+<p>What if one thread or one master host is not efficient enough to handle all write request? Then we have to sacrifice the consistency or read performance.</p>
+<ol>
+<li><em>Sacrificing consistency</em>. Writing data to multiple-master, then merge data, remove either version if conflict</li>
+<li><em>Sacrificing read performance</em>. N hosts are for both read and write, but need to guarantee R + W &gt;= N, setting W = 1 and R = N means writing once and reading all replica.</li>
+</ol>
+<h4 id="More-about-writing-process"><a href="#More-about-writing-process" class="headerlink" title="More about writing process"></a>More about writing process</h4><ol>
+<li><p>Write Back<br>Clients write to cache and get ack once cache confirms the successful write. read more from <a href="#Ack-Success-Write">Ack SuccessWrite</a>, then cache sync the updates to DB periodically, e.g. 2PC in zookeeper, redis or Gossip in Dynamo. This method has very high efficiency but potentially has data loss risk, e.g. cache crash before sync the update to DB.</p>
+</li>
+<li><p>Write Through<br>Clients get writing confirmation after the updates successfully write to both cache and DB, it’s have strong consistency but lower availability compared with write back mode.</p>
+</li>
+<li><p>Write Around<br>Clients only write to DB, rather than the cache; while reading, the client either get the data already out of date if data not yet expired in cahce, or the first read has to process high reading latency due to cache miss. The prons is that writing client does less work compared with writin through mode, but cons is that reading client might get ‘incorrect’ data or timeout.</p>
+</li>
+</ol>
+<h3 id="Heavy-Reading-Hotkeys"><a href="#Heavy-Reading-Hotkeys" class="headerlink" title="Heavy Reading Hotkeys"></a>Heavy Reading Hotkeys</h3><p>The main principal to handle heavy reading are the cache or replica. Adding cache if there is not, which can avoid duplicated computations and increase availability.</p>
+<p>If there are hotkeys that in one or few cache nodes, we can duplicate this data into n replicas, or change hotkey to compound keys, e.g. add (some number % n), so that we could distributed the reading request to more hosts. Another way is to cache these data in application servers managed in LRU strategy, application servers can vertically scaling efficiently. Actually we can do both at same time.</p>
+<p>If cache hit miss, the read will go to backend server or database, the scale out way is similar to what we suggest in above, either do replica into multiple hosts or do further partition.</p>
+<h3 id="Miscs"><a href="#Miscs" class="headerlink" title="Miscs"></a>Miscs</h3><h4 id="Detect-Reading-Writing-Hotkeys"><a href="#Detect-Reading-Writing-Hotkeys" class="headerlink" title="Detect Reading/Writing Hotkeys"></a>Detect Reading/Writing Hotkeys</h4><p>trending topic: sliding windows + hotkey threshold</p>
+<h4 id="Ack-Success-Write"><a href="#Ack-Success-Write" class="headerlink" title="Ack Success Write"></a>Ack Success Write</h4><p>There are several way to confirm the writing is successfully, including 1) Write into MEM, 2) Sync to local disk, 3) Write to k replica out of m.</p>
+<ol>
+<li>only #1 is not persistent as once the host down, the data will be lost.</li>
+<li>only #2 is better as host restart can retrieve the snapshot back, cons is 1) must in same host, 2) periodically persistent into disk is low efficient.</li>
+<li>#1 + #3: persistent and efficient, e.g. Kafka, while need to keep k above some level, another concern is that the network and replica hosts performance will have big impact on the writing performance. Two ways for the data sync between writing node and replica nodes.<ol>
+<li>Push: most time is blocking push until replica hosts confirm, there will be a downtime depends the size of data need to sync, e.g. RabbitMQ</li>
+<li>Pull: replica hosts trigger the sync periodically, master node has watermark indicate the latest state, every replica keep its own watermark, so that they can pull the gap data + latest updated data. Once catch up, replica ack to master node, then master update the watermark and ack to client. e.g. Kafka, which has a ISR to reduce the impact of network and low perf hosts. refer to Message Queue.</li>
+</ol>
+</li>
+<li>#2 + #3: more persistent but lower efficient than above, e.g. RabbitMQ</li>
+</ol>
+</div><div class="tags"><a href="/tags/summary/">summary</a><a href="/tags/distsys/">distsys</a></div><div class="post-nav"><a class="next" href="/posts/learn-CAP-theorem/">learn CAP theorem</a></div><div id="disqus_thread"><div class="btn_click_load"><button class="disqus_click_btn">阅读评论（请确保 Disqus 可以正常加载）</button></div><script type="text/javascript">var disqus_config = function () {
+    this.page.url = 'http://zezhen.me/posts/learn-hotspot-problem/';
+    this.page.identifier = 'posts/learn-hotspot-problem/';
+    this.page.title = 'learn hotspot problem';
+  };</script><script type="text/javascript" id="disqus-lazy-load-script">$.ajax({
+url: 'https://disqus.com/next/config.json',
+timeout: 2500,
+type: 'GET',
+success: function(){
+  var d = document;
+  var s = d.createElement('script');
+  s.src = '//zezhen.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', + new Date());
+  (d.head || d.body).appendChild(s);
+  $('.disqus_click_btn').css('display', 'none');
+},
+error: function() {
+  $('.disqus_click_btn').css('display', 'block');
+}
+});</script><script type="text/javascript" id="disqus-click-load">$('.btn_click_load').click(() => {  //click to load comments
+    (() => { // DON'T EDIT BELOW THIS LINE
+        var d = document;
+        var s = d.createElement('script');
+        s.src = '//zezhen.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', + new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    $('.disqus_click_btn').css('display','none');
+});</script><script type="text/javascript" id="disqus-count-script">$(function() {
+     var xhr = new XMLHttpRequest();
+     xhr.open('GET', '//disqus.com/next/config.json', true);
+     xhr.timeout = 2500;
+     xhr.onreadystatechange = function () {
+       if (xhr.readyState === 4 && xhr.status === 200) {
+         $('.post-meta .post-comments-count').show();
+         var s = document.createElement('script');
+         s.id = 'dsq-count-scr';
+         s.src = 'https://zezhen.disqus.com/count.js';
+         s.async = true;
+         (document.head || document.body).appendChild(s);
+       }
+     };
+     xhr.ontimeout = function () { xhr.abort(); };
+     xhr.send(null);
+   });
+</script></div></div></div></div><div class="pure-u-1 pure-u-md-4-4"><div id="footer">Copyright © 2019 <a href="/." rel="nofollow">Zezhen.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=0.0.0" async></script><script type="text/javascript" src="//cdn.bootcss.com/fancybox/3.3.5/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/fancybox/3.3.5/jquery.fancybox.min.css"><script type="text/javascript" src="/js/codeblock-resizer.js?v=0.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=0.0.0"></script></div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end --></body></html>
