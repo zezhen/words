@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zezhen.me/"/>
-  <updated>2019-04-25T07:14:00.642Z</updated>
+  <updated>2019-04-25T17:19:20.590Z</updated>
   <id>http://zezhen.me/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>工作技巧 -- 6年小总结</title>
+    <link href="http://zezhen.me/posts/6-years-summary-best-practices/"/>
+    <id>http://zezhen.me/posts/6-years-summary-best-practices/</id>
+    <published>2019-04-25T17:19:20.000Z</published>
+    <updated>2019-04-25T17:19:20.590Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;/img/dao_yu_shu.jpg&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="tech" scheme="http://zezhen.me/categories/tech/"/>
+    
+      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
+    
+    
+      <category term="howto" scheme="http://zezhen.me/tags/howto/"/>
+    
+  </entry>
+  
+  <entry>
     <title>自我成长 -- 6年小总结</title>
     <link href="http://zezhen.me/posts/6-years-summary-self-improvement/"/>
     <id>http://zezhen.me/posts/6-years-summary-self-improvement/</id>
-    <published>2019-04-25T07:14:00.000Z</published>
-    <updated>2019-04-25T07:14:00.642Z</updated>
+    <published>2019-04-24T07:14:00.000Z</published>
+    <updated>2019-04-25T17:20:12.478Z</updated>
     
     <summary type="html">
     
@@ -70,9 +98,9 @@
       <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
     
     
-      <category term="howto" scheme="http://zezhen.me/tags/howto/"/>
-    
       <category term="career" scheme="http://zezhen.me/tags/career/"/>
+    
+      <category term="howto" scheme="http://zezhen.me/tags/howto/"/>
     
   </entry>
   
@@ -100,9 +128,9 @@
       <category term="english" scheme="http://zezhen.me/categories/english/"/>
     
     
-      <category term="summary" scheme="http://zezhen.me/tags/summary/"/>
-    
       <category term="distsys" scheme="http://zezhen.me/tags/distsys/"/>
+    
+      <category term="summary" scheme="http://zezhen.me/tags/summary/"/>
     
   </entry>
   
@@ -130,9 +158,9 @@
       <category term="english" scheme="http://zezhen.me/categories/english/"/>
     
     
-      <category term="summary" scheme="http://zezhen.me/tags/summary/"/>
-    
       <category term="distsys" scheme="http://zezhen.me/tags/distsys/"/>
+    
+      <category term="summary" scheme="http://zezhen.me/tags/summary/"/>
     
   </entry>
   
@@ -155,9 +183,9 @@
     
     </summary>
     
-      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
-    
       <category term="essay" scheme="http://zezhen.me/categories/essay/"/>
+    
+      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
     
     
       <category term="love" scheme="http://zezhen.me/tags/love/"/>
@@ -273,9 +301,9 @@
     
     </summary>
     
-      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
-    
       <category term="essay" scheme="http://zezhen.me/categories/essay/"/>
+    
+      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
     
     
       <category term="self" scheme="http://zezhen.me/tags/self/"/>
@@ -579,36 +607,6 @@
       <category term="algorithm" scheme="http://zezhen.me/tags/algorithm/"/>
     
       <category term="math" scheme="http://zezhen.me/tags/math/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://zezhen.me/posts/hello-world/"/>
-    <id>http://zezhen.me/posts/hello-world/</id>
-    <published>2017-01-02T00:18:49.000Z</published>
-    <updated>2019-04-21T02:49:51.599Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;/img/helloworld.jpg&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
-    
-      <category term="essay" scheme="http://zezhen.me/categories/essay/"/>
-    
-    
-      <category term="coding" scheme="http://zezhen.me/tags/coding/"/>
-    
-      <category term="career" scheme="http://zezhen.me/tags/career/"/>
     
   </entry>
   
