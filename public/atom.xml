@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zezhen.me/"/>
-  <updated>2019-04-18T01:50:07.747Z</updated>
+  <updated>2019-04-25T07:14:00.642Z</updated>
   <id>http://zezhen.me/</id>
   
   <author>
@@ -17,11 +17,41 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>自我成长 -- 6年小总结</title>
+    <link href="http://zezhen.me/posts/6-years-summary-self-improvement/"/>
+    <id>http://zezhen.me/posts/6-years-summary-self-improvement/</id>
+    <published>2019-04-25T07:14:00.000Z</published>
+    <updated>2019-04-25T07:14:00.642Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;/img/yahoo.jpg&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="tech" scheme="http://zezhen.me/categories/tech/"/>
+    
+      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
+    
+    
+      <category term="learn" scheme="http://zezhen.me/tags/learn/"/>
+    
+      <category term="self" scheme="http://zezhen.me/tags/self/"/>
+    
+  </entry>
+  
+  <entry>
     <title>996 ICU</title>
     <link href="http://zezhen.me/posts/996-icu/"/>
     <id>http://zezhen.me/posts/996-icu/</id>
     <published>2019-04-18T01:49:22.000Z</published>
-    <updated>2019-04-18T01:50:07.747Z</updated>
+    <updated>2019-04-20T16:58:42.053Z</updated>
     
     <summary type="html">
     
@@ -40,9 +70,9 @@
       <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
     
     
-      <category term="career" scheme="http://zezhen.me/tags/career/"/>
-    
       <category term="howto" scheme="http://zezhen.me/tags/howto/"/>
+    
+      <category term="career" scheme="http://zezhen.me/tags/career/"/>
     
   </entry>
   
@@ -70,9 +100,9 @@
       <category term="english" scheme="http://zezhen.me/categories/english/"/>
     
     
-      <category term="distsys" scheme="http://zezhen.me/tags/distsys/"/>
-    
       <category term="summary" scheme="http://zezhen.me/tags/summary/"/>
+    
+      <category term="distsys" scheme="http://zezhen.me/tags/distsys/"/>
     
   </entry>
   
@@ -100,18 +130,18 @@
       <category term="english" scheme="http://zezhen.me/categories/english/"/>
     
     
-      <category term="distsys" scheme="http://zezhen.me/tags/distsys/"/>
-    
       <category term="summary" scheme="http://zezhen.me/tags/summary/"/>
+    
+      <category term="distsys" scheme="http://zezhen.me/tags/distsys/"/>
     
   </entry>
   
   <entry>
-    <title>Marriage</title>
+    <title>婚姻</title>
     <link href="http://zezhen.me/posts/marriage/"/>
     <id>http://zezhen.me/posts/marriage/</id>
     <published>2019-03-15T04:15:18.000Z</published>
-    <updated>2019-03-28T17:24:07.000Z</updated>
+    <updated>2019-04-19T16:40:38.314Z</updated>
     
     <summary type="html">
     
@@ -125,9 +155,9 @@
     
     </summary>
     
-      <category term="essay" scheme="http://zezhen.me/categories/essay/"/>
-    
       <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
+    
+      <category term="essay" scheme="http://zezhen.me/categories/essay/"/>
     
     
       <category term="love" scheme="http://zezhen.me/tags/love/"/>
@@ -213,9 +243,9 @@
     
     </summary>
     
-      <category term="read" scheme="http://zezhen.me/categories/read/"/>
-    
       <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
+    
+      <category term="read" scheme="http://zezhen.me/categories/read/"/>
     
     
       <category term="life" scheme="http://zezhen.me/tags/life/"/>
@@ -243,9 +273,9 @@
     
     </summary>
     
-      <category term="essay" scheme="http://zezhen.me/categories/essay/"/>
-    
       <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
+    
+      <category term="essay" scheme="http://zezhen.me/categories/essay/"/>
     
     
       <category term="self" scheme="http://zezhen.me/tags/self/"/>
@@ -271,9 +301,9 @@
     
     </summary>
     
-      <category term="read" scheme="http://zezhen.me/categories/read/"/>
-    
       <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
+    
+      <category term="read" scheme="http://zezhen.me/categories/read/"/>
     
     
       <category term="history" scheme="http://zezhen.me/tags/history/"/>
@@ -301,9 +331,9 @@
     
     </summary>
     
-      <category term="read" scheme="http://zezhen.me/categories/read/"/>
-    
       <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
+    
+      <category term="read" scheme="http://zezhen.me/categories/read/"/>
     
     
       <category term="math" scheme="http://zezhen.me/tags/math/"/>
@@ -331,9 +361,9 @@
     
     </summary>
     
-      <category term="read" scheme="http://zezhen.me/categories/read/"/>
-    
       <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
+    
+      <category term="read" scheme="http://zezhen.me/categories/read/"/>
     
     
       <category term="self" scheme="http://zezhen.me/tags/self/"/>
@@ -361,9 +391,9 @@
     
     </summary>
     
-      <category term="read" scheme="http://zezhen.me/categories/read/"/>
-    
       <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
+    
+      <category term="read" scheme="http://zezhen.me/categories/read/"/>
     
     
       <category term="history" scheme="http://zezhen.me/tags/history/"/>
@@ -391,9 +421,9 @@
     
     </summary>
     
-      <category term="read" scheme="http://zezhen.me/categories/read/"/>
-    
       <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
+    
+      <category term="read" scheme="http://zezhen.me/categories/read/"/>
     
     
       <category term="social" scheme="http://zezhen.me/tags/social/"/>
@@ -437,7 +467,7 @@
     <link href="http://zezhen.me/posts/how-to-win-friends-and-influence-people/"/>
     <id>http://zezhen.me/posts/how-to-win-friends-and-influence-people/</id>
     <published>2017-02-26T19:08:33.000Z</published>
-    <updated>2019-03-16T18:17:56.000Z</updated>
+    <updated>2019-04-21T02:48:13.079Z</updated>
     
     <summary type="html">
     
@@ -451,14 +481,14 @@
     
     </summary>
     
-      <category term="read" scheme="http://zezhen.me/categories/read/"/>
-    
       <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
     
+      <category term="read" scheme="http://zezhen.me/categories/read/"/>
     
-      <category term="self-management" scheme="http://zezhen.me/tags/self-management/"/>
     
       <category term="social" scheme="http://zezhen.me/tags/social/"/>
+    
+      <category term="self" scheme="http://zezhen.me/tags/self/"/>
     
   </entry>
   
@@ -557,7 +587,7 @@
     <link href="http://zezhen.me/posts/hello-world/"/>
     <id>http://zezhen.me/posts/hello-world/</id>
     <published>2017-01-02T00:18:49.000Z</published>
-    <updated>2019-03-28T17:24:09.000Z</updated>
+    <updated>2019-04-21T02:49:51.599Z</updated>
     
     <summary type="html">
     
@@ -571,44 +601,14 @@
     
     </summary>
     
+      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
+    
       <category term="essay" scheme="http://zezhen.me/categories/essay/"/>
     
-      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
     
+      <category term="coding" scheme="http://zezhen.me/tags/coding/"/>
     
-      <category term="coding - career" scheme="http://zezhen.me/tags/coding-career/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>跳出盒子</title>
-    <link href="http://zezhen.me/posts/jump-out-of-box/"/>
-    <id>http://zezhen.me/posts/jump-out-of-box/</id>
-    <published>2016-10-26T04:25:47.000Z</published>
-    <updated>2019-03-16T18:17:56.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;/img/outofbox.jpg&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="read" scheme="http://zezhen.me/categories/read/"/>
-    
-      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
-    
-    
-      <category term="self-management" scheme="http://zezhen.me/tags/self-management/"/>
-    
-      <category term="people" scheme="http://zezhen.me/tags/people/"/>
-    
-      <category term="communication" scheme="http://zezhen.me/tags/communication/"/>
+      <category term="career" scheme="http://zezhen.me/tags/career/"/>
     
   </entry>
   
