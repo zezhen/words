@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zezhen.me/"/>
-  <updated>2019-04-25T17:55:52.235Z</updated>
+  <updated>2019-05-11T21:52:07.578Z</updated>
   <id>http://zezhen.me/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Grand Circle</title>
+    <link href="http://zezhen.me/posts/grand-circle/"/>
+    <id>http://zezhen.me/posts/grand-circle/</id>
+    <published>2019-05-11T21:52:07.000Z</published>
+    <updated>2019-05-11T21:52:07.578Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;/img/grand_circle.jpg&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="essay" scheme="http://zezhen.me/categories/essay/"/>
+    
+      <category term="中文" scheme="http://zezhen.me/categories/%E4%B8%AD%E6%96%87/"/>
+    
+    
+      <category term="travel" scheme="http://zezhen.me/tags/travel/"/>
+    
+  </entry>
+  
+  <entry>
     <title>工作技巧 -- 6年小总结</title>
     <link href="http://zezhen.me/posts/6-years-summary-best-practices/"/>
     <id>http://zezhen.me/posts/6-years-summary-best-practices/</id>
     <published>2019-04-25T17:19:20.000Z</published>
-    <updated>2019-04-25T17:55:52.235Z</updated>
+    <updated>2019-05-10T00:01:55.832Z</updated>
     
     <summary type="html">
     
@@ -49,7 +77,7 @@
     <link href="http://zezhen.me/posts/6-years-summary-self-improvement/"/>
     <id>http://zezhen.me/posts/6-years-summary-self-improvement/</id>
     <published>2019-04-24T07:14:00.000Z</published>
-    <updated>2019-04-25T17:20:12.478Z</updated>
+    <updated>2019-05-10T00:01:51.750Z</updated>
     
     <summary type="html">
     
@@ -79,7 +107,7 @@
     <link href="http://zezhen.me/posts/996-icu/"/>
     <id>http://zezhen.me/posts/996-icu/</id>
     <published>2019-04-18T01:49:22.000Z</published>
-    <updated>2019-04-20T16:58:42.053Z</updated>
+    <updated>2019-05-10T00:02:00.972Z</updated>
     
     <summary type="html">
     
@@ -128,9 +156,9 @@
       <category term="english" scheme="http://zezhen.me/categories/english/"/>
     
     
-      <category term="distsys" scheme="http://zezhen.me/tags/distsys/"/>
-    
       <category term="summary" scheme="http://zezhen.me/tags/summary/"/>
+    
+      <category term="distsys" scheme="http://zezhen.me/tags/distsys/"/>
     
   </entry>
   
@@ -139,7 +167,7 @@
     <link href="http://zezhen.me/posts/learn-CAP-theorem/"/>
     <id>http://zezhen.me/posts/learn-CAP-theorem/</id>
     <published>2019-03-16T22:21:43.000Z</published>
-    <updated>2019-03-29T23:35:27.000Z</updated>
+    <updated>2019-05-10T00:01:22.802Z</updated>
     
     <summary type="html">
     
@@ -158,9 +186,9 @@
       <category term="english" scheme="http://zezhen.me/categories/english/"/>
     
     
-      <category term="distsys" scheme="http://zezhen.me/tags/distsys/"/>
-    
       <category term="summary" scheme="http://zezhen.me/tags/summary/"/>
+    
+      <category term="distsys" scheme="http://zezhen.me/tags/distsys/"/>
     
   </entry>
   
@@ -169,7 +197,7 @@
     <link href="http://zezhen.me/posts/marriage/"/>
     <id>http://zezhen.me/posts/marriage/</id>
     <published>2019-03-15T04:15:18.000Z</published>
-    <updated>2019-04-19T16:40:38.314Z</updated>
+    <updated>2019-05-10T00:01:01.248Z</updated>
     
     <summary type="html">
     
@@ -197,7 +225,7 @@
     <link href="http://zezhen.me/posts/play-scratch-dev-part/"/>
     <id>http://zezhen.me/posts/play-scratch-dev-part/</id>
     <published>2018-09-28T20:30:28.000Z</published>
-    <updated>2019-03-16T18:24:07.000Z</updated>
+    <updated>2019-05-10T00:00:47.008Z</updated>
     
     <summary type="html">
     
@@ -229,7 +257,7 @@
     <link href="http://zezhen.me/posts/interesting-scala/"/>
     <id>http://zezhen.me/posts/interesting-scala/</id>
     <published>2018-07-02T07:00:00.000Z</published>
-    <updated>2019-03-16T18:24:08.000Z</updated>
+    <updated>2019-05-10T00:01:22.801Z</updated>
     
     <summary type="html">
     
@@ -257,7 +285,7 @@
     <link href="http://zezhen.me/posts/life-ascending/"/>
     <id>http://zezhen.me/posts/life-ascending/</id>
     <published>2018-06-18T05:24:13.000Z</published>
-    <updated>2019-03-16T18:17:56.000Z</updated>
+    <updated>2019-05-10T00:02:30.703Z</updated>
     
     <summary type="html">
     
@@ -287,7 +315,7 @@
     <link href="http://zezhen.me/posts/how-to-ruin-yourself/"/>
     <id>http://zezhen.me/posts/how-to-ruin-yourself/</id>
     <published>2018-04-11T19:24:13.000Z</published>
-    <updated>2019-03-28T17:24:08.000Z</updated>
+    <updated>2019-05-10T00:01:01.247Z</updated>
     
     <summary type="html">
     
@@ -315,7 +343,7 @@
     <link href="http://zezhen.me/posts/a-brief-history-of-tomorrow/"/>
     <id>http://zezhen.me/posts/a-brief-history-of-tomorrow/</id>
     <published>2018-03-31T19:24:13.000Z</published>
-    <updated>2019-03-16T18:17:56.000Z</updated>
+    <updated>2019-05-10T00:02:30.702Z</updated>
     
     <summary type="html">
     
@@ -345,7 +373,7 @@
     <link href="http://zezhen.me/posts/how-not-to-be-wrong/"/>
     <id>http://zezhen.me/posts/how-not-to-be-wrong/</id>
     <published>2018-03-26T00:26:49.000Z</published>
-    <updated>2019-03-16T22:39:42.000Z</updated>
+    <updated>2019-05-10T00:02:30.700Z</updated>
     
     <summary type="html">
     
@@ -375,7 +403,7 @@
     <link href="http://zezhen.me/posts/zi-zai-du-xing/"/>
     <id>http://zezhen.me/posts/zi-zai-du-xing/</id>
     <published>2017-11-23T10:37:50.000Z</published>
-    <updated>2019-03-16T18:17:56.000Z</updated>
+    <updated>2019-05-10T00:02:30.699Z</updated>
     
     <summary type="html">
     
@@ -405,7 +433,7 @@
     <link href="http://zezhen.me/posts/A-brief-history-of-humankind/"/>
     <id>http://zezhen.me/posts/A-brief-history-of-humankind/</id>
     <published>2017-11-10T01:53:25.000Z</published>
-    <updated>2019-03-16T18:17:56.000Z</updated>
+    <updated>2019-05-10T00:02:30.698Z</updated>
     
     <summary type="html">
     
@@ -435,7 +463,7 @@
     <link href="http://zezhen.me/posts/influence/"/>
     <id>http://zezhen.me/posts/influence/</id>
     <published>2017-06-12T06:40:28.000Z</published>
-    <updated>2019-03-16T18:17:56.000Z</updated>
+    <updated>2019-05-10T00:02:30.697Z</updated>
     
     <summary type="html">
     
@@ -465,7 +493,7 @@
     <link href="http://zezhen.me/posts/quiz-show/"/>
     <id>http://zezhen.me/posts/quiz-show/</id>
     <published>2017-03-07T21:16:09.000Z</published>
-    <updated>2019-03-16T18:24:23.000Z</updated>
+    <updated>2019-05-10T00:02:42.282Z</updated>
     
     <summary type="html">
     
@@ -495,7 +523,7 @@
     <link href="http://zezhen.me/posts/how-to-win-friends-and-influence-people/"/>
     <id>http://zezhen.me/posts/how-to-win-friends-and-influence-people/</id>
     <published>2017-02-26T19:08:33.000Z</published>
-    <updated>2019-04-21T02:48:13.079Z</updated>
+    <updated>2019-05-10T00:02:30.696Z</updated>
     
     <summary type="html">
     
@@ -525,7 +553,7 @@
     <link href="http://zezhen.me/posts/calculate-depth-of-a-full-binary-tree-from-preorder/"/>
     <id>http://zezhen.me/posts/calculate-depth-of-a-full-binary-tree-from-preorder/</id>
     <published>2017-01-26T02:41:32.000Z</published>
-    <updated>2019-03-16T18:24:09.000Z</updated>
+    <updated>2019-05-10T00:01:22.800Z</updated>
     
     <summary type="html">
     
@@ -555,7 +583,7 @@
     <link href="http://zezhen.me/posts/primality-test/"/>
     <id>http://zezhen.me/posts/primality-test/</id>
     <published>2017-01-10T05:40:42.000Z</published>
-    <updated>2019-03-16T18:24:09.000Z</updated>
+    <updated>2019-05-10T00:01:22.799Z</updated>
     
     <summary type="html">
     
@@ -564,36 +592,6 @@
         
         
           &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;Given a positive integer, check if
-        
-      
-    
-    </summary>
-    
-      <category term="tech" scheme="http://zezhen.me/categories/tech/"/>
-    
-      <category term="english" scheme="http://zezhen.me/categories/english/"/>
-    
-    
-      <category term="algorithm" scheme="http://zezhen.me/tags/algorithm/"/>
-    
-      <category term="math" scheme="http://zezhen.me/tags/math/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Find all divisors of a natural number</title>
-    <link href="http://zezhen.me/posts/find-all-divisors-of-a-natural-number/"/>
-    <id>http://zezhen.me/posts/find-all-divisors-of-a-natural-number/</id>
-    <published>2017-01-10T05:02:57.000Z</published>
-    <updated>2019-03-16T18:24:12.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;Given a natural number n, print all
         
       
     
