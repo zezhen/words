@@ -1,12 +1,71 @@
-<!DOCTYPE html><html lang="en"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description"><title>ubuntu安装到移动硬盘&amp;grub rescue问题解决 | Zezhen</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/normalize/8.0.0/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/pure-min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script><!-- hexo-inject:begin --><!-- hexo-inject:end -->(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-ga('create','UA-75244464-1','auto');ga('send','pageview');
-</script><!-- hexo-inject:begin --><!-- hexo-inject:end --></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">ubuntu安装到移动硬盘&amp;grub rescue问题解决</h1><a id="logo" href="/.">Zezhen</a><p class="description">Be different and Make a difference</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> Home</i></a><a href="/archives/"><i class="fa fa-archive"> Archive</i></a><a href="/about/"><i class="fa fa-user"> About</i></a><a href="/atom.xml"><i class="fa fa-rss"> RSS</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-4-4"><div class="content_container"><div class="post"><h1 class="post-title">ubuntu安装到移动硬盘&amp;grub rescue问题解决</h1><div class="post-meta">Apr 3, 2013<span> | </span><span class="category"><a href="/categories/tech/">tech</a><a href="/categories/中文/">中文</a></span></div><a class="disqus-comment-count" data-disqus-identifier="posts/grub-rescue/" href="/posts/grub-rescue/#disqus_thread"></a><div class="post-content"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>想好好折腾linux, 选择ubuntu入手, 但想到linux下配置啥的挺麻烦, 装个系统最好能长久用下去, 于是就将ubuntu安装到移动硬盘上, 这样到哪都好用了.</p>
-<!-- hexo-inject:begin --><!-- hexo-inject:end --><p>如何在ubuntu安装到移动硬盘?</p>
+<!DOCTYPE html>
+<html>
+  <head>
+     
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+    <title>ubuntu安装到移动硬盘&amp;grub rescue问题解决 - Zezhen</title>
+    <link rel="shortcut icon" href="/static/img/icon.png">
+    <link rel="icon" href="/static/img/icon.png" sizes="192x192"/>
+    
+<link rel="stylesheet" href="/static/kico.css">
+<link rel="stylesheet" href="/static/hingle.css">
+
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome/css/font-awesome.min.css">
+
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1"/>
+    <meta property="og:site_name" content="Zezhen">
+    <meta property="og:title" content="ubuntu安装到移动硬盘&amp;grub rescue问题解决"/>
+    
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.2.0"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+
+  <body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><header>
+    <div class="head-title">
+        <h4>Zezhen</h4>
+    </div>
+    <div class="head-action">
+        <div class="toggle-btn"></div>
+        <div class="light-btn"></div>
+        <div class="search-btn"></div>
+    </div>
+    <form class="head-search" method="post">
+        <input type="text" name="s" placeholder="搜索什么？">
+    </form>
+    <nav class="head-menu">
+        <a href="/">首页</a>
+        <div class="has-child">
+            <a>分类</a>
+            <div class="sub-menu">
+                <a class="category-link" href="/categories/Career/">Career</a><a class="category-link" href="/categories/Miscs/">Miscs</a><a class="category-link" href="/categories/Tech/">Tech</a><a class="category-link" href="/categories/%E6%97%85%E6%B8%B8/">旅游</a><a class="category-link" href="/categories/%E6%9D%82%E8%AE%B0/">杂记</a><a class="category-link" href="/categories/%E9%98%85%E8%AF%BB/">阅读</a>
+            </div>
+        </div>
+        
+            <a href="/about">关于我</a>
+        
+    </nav>
+</header>
+
+    <main>
+    <div class="wrap min">
+        <section class="post-title">
+            <h2>ubuntu安装到移动硬盘&amp;grub rescue问题解决</h2>
+            <div class="post-meta">
+                <time class="date">2013.04.03</time>
+            
+                <span class="category"><a class="category-link" href="/categories/Tech/">Tech</a></span>
+            
+            </div>
+        </section>
+        <article class="post-content">
+            <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>想好好折腾linux, 选择ubuntu入手, 但想到linux下配置啥的挺麻烦, 装个系统最好能长久用下去, 于是就将ubuntu安装到移动硬盘上, 这样到哪都好用了.</p>
+<p>如何在ubuntu安装到移动硬盘?</p>
 <ol>
-<li>首先制作一个u盘版的livecd. 这个可以用<a href="https://fedorahosted.org/liveusb-creator/" target="_blank" rel="noopener">Fedora LiveUSB Creator</a>, 兼容Ubuntu 几分钟就搞定了</li>
+<li>首先制作一个u盘版的livecd. 这个可以用<a target="_blank" rel="noopener" href="https://fedorahosted.org/liveusb-creator/">Fedora LiveUSB Creator</a>, 兼容Ubuntu 几分钟就搞定了</li>
 <li>选择从u盘启动, 进入livecd系统, 相当于体验版. 选择安装Ubuntu, 注意分区选择移动硬盘, 挂载点最简单的是根目录和swap, 其他按序挂载; 最后”安装启动引导器的设备”选择移动硬盘, 如sda, 而不是它的某个分区, 如sda1, 这样系统就可以从移动硬盘启动了.</li>
 </ol>
 <p>只要简单两步就安装完成了, 同理如果把ubuntu安装到U盘上也是一样的.</p>
@@ -14,62 +73,102 @@ ga('create','UA-75244464-1','auto');ga('send','pageview');
 <p>tips. 事实上, 这个版本系统是用UCloner克隆到移动硬盘上, 或许问题出在此.</p>
 <p>在其他电脑上启动时, 无法启动grub, 而是进入了grub rescue, 显示信息为</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">error: unknown filesystems</span><br><span class="line">grub rescue&gt;</span><br></pre></td></tr></table></figure>
+
 <p>网上遇到这个问题多数是安装了windows+ubuntu双系统后, 在windows对磁盘重新分区导致的, 与我在移动硬盘上的ubuntu在别的电脑上运行类似, 疑问: 为什么grub启动跟其他磁盘或分区有关系呢?</p>
-<p>在grub rescue中通过ls查看分盘和分区, 如果ls (hd0,6)/boot/grub显示信息, 说明(hd0,6)是安装/boot的分区, 可通过以下命令进入系统<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">set root=(hd0,6)</span><br><span class="line">set prefix=(hd0,6)/boot/grub</span><br><span class="line">insmod normal</span><br><span class="line">normal</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span> after getting into ubuntu</span><br><span class="line">sudo update-grub</span><br><span class="line">sudo grub-install /dev/sda</span><br></pre></td></tr></table></figure></p>
-<p>但本人ls每个个分区都是出错, set命令显示的boot和prefix都是指向实际的’/‘分区.</p>
+<p>在grub rescue中通过ls查看分盘和分区, 如果ls (hd0,6)&#x2F;boot&#x2F;grub显示信息, 说明(hd0,6)是安装&#x2F;boot的分区, 可通过以下命令进入系统</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">set root=(hd0,6)</span><br><span class="line">set prefix=(hd0,6)/boot/grub</span><br><span class="line">insmod normal</span><br><span class="line">normal</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">after getting into ubuntu</span></span><br><span class="line">sudo update-grub</span><br><span class="line">sudo grub-install /dev/sda</span><br></pre></td></tr></table></figure>
+<p>但本人ls每个个分区都是出错, set命令显示的boot和prefix都是指向实际的’&#x2F;‘分区.</p>
 <p>继续搜索网上解决方法, 多是reinstalling GRUB from the LiveCD, 如下:</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">sudo mount /dev/sda4 /mnt</span><br><span class="line">sudo grub-install  --boot-directory=/mnt/boot /dev/sda</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span> sda4 is the / partition, so sda is the disk</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span> Back in Ubuntu</span><br><span class="line">sudo update-grub</span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">sudo mount /dev/sda4 /mnt</span><br><span class="line">sudo grub-install  --boot-directory=/mnt/boot /dev/sda</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">sda4 is the / partition, so sda is the disk</span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">Back <span class="keyword">in</span> Ubuntu</span></span><br><span class="line">sudo update-grub</span><br></pre></td></tr></table></figure>
 <p>但本人试过这个方法, 没有成功.</p>
 <p>后来在网上搜到了这句话: Some bioses have a maximum read capability of 137GB and will therefore not find boot files which are on the disc after that limit.</p>
 <p>有些bios的读取磁盘能力有限, 只能读前137G大小的内容. 这才发现最初因为移动硬盘前面部分存了几百G的资料, 为省力直接在磁盘后面部分划分出空闲空间作为linux分区. 重新将linux安装到移动硬盘前面部分, 便可以到处启动啦, 真心坑爹啊!!</p>
 <p>p.s. 下面是两个启动信息分析工具, 如有其它问题, 可以检测后, 贴到论坛让大牛们帮忙分析:</p>
 <ol>
-<li><a href="https://help.ubuntu.com/community/Boot-Info" target="_blank" rel="noopener">Boot-Repair</a></li>
-<li><a href="http://bootinfoscript.sourceforge.net/" target="_blank" rel="noopener">Boot Info Script</a></li>
+<li><a target="_blank" rel="noopener" href="https://help.ubuntu.com/community/Boot-Info">Boot-Repair</a></li>
+<li><a target="_blank" rel="noopener" href="http://bootinfoscript.sourceforge.net/">Boot Info Script</a></li>
 </ol>
-</div><div class="tags"><a href="/tags/linux/">linux</a></div><div class="post-nav"><a class="pre" href="/posts/ubuntu-backup-x-restore/">ubuntu的备份和还原</a><a class="next" href="/posts/social-stuff/">关于社交</a></div><div id="disqus_thread"><div class="btn_click_load"><button class="disqus_click_btn">阅读评论（请确保 Disqus 可以正常加载）</button></div><script type="text/javascript">var disqus_config = function () {
-    this.page.url = 'http://zezhen.me/posts/grub-rescue/';
-    this.page.identifier = 'posts/grub-rescue/';
-    this.page.title = 'ubuntu安装到移动硬盘&amp;grub rescue问题解决';
-  };</script><script type="text/javascript" id="disqus-lazy-load-script">$.ajax({
-url: 'https://disqus.com/next/config.json',
-timeout: 2500,
-type: 'GET',
-success: function(){
-  var d = document;
-  var s = d.createElement('script');
-  s.src = '//zezhen.disqus.com/embed.js';
-  s.setAttribute('data-timestamp', + new Date());
-  (d.head || d.body).appendChild(s);
-  $('.disqus_click_btn').css('display', 'none');
-},
-error: function() {
-  $('.disqus_click_btn').css('display', 'block');
-}
-});</script><script type="text/javascript" id="disqus-click-load">$('.btn_click_load').click(() => {  //click to load comments
-    (() => { // DON'T EDIT BELOW THIS LINE
-        var d = document;
-        var s = d.createElement('script');
-        s.src = '//zezhen.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', + new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-    $('.disqus_click_btn').css('display','none');
-});</script><script type="text/javascript" id="disqus-count-script">$(function() {
-     var xhr = new XMLHttpRequest();
-     xhr.open('GET', '//disqus.com/next/config.json', true);
-     xhr.timeout = 2500;
-     xhr.onreadystatechange = function () {
-       if (xhr.readyState === 4 && xhr.status === 200) {
-         $('.post-meta .post-comments-count').show();
-         var s = document.createElement('script');
-         s.id = 'dsq-count-scr';
-         s.src = 'https://zezhen.disqus.com/count.js';
-         s.async = true;
-         (document.head || document.body).appendChild(s);
-       }
-     };
-     xhr.ontimeout = function () { xhr.abort(); };
-     xhr.send(null);
-   });
-</script></div></div></div></div><div class="pure-u-1 pure-u-md-4-4"><div id="footer">Copyright © 2019 <a href="/." rel="nofollow">Zezhen.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=0.0.0" async></script><script type="text/javascript" src="//cdn.bootcss.com/fancybox/3.3.5/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/fancybox/3.3.5/jquery.fancybox.min.css"><script type="text/javascript" src="/js/codeblock-resizer.js?v=0.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=0.0.0"></script></div><!-- hexo-inject:begin --><!-- hexo-inject:end --></body></html>
+
+        </article>
+        <section class="post-near">
+            <ul>
+                
+                    <li>上一篇: <a href="/posts/ubuntu-backup-x-restore/">ubuntu的备份和还原</a></li>
+                
+                
+                    <li>下一篇: <a href="/posts/social-stuff/">关于社交</a></li>
+                
+            </ul>
+        </section>
+        
+            <section class="post-tags">
+            <a class="-none-link" href="/tags/linux/" rel="tag">linux</a>
+            </section>
+        
+    
+        <section class="post-author">
+        
+            <figure class="author-avatar">
+                <img src="http://zezhen.me/favicon.ico" alt="Zezhen" />
+            </figure>
+        
+            <div class="author-info">
+                <h4>Zezhen</h4>
+                <p>Be different and Make a difference</p>
+            </div>
+        </section>
+    
+    </div>
+</main>
+
+    <footer>
+    <div class="buttons">
+        <a class="to-top" href="#"></a>
+    </div>
+    <div class="wrap min">
+        <section class="widget">
+            <div class="row">
+                <div class="col-m-4">
+                    <h3 class="title-recent">最新文章：</h3>
+                    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/posts/leader-as-coach/">Leader As Coach</a></li><li class="post-list-item"><a class="post-list-link" href="/posts/grand-circle/">Grand Circle</a></li><li class="post-list-item"><a class="post-list-link" href="/posts/6-years-summary-best-practices/">工作技巧 -- 6年小总结</a></li><li class="post-list-item"><a class="post-list-link" href="/posts/6-years-summary-self-improvement/">自我成长 -- 6年小总结</a></li><li class="post-list-item"><a class="post-list-link" href="/posts/996-icu/">996 ICU</a></li><li class="post-list-item"><a class="post-list-link" href="/posts/learn-hotspot-problem/">learn hotspot problem</a></li></ul>
+                </div>
+                <div class="col-m-4">
+                    <h3 class="title-date">时光机：</h3>
+                    <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/05/">May 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/04/">April 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">March 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/09/">September 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">July 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">June 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">November 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/06/">June 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">March 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">January 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">October 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">September 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">June 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/09/">September 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/11/">November 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/10/">October 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/05/">May 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/04/">April 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2010/12/">December 2010</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2010/02/">February 2010</a></li></ul>
+                </div>
+                <div class="col-m-4">
+                    <h3 class="title-tags">标签云：</h3>
+                    <a href="/tags/bigdata/" style="font-size: 10px;">bigdata</a> <a href="/tags/career/" style="font-size: 16px;">career</a> <a href="/tags/china/" style="font-size: 12px;">china</a> <a href="/tags/coding/" style="font-size: 18px;">coding</a> <a href="/tags/communication/" style="font-size: 16px;">communication</a> <a href="/tags/culture/" style="font-size: 14px;">culture</a> <a href="/tags/distsys/" style="font-size: 12px;">distsys</a> <a href="/tags/education/" style="font-size: 10px;">education</a> <a href="/tags/essay/" style="font-size: 10px;">essay</a> <a href="/tags/food/" style="font-size: 10px;">food</a> <a href="/tags/hadoop/" style="font-size: 10px;">hadoop</a> <a href="/tags/history/" style="font-size: 14px;">history</a> <a href="/tags/howto/" style="font-size: 18px;">howto</a> <a href="/tags/human/" style="font-size: 12px;">human</a> <a href="/tags/hunman/" style="font-size: 10px;">hunman</a> <a href="/tags/java/" style="font-size: 10px;">java</a> <a href="/tags/leadership/" style="font-size: 10px;">leadership</a> <a href="/tags/learn/" style="font-size: 10px;">learn</a> <a href="/tags/life/" style="font-size: 10px;">life</a> <a href="/tags/linux/" style="font-size: 12px;">linux</a> <a href="/tags/love/" style="font-size: 10px;">love</a> <a href="/tags/math/" style="font-size: 14px;">math</a> <a href="/tags/miscs/" style="font-size: 10px;">miscs</a> <a href="/tags/movie/" style="font-size: 10px;">movie</a> <a href="/tags/music/" style="font-size: 10px;">music</a> <a href="/tags/nature/" style="font-size: 10px;">nature</a> <a href="/tags/people/" style="font-size: 20px;">people</a> <a href="/tags/personality/" style="font-size: 10px;">personality</a> <a href="/tags/programming/" style="font-size: 10px;">programming</a> <a href="/tags/scratch/" style="font-size: 10px;">scratch</a> <a href="/tags/self/" style="font-size: 16px;">self</a> <a href="/tags/self-%E8%AE%A4%E7%9F%A5/" style="font-size: 10px;">self - 认知</a> <a href="/tags/social/" style="font-size: 14px;">social</a> <a href="/tags/stuff/" style="font-size: 10px;">stuff</a> <a href="/tags/summary/" style="font-size: 14px;">summary</a> <a href="/tags/thinking/" style="font-size: 10px;">thinking</a> <a href="/tags/travel/" style="font-size: 10px;">travel</a> <a href="/tags/unittest/" style="font-size: 10px;">unittest</a> <a href="/tags/%E8%AE%A4%E7%9F%A5/" style="font-size: 10px;">认知</a>
+                </div>
+            </div>
+        </section>
+        <section class="sub-footer">
+            <p>© 2022 <a href="/">Zezhen</a>. All Rights Reserved. Theme By <a href="https://github.com/Dreamer-Paul/Hingle" target="_blank" rel="nofollow">Hingle</a>.</p>
+        </section>
+    </div>
+</footer>
+
+
+<script src="/static/kico.js"></script>
+<script src="/static/hingle.js"></script>
+
+
+<script>var hingle = new Paul_Hingle({"copyright":false,"night":true});</script>
+
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
+</html>
