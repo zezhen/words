@@ -13,7 +13,8 @@
 		
 		var clipzag_url = 'https://clipzag.com/watch?v='+yt_code+'&t=2s'
 		$(function(){
-		    $("#div").load('grabber.php?url='+ clipzag_url, function(responseTxt, statusTxt, xhr) {
+		    // $("#div").load('grabber.php?url='+ clipzag_url, function(responseTxt, statusTxt, xhr) {
+			$("#div").load(clipzag_url, function(responseTxt, statusTxt, xhr) {
 		    	console.log(statusTxt);
 		    	console.log(responseTxt);
 			  // var href = $('#div').find("#360dl").attr('href');
