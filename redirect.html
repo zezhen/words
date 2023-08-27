@@ -12,15 +12,51 @@
 		console.log(yt_code);
 		
 		var clipzag_url = 'https://clipzag.com/watch?v='+yt_code+'&t=2s'
-		$(function(){
-		    // $("#div").load('grabber.php?url='+ clipzag_url, function(responseTxt, statusTxt, xhr) {
-			$("#div").load(clipzag_url, function(responseTxt, statusTxt, xhr) {
-		    	console.log(statusTxt);
-		    	console.log(responseTxt);
-			  // var href = $('#div').find("#360dl").attr('href');
-			  // $(location).attr('href', href);
-			});
-		});
+		// $(function(){
+		//     // $("#div").load('grabber.php?url='+ clipzag_url, function(responseTxt, statusTxt, xhr) {
+		// 	$("#div").load(clipzag_url, function(responseTxt, statusTxt, xhr) {
+		//     	console.log(statusTxt);
+		//     	console.log(responseTxt);
+		// 	  // var href = $('#div').find("#360dl").attr('href');
+		// 	  // $(location).attr('href', href);
+		// 	});
+		// });
+
+ 		// $.ajax({
+        //     url: clipzag_url,
+        //     type: "POST",
+        //     crossDomain: true,
+        //     // data: JSON.stringify(somejson),
+        //     // dataType: "json",
+        //     success: function (response) {
+        //         console.log(response);
+        //     },
+        //     error: function (xhr, status) {
+        //     	console.log(status);
+        //     }
+        // });
+
+        
+		$.ajax({
+			url: clipzag_url,
+			type: 'GET',
+			// dataType: 'jsonp',
+			CORS: true ,
+			// contentType:'application/json',
+			secure: false,
+			headers: {
+				'Access-Control-Allow-Origin': '*',
+				'Access-Control-Allow-Headers': 'x-requested-with',
+				'Access-Control-Response-Headers': 'x-requested-with'
+			},
+			beforeSend: function (xhr) {
+				// xhr.setRequestHeader ("Authorization", "Basic " + btoa(""));
+			},
+			success: function (data){
+				console.log(data);
+			}
+		}) 
+		
 
 	   	// $.ajaxPrefilter( function (options) {
 		//   if (options.crossDomain && jQuery.support.cors) {
@@ -45,3 +81,5 @@
 </html>
 
 <!-- https://clipzag.com/watch?v=W7GiOWh3PyA&t=2s -->
+
+<!-- file:///Users/zezhen/Documents/zezhen.github.io/redirect.html?yt_link=https://www.youtube.com/watch?v=zn5LHsFEPq8&ab_channel=%E6%96%87%E6%98%AD%E8%AB%87%E5%8F%A4%E8%AB%96%E4%BB%8A-WenZhaoOfficial -->
