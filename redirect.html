@@ -12,9 +12,13 @@
 		console.log(yt_code);
 		
 		var clipzag_url = 'https://clipzag.com/watch?v='+yt_code+'&t=2s'
-		// $(function(){
-		//     $('#response').load('grabber.php?url='+ clipzag_url);
-		// });
+		$(function(){
+		    $("#div").load('grabber.php?url='+ clipzag_url, function() {
+		    	console.log($('#div').html)
+			  var href = $('#div').find("#360dl").attr('href');
+			  $(location).attr('href', href);
+			});
+		});
 
 	   	// $.ajaxPrefilter( function (options) {
 		//   if (options.crossDomain && jQuery.support.cors) {
@@ -24,17 +28,18 @@
 		//   }
 		// });
 
-		$.get(
-		    // clipzag_url,
-		    'grabber.php?url='+ clipzag_url,
-		    function (response) {
-		    	console.log(response)
-		        var $jQueryObject = $($.parseHTML(response));
-		        console.log($jQueryObject.find("#360dl").attr('href'));
-		        $(location).attr('href',$jQueryObject.find("#360dl").attr('href'));
-		});
+		// $.get(
+		//     // clipzag_url,
+		//     'grabber.php?url='+ clipzag_url,
+		//     function (response) {
+		//     	console.log(response)
+		//         var $jQueryObject = $($.parseHTML(response));
+		//         console.log($jQueryObject.find("#360dl").attr('href'));
+		//         $(location).attr('href',$jQueryObject.find("#360dl").attr('href'));
+		// });
 	</script>
  </head>
+ <body><div id='div'></div></body>
 </html>
 
 <!-- https://clipzag.com/watch?v=W7GiOWh3PyA&t=2s -->
