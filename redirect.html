@@ -28,6 +28,7 @@
 		    // clipzag_url,
 		    'grabber.php?url='+ clipzag_url,
 		    function (response) {
+		    	console.log(response)
 		        var $jQueryObject = $($.parseHTML(response));
 		        console.log($jQueryObject.find("#360dl").attr('href'));
 		        $(location).attr('href',$jQueryObject.find("#360dl").attr('href'));
