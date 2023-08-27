@@ -1,0 +1,38 @@
+<html>
+ <head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script type="text/JavaScript">
+		const queryString = window.location.search;
+		const urlParams = new URLSearchParams(queryString);
+		const yt_link = urlParams.get('yt_link')
+
+		var url = new URL(yt_link);
+		var yt_code = url.searchParams.get("v");
+
+		console.log(yt_code);
+		
+		var clipzag_url = 'https://clipzag.com/watch?v='+yt_code+'&t=2s'
+		// $(function(){
+		//     $('#response').load('grabber.php?url='+ clipzag_url);
+		// });
+
+	   	$.ajaxPrefilter( function (options) {
+		  if (options.crossDomain && jQuery.support.cors) {
+		    var http = (window.location.protocol === 'http:' ? 'http:' : 'https:');
+		    options.url = http + '//cors-anywhere.herokuapp.com/' + options.url;
+		    //options.url = "http://cors.corsproxy.io/url=" + options.url;
+		  }
+		});
+
+		$.get(
+		    clipzag_url,
+		    function (response) {
+		        var $jQueryObject = $($.parseHTML(response));
+		        console.log($jQueryObject.find("#360dl").attr('href'));
+		        $(location).attr('href',$jQueryObject.find("#360dl").attr('href'));
+		});
+	</script>
+ </head>
+</html>
+
+<!-- https://clipzag.com/watch?v=W7GiOWh3PyA&t=2s -->
