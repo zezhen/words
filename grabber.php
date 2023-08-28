@@ -1,1 +1,1 @@
-<?php echo file_get_contents($_GET['url']); ?>
+<a id="subdiv" href="123"></a>

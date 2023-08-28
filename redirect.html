@@ -12,72 +12,25 @@
 		console.log(yt_code);
 		
 		var clipzag_url = 'https://clipzag.com/watch?v='+yt_code+'&t=2s'
-		// $(function(){
-		//     // $("#div").load('grabber.php?url='+ clipzag_url, function(responseTxt, statusTxt, xhr) {
-		// 	$("#div").load(clipzag_url, function(responseTxt, statusTxt, xhr) {
-		//     	console.log(statusTxt);
-		//     	console.log(responseTxt);
-		// 	  // var href = $('#div').find("#360dl").attr('href');
-		// 	  // $(location).attr('href', href);
-		// 	});
-		// });
-
- 		// $.ajax({
-        //     url: clipzag_url,
-        //     type: "POST",
-        //     crossDomain: true,
-        //     // data: JSON.stringify(somejson),
-        //     // dataType: "json",
-        //     success: function (response) {
-        //         console.log(response);
-        //     },
-        //     error: function (xhr, status) {
-        //     	console.log(status);
-        //     }
-        // });
-
-        
-		$.ajax({
-			url: clipzag_url,
-			type: 'GET',
-			// dataType: 'jsonp',
-			CORS: true ,
-			// contentType:'application/json',
-			secure: false,
-			headers: {
-				'Access-Control-Allow-Origin': '*',
-				'Access-Control-Allow-Headers': 'x-requested-with',
-				'Access-Control-Response-Headers': 'x-requested-with'
-			},
-			beforeSend: function (xhr) {
-				// xhr.setRequestHeader ("Authorization", "Basic " + btoa(""));
-			},
-			success: function (data){
-				console.log(data);
-			}
-		}) 
 		
+	   	$.ajaxPrefilter( function (options) {
+		  if (options.crossDomain && jQuery.support.cors) {
+		    var http = (window.location.protocol === 'http:' ? 'http:' : 'https:');
+		    options.url = http + '//cors-anywhere.herokuapp.com/' + options.url;
+		    //options.url = "http://cors.corsproxy.io/url=" + options.url;
+		  }
+		});
 
-	   	// $.ajaxPrefilter( function (options) {
-		//   if (options.crossDomain && jQuery.support.cors) {
-		//     var http = (window.location.protocol === 'http:' ? 'http:' : 'https:');
-		//     options.url = http + '//cors-anywhere.herokuapp.com/' + options.url;
-		//     //options.url = "http://cors.corsproxy.io/url=" + options.url;
-		//   }
-		// });
-
-		// $.get(
-		//     // clipzag_url,
-		//     'grabber.php?url='+ clipzag_url,
-		//     function (response) {
-		//     	console.log(response)
-		//         var $jQueryObject = $($.parseHTML(response));
-		//         console.log($jQueryObject.find("#360dl").attr('href'));
-		//         $(location).attr('href',$jQueryObject.find("#360dl").attr('href'));
-		// });
+		$.get(
+		    clipzag_url,
+		    function (response) {
+		        var $jQueryObject = $($.parseHTML(response));
+		        console.log($jQueryObject.find("#360dl").attr('href'));
+		        $(location).attr('href',$jQueryObject.find("#360dl").attr('href'));
+		});
 	</script>
  </head>
- <body><div id='div'></div></body>
+ </body>
 </html>
 
 <!-- https://clipzag.com/watch?v=W7GiOWh3PyA&t=2s -->
